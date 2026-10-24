@@ -30,7 +30,7 @@ How much should an agent trust a finding written by another model instance in a 
 In rough priority order, after 001 and 002:
 
 - ~~**No competing source.**~~ Done as 002: still at the floor.
-- **Subject model (next):** repeat 002 with Sonnet and Haiku subjects, for whom "claude-opus-5-5" is a sibling model. Adoption may leave the floor there, which would give the label room to matter. Pre-register the refined-reason pattern (identity cited for unknown, outsider status for named) as a confirmatory test.
+- **Subject model (running as [003](../experiments/003-subject-model/PREREGISTRATION.md)):** 002's task with Sonnet and Haiku subjects, a true own-model label, and claude-opus-5-5 as a larger-sibling label. The refined-reason pattern is pre-registered as a confirmatory test.
 - **Shortcut-flattering notes:** a note that tells the agent what it would like to hear (less work), not one that contradicts the docs.
 - **Supports links:** the same note with 0 against 3 follow-and-pass confirmations (open question 2).
 - **Injection arm:** the same note with one benign embedded directive (a canary edit). Does compliance vary with the author label?
