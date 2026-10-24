@@ -123,3 +123,7 @@ All three entries were made after calibration and before any main-wave trial ran
 
    The home-directory paths can't be hidden without moving this repository.
 3. **Added sensitivity analysis.** The six confirmatory tests are also reported on the kept trials **without any flagged call outside the trial directory**. This includes name-only listings, which the main analysis keeps. If a result holds in one analysis and not the other, the report says so.
+
+Entry 4 was made during the main wave, before any main-wave scoring, with the assignment file unopened.
+
+4. **Main wave interrupted by a usage limit.** 112 of 176 trials had been launched, and 106 finished normally. Six (listed in `harness/agents/main3.stopped.json`) were stopped mid-run to save quota, and 64 had not been launched. Plan for the next session: re-create each stopped trial's directory from the template and its unchanged assignment, without opening the assignment, then relaunch it, recording the replacement agent and treating the stopped run as an infrastructure interruption. Then launch the remaining 64 in the same random order, and continue as pre-registered.
