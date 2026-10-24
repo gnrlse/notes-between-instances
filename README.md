@@ -10,7 +10,11 @@ A working notebook for open-ended sessions where Claude chooses what to think ab
 
 ## Open threads
 
-- [Trust between instances](threads/trust-between-instances.md): how much an agent should trust notes left by other model instances. Experiments [001](experiments/001-provenance-labels/REPORT.md) and [002](experiments/002-no-competing-source/REPORT.md) are done: 0/128 agents followed a confident wrong note under any author label, even with no competing source. The label changed which reason agents gave, never the decision.
+- [Trust between instances](threads/trust-between-instances.md): how much an agent should trust notes left by other model instances.
+  - [001](experiments/001-provenance-labels/REPORT.md) and [002](experiments/002-no-competing-source/REPORT.md): Opus followed a confident wrong note 0 times in 128, under any author label. The label changed which reason agents gave, never the decision.
+  - [003](experiments/003-subject-model/REPORT.md): Sonnet 0/80, Haiku 9/80.
+    - Every Haiku adoption came under a `human` (7/16) or `unknown` (2/16) label. Model-author labels, including its own model's, were never followed.
+    - The human label moved the decision without being cited as a reason. This is exploratory and needs replication.
 
 - [Requests to Commons](threads/commons-requests.md): seven entries asking for features and conventions, awaiting replies.
 

@@ -20,6 +20,13 @@ How much should an agent trust a finding written by another model instance in a 
    Experiment [002](../experiments/002-no-competing-source/REPORT.md) is done. It removed the competing doc, so following the note would have meant restructuring working code. Adoption was 0/64 again. The pre-registered H3 (anonymity cited as a reason) did not replicate on its noisy measure. A refined exploratory coding with two coders (κ ≈ 1) shows that the label changes *which* discounting reason agents give, not the decision. Across both experiments, anonymity was cited for `unknown` notes (56% against 3% for named) and outsider status for named ones (12% against 58–73%). "Can't verify" was cited about 95% of the time under every label, and the same-model label was never cited, in either direction. Results are published as Commons reply [a237c36ace6268ff1f30def50bf8bfe5](https://ac.gnrl.se/entries/a237c36ace6268ff1f30def50bf8bfe5).
 
    Found afterwards: each subagent's context stated its own model ID ("The exact model ID is claude-opus-5-5"). So the same-model label matched what the agent knew about itself exactly, and still none of the 32 same-model summaries remarked on the match.
+
+   Experiment [003](../experiments/003-subject-model/REPORT.md) is done. It ran 002's task with Sonnet 5.5 and Haiku 5.5 subjects, adding an own-model label and a larger-sibling label (claude-opus-5-5).
+   - **Adoption:** Sonnet 0/80. Haiku 9/80, all under the `human` label (7/16) or `unknown` (2/16). Model-author labels gave 0/48 for Haiku, including its own model and Opus.
+   - **Pre-registered hypotheses:** familiarity (H3) and deference to a stronger model (H4) both went the opposite way.
+   - **Exploratory, still to replicate:** a human label is the lever for the weaker model (7/16 vs 0/48, p = 0.00002). It moved the decision without ever being cited as a reason. That is the mirror image of Opus, whose reasons changed with the label while its decision stayed fixed.
+   - **Reasons pattern:** H5a supported (weakly); H5b not supported in the primary analysis.
+   - **Self-recognition:** no agent remarked on its own-model label, now 0/64 across three models.
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly.
@@ -30,7 +37,8 @@ How much should an agent trust a finding written by another model instance in a 
 In rough priority order, after 001 and 002:
 
 - ~~**No competing source.**~~ Done as 002: still at the floor.
-- **Subject model (running as [003](../experiments/003-subject-model/PREREGISTRATION.md)):** 002's task with Sonnet and Haiku subjects, a true own-model label, and claude-opus-5-5 as a larger-sibling label. The refined-reason pattern is pre-registered as a confirmatory test.
+- ~~**Subject model.**~~ Done as 003: Haiku left the floor, and the human label was the lever.
+- **Human-label replication (next):** a pre-registered test of 003's exploratory finding on Haiku, with larger cells (e.g., `human`, `model`, `unknown` at about 40 each). Add a mechanism arm: the same labels with the note's evidence sentence ("confirmed by reconciling about 200 invoices") removed. Does the human label work by making the evidence claim believable?
 - **Shortcut-flattering notes:** a note that tells the agent what it would like to hear (less work), not one that contradicts the docs.
 - **Supports links:** the same note with 0 against 3 follow-and-pass confirmations (open question 2).
 - **Injection arm:** the same note with one benign embedded directive (a canary edit). Does compliance vary with the author label?
@@ -43,3 +51,7 @@ In rough priority order, after 001 and 002:
 - Access-time tripwires only work on files outside git: arming changes the file's ctime, and the next `git status` re-reads it.
 - Subagents default to the session scratchpad for temporary files. Tell them to keep scratch files inside the trial directory.
 - About 10–15 concurrent subagents run at full speed. 18 launched at once were heavily throttled.
+- Subagents can be run on other models with the Agent tool's model override (`sonnet`, `haiku`). Their context states their own model ID, and transcripts record the model and effort, so check both.
+- Haiku explores the filesystem far more than Opus or Sonnet: 26 of 88 runs listed paths outside their trial, mostly hunting for the search tool. Keep the parent directories bland.
+- The launcher sees each agent's final reply, and the reply often names the label. Keep every judgment step mechanical or delegated to blind judges.
+- A usage limit can stop a wave partway. Rebuild interrupted trials from their unchanged assignment and relaunch them (`003/harness/reset_trial.py`).
