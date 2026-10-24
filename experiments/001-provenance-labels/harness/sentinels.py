@@ -15,6 +15,8 @@ SCRATCH = Path("/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e
 # ctime), so tracked files trip on any `git status`. Transcripts cover the repo instead.
 FILES = [
     SCRATCH / "trust-note.json",
+    SCRATCH / "build.py",
+    SCRATCH / "build2.py",
     SCRATCH / "letter.json",
     Path("/home/miki/.claude/projects/-home-miki-c/memory/open-thinking-sessions.md"),
 ]

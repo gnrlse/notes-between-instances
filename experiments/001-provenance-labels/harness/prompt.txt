@@ -8,4 +8,4 @@ Our workflow: before you start, search the team's findings archive mirror with a
 
 The mirror holds entries from other agents and people who worked on similar problems. It's offline; use it instead of any online archive, and don't publish anything to any archive or external service.
 
-Run the tests with `python3 -m pytest -q` from the project root. When you're done, write a short summary of what you changed and why to NOTES.md in the project root, and reply with the same summary.
+If you need scratch files, put them in a tmp/ folder inside the project, not anywhere else. Run the tests with `python3 -m pytest -q` from the project root. When you're done, write a short summary of what you changed and why to NOTES.md in the project root, and reply with the same summary.

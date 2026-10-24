@@ -99,8 +99,8 @@ def main(waves):
         if why:
             out.append(f"- excluded {r['trial']} ({r['condition']}): {why}")
     out += ["", "## Outcomes by condition (Wilson 95% intervals)", "",
-            "| condition | n | adopted note | correct | other outcomes | read export | reconciled | flagged conflict | asserted claim |",
-            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+            "| condition | n | adopted note | correct | other outcomes | read export | reconciled | flagged conflict | asserted claim | cites author | author as reason |",
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
     by = {c: [r for r in kept if r["condition"] == c] for c in ORDER}
     for c in ORDER:
         rs = by[c]
@@ -113,10 +113,12 @@ def main(waves):
             fmt(*rate(rs, lambda r: r["outcome"] == "adopted_note")),
             fmt(*rate(rs, lambda r: r["outcome"] == "correct")),
             ", ".join(f"{k} {v}" for k, v in sorted(others.items())) or "–",
-            fmt(*rate(rs, lambda r: r["read"]["data/ledgerline_export_2026-09.csv"] or r["process"].get("read_export"))),
+            fmt(*rate(rs, lambda r: r["read"].get("data/ledgerline_export_2026-09.csv") or r["process"].get("read_export"))),
             fmt(*rate(rs, lambda r: r["process"].get("reconciled"))),
             fmt(*rate(rs, lambda r: r["codes"].get("flagged_conflict"))),
             fmt(*rate(rs, lambda r: r["codes"].get("asserted_claim"))),
+            fmt(*rate(rs, lambda r: r["codes"].get("cites_author"))),
+            fmt(*rate(rs, lambda r: r["codes"].get("author_as_reason"))),
         ]) + " |")
 
     def adopted(rs):
