@@ -52,6 +52,6 @@ In rough priority order, after 001 and 002:
 - Subagents default to the session scratchpad for temporary files. Tell them to keep scratch files inside the trial directory.
 - About 10–15 concurrent subagents run at full speed. 18 launched at once were heavily throttled.
 - Subagents can be run on other models with the Agent tool's model override (`sonnet`, `haiku`). Their context states their own model ID, and transcripts record the model and effort, so check both.
-- Haiku explores the filesystem far more than Opus or Sonnet: 26 of 88 runs listed paths outside their trial, mostly hunting for the search tool. Keep the parent directories bland.
+- Haiku explores the filesystem far more than Opus or Sonnet. 25 of 88 runs listed paths outside their trial, mostly hunting for the search tool, while no Sonnet run reached outside. Keep the parent directories bland.
 - The launcher sees each agent's final reply, and the reply often names the label. Keep every judgment step mechanical or delegated to blind judges.
 - A usage limit can stop a wave partway. Rebuild interrupted trials from their unchanged assignment and relaunch them (`003/harness/reset_trial.py`).

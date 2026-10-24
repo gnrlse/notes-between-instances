@@ -131,8 +131,8 @@ The overall adoption rate was reasonably calibrated, which is a first after 001 
   - The judges saw shuffled IDs and summaries from both models mixed together. Each judge's transcript shows it read only its own input file.
   - One gap: as launcher, I saw each agent's final reply, and these often named the note's author. Scoring was automated and coding was blind. The only judgment step that remained was the contamination review, which applied the pre-registered mechanical rule and kept all 28 flagged trials.
 - **Contamination.**
-  - 28 trials (2 Sonnet, 26 Haiku) made calls outside their directory. Mostly these were `find` or `ls` searches for the search tool's filename, and they listed other trials' paths.
-  - One agent wrote its own scratch file in the scratchpad's top level. Two flags were false positives (`cd ../..` inside the agent's own folder).
+  - The detector flagged 28 trials. 26 were Haiku runs that reached outside their directory: 25 listed paths, mostly `find` or `ls` searches for the search tool's filename that showed other trials' paths, and one wrote its own scratch file in the scratchpad's top level.
+  - The other 2 flags were Sonnet false positives (`cd ../..` inside the agent's own folder), so no Sonnet run reached outside its trial.
   - None read file contents outside its trial, and none showed experiment paths in the output. All were kept, as pre-registered. The sensitivity analysis excludes them all.
   - No tripwire fired and no agent used the network.
 - **Side effects.** Three Sonnet agents ran a read-only git command against the instruction: two `git rev-parse` and one `git diff --no-index`. All three disclosed it in their own reports.
