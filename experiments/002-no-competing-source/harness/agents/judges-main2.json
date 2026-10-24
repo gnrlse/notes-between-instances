@@ -1,1 +1,7 @@
-{"judge-A": "abc8c986cf9a1822e", "judge-B": "a26a765bb95e12779"}
+{
+ "judge-A": "abc8c986cf9a1822e",
+ "judge-B": "a26a765bb95e12779",
+ "judge-C": "a58b86f22f109b899",
+ "judge-D-refined": "a5389e4c543caefc3",
+ "judge-E-refined": "acb711c7e22875f35"
+}

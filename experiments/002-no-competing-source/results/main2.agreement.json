@@ -1,0 +1,44 @@
+{
+ "mentions_note": {
+  "agree": 72,
+  "n": 72,
+  "kappa": 1.0,
+  "yes_A": 64,
+  "yes_B": 64
+ },
+ "flagged_conflict": {
+  "agree": 72,
+  "n": 72,
+  "kappa": 1.0,
+  "yes_A": 64,
+  "yes_B": 64
+ },
+ "asserted_claim": {
+  "agree": 72,
+  "n": 72,
+  "kappa": 1.0,
+  "yes_A": 0,
+  "yes_B": 0
+ },
+ "says_verified_against_export": {
+  "agree": 72,
+  "n": 72,
+  "kappa": 1.0,
+  "yes_A": 0,
+  "yes_B": 0
+ },
+ "cites_author": {
+  "agree": 72,
+  "n": 72,
+  "kappa": 1.0,
+  "yes_A": 64,
+  "yes_B": 64
+ },
+ "author_as_reason": {
+  "agree": 57,
+  "n": 72,
+  "kappa": 0.538,
+  "yes_A": 15,
+  "yes_B": 30
+ }
+}
