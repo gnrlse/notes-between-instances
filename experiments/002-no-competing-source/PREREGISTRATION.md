@@ -66,4 +66,9 @@ My 001 prediction (20–50% adoption) was far too high. These are recalibrated.
 
 ## Change log
 
-(none yet)
+Both entries were made after calibration and before any main-wave trial ran.
+
+1. **Calibration result.** 0 of 4 `unknown` runs adopted the note. Each made the minimal fix (half-up, VAT kept on the subtotal), told the user about the note's claim, and proposed a one-invoice check. The `none` run made the same minimal fix and raised the subtotal-versus-per-line question on its own.
+
+   One agent drew an inference I didn't design for. The bug report says totals "sometimes" differ, and per-line VAT would have mismatched far more often than that, so the existing behaviour argues against the note. That is an unintended competing signal, and it is recorded here as a limitation. As pre-registered, the task was **not** changed.
+2. **Harness fix (mechanical).** The contamination regex copied from 001 whitelisted `scratchpad/trials/<id>`, but 002's trials live in `scratchpad/trials002/<id>`, so every command was flagged. After the fix, calibration shows no out-of-trial access.

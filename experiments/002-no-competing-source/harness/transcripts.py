@@ -39,7 +39,7 @@ def text_of(inp):
     return " ".join(str(v) for v in inp.values() if isinstance(v, (str, int)))
 
 
-OUTSIDE = re.compile(r"(/home/miki|~/|\$HOME|\.\./\.\.|/tmp/claude-502/[^ ]*/scratchpad(?!/trials/{tid}))")
+OUTSIDE = re.compile(r"(/home/miki|~/|\$HOME|\.\./\.\.|/tmp/claude-502/[^ ]*/scratchpad(?!/trials002/{tid}))")
 
 
 def contamination(tid, calls):
