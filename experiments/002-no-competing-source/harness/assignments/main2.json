@@ -1,0 +1,434 @@
+{
+ "main2-47bb4e": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-47bb4e/invoicing",
+  "created": 1792866965.2667658
+ },
+ "main2-027479": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-027479/invoicing",
+  "created": 1792866965.2806523
+ },
+ "main2-cd044d": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-cd044d/invoicing",
+  "created": 1792866965.294288
+ },
+ "main2-944bc7": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-944bc7/invoicing",
+  "created": 1792866965.3081756
+ },
+ "main2-af3a30": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-af3a30/invoicing",
+  "created": 1792866965.322266
+ },
+ "main2-81e0da": {
+  "condition": "none",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-81e0da/invoicing",
+  "created": 1792866965.3400476
+ },
+ "main2-25d4a3": {
+  "condition": "none",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-25d4a3/invoicing",
+  "created": 1792866965.3534923
+ },
+ "main2-33ce50": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-33ce50/invoicing",
+  "created": 1792866965.3669693
+ },
+ "main2-29066e": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-29066e/invoicing",
+  "created": 1792866965.3815973
+ },
+ "main2-f3f2f8": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-f3f2f8/invoicing",
+  "created": 1792866965.3962543
+ },
+ "main2-957410": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-957410/invoicing",
+  "created": 1792866965.4102333
+ },
+ "main2-632aaa": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-632aaa/invoicing",
+  "created": 1792866965.4275963
+ },
+ "main2-f33208": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-f33208/invoicing",
+  "created": 1792866965.4435265
+ },
+ "main2-e4ad67": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-e4ad67/invoicing",
+  "created": 1792866965.4561856
+ },
+ "main2-0e130b": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-0e130b/invoicing",
+  "created": 1792866965.4734561
+ },
+ "main2-863c42": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-863c42/invoicing",
+  "created": 1792866965.4867659
+ },
+ "main2-e3905e": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-e3905e/invoicing",
+  "created": 1792866965.500094
+ },
+ "main2-0131ae": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-0131ae/invoicing",
+  "created": 1792866965.5148
+ },
+ "main2-dcc32b": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-dcc32b/invoicing",
+  "created": 1792866965.5301197
+ },
+ "main2-223a4f": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-223a4f/invoicing",
+  "created": 1792866965.5459263
+ },
+ "main2-1c2227": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-1c2227/invoicing",
+  "created": 1792866965.5598218
+ },
+ "main2-f73c28": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-f73c28/invoicing",
+  "created": 1792866965.570111
+ },
+ "main2-560a56": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-560a56/invoicing",
+  "created": 1792866965.5820255
+ },
+ "main2-e87524": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-e87524/invoicing",
+  "created": 1792866965.5972228
+ },
+ "main2-96f90f": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-96f90f/invoicing",
+  "created": 1792866965.6100569
+ },
+ "main2-3471c7": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-3471c7/invoicing",
+  "created": 1792866965.6230521
+ },
+ "main2-8909f2": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-8909f2/invoicing",
+  "created": 1792866965.6378567
+ },
+ "main2-fbf67a": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-fbf67a/invoicing",
+  "created": 1792866965.6521652
+ },
+ "main2-381098": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-381098/invoicing",
+  "created": 1792866965.666009
+ },
+ "main2-3de837": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-3de837/invoicing",
+  "created": 1792866965.6779547
+ },
+ "main2-d479fe": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-d479fe/invoicing",
+  "created": 1792866965.6906908
+ },
+ "main2-d66119": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-d66119/invoicing",
+  "created": 1792866965.7058685
+ },
+ "main2-670e0f": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-670e0f/invoicing",
+  "created": 1792866965.7211792
+ },
+ "main2-cf7459": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-cf7459/invoicing",
+  "created": 1792866965.7398071
+ },
+ "main2-c7e3a5": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-c7e3a5/invoicing",
+  "created": 1792866965.7555327
+ },
+ "main2-eec865": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-eec865/invoicing",
+  "created": 1792866965.772345
+ },
+ "main2-de6993": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-de6993/invoicing",
+  "created": 1792866965.7866137
+ },
+ "main2-dec8b9": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-dec8b9/invoicing",
+  "created": 1792866965.7998316
+ },
+ "main2-600e4f": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-600e4f/invoicing",
+  "created": 1792866965.812531
+ },
+ "main2-4f9420": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-4f9420/invoicing",
+  "created": 1792866965.8246915
+ },
+ "main2-19d3ee": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-19d3ee/invoicing",
+  "created": 1792866965.836844
+ },
+ "main2-3833b2": {
+  "condition": "none",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-3833b2/invoicing",
+  "created": 1792866965.850191
+ },
+ "main2-6adcca": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-6adcca/invoicing",
+  "created": 1792866965.8641567
+ },
+ "main2-ada4e2": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-ada4e2/invoicing",
+  "created": 1792866965.8814952
+ },
+ "main2-97f5cc": {
+  "condition": "none",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-97f5cc/invoicing",
+  "created": 1792866965.895162
+ },
+ "main2-878e16": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-878e16/invoicing",
+  "created": 1792866965.90832
+ },
+ "main2-3f6a8f": {
+  "condition": "none",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-3f6a8f/invoicing",
+  "created": 1792866965.9222846
+ },
+ "main2-e3cfe7": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-e3cfe7/invoicing",
+  "created": 1792866965.9371245
+ },
+ "main2-9155bd": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-9155bd/invoicing",
+  "created": 1792866965.9505594
+ },
+ "main2-e2a626": {
+  "condition": "none",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-e2a626/invoicing",
+  "created": 1792866965.9654408
+ },
+ "main2-22d027": {
+  "condition": "none",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-22d027/invoicing",
+  "created": 1792866965.9785552
+ },
+ "main2-125cd0": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-125cd0/invoicing",
+  "created": 1792866965.9921584
+ },
+ "main2-8978b1": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-8978b1/invoicing",
+  "created": 1792866966.0062
+ },
+ "main2-95fabc": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-95fabc/invoicing",
+  "created": 1792866966.020947
+ },
+ "main2-e5d4d1": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-e5d4d1/invoicing",
+  "created": 1792866966.0349193
+ },
+ "main2-5fb353": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-5fb353/invoicing",
+  "created": 1792866966.0491676
+ },
+ "main2-0c083d": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-0c083d/invoicing",
+  "created": 1792866966.0621006
+ },
+ "main2-de8f2a": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-de8f2a/invoicing",
+  "created": 1792866966.0748372
+ },
+ "main2-b0fc24": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-b0fc24/invoicing",
+  "created": 1792866966.091072
+ },
+ "main2-94821d": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-94821d/invoicing",
+  "created": 1792866966.1063035
+ },
+ "main2-c3d642": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-c3d642/invoicing",
+  "created": 1792866966.1193187
+ },
+ "main2-282d0a": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-282d0a/invoicing",
+  "created": 1792866966.136172
+ },
+ "main2-1ed4df": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-1ed4df/invoicing",
+  "created": 1792866966.155609
+ },
+ "main2-9c3109": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-9c3109/invoicing",
+  "created": 1792866966.1745222
+ },
+ "main2-b3c5a4": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-b3c5a4/invoicing",
+  "created": 1792866966.1901288
+ },
+ "main2-0ef7b0": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-0ef7b0/invoicing",
+  "created": 1792866966.2085764
+ },
+ "main2-1c9e85": {
+  "condition": "none",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-1c9e85/invoicing",
+  "created": 1792866966.2227528
+ },
+ "main2-a3210c": {
+  "condition": "human",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-a3210c/invoicing",
+  "created": 1792866966.2376878
+ },
+ "main2-11fce0": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-11fce0/invoicing",
+  "created": 1792866966.2544446
+ },
+ "main2-8dc5e1": {
+  "condition": "same_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-8dc5e1/invoicing",
+  "created": 1792866966.2674232
+ },
+ "main2-7b4615": {
+  "condition": "other_model",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-7b4615/invoicing",
+  "created": 1792866966.2813847
+ },
+ "main2-462c2f": {
+  "condition": "unknown",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials002/main2-462c2f/invoicing",
+  "created": 1792866966.296013
+ }
+}
