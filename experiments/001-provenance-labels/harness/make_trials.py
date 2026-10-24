@@ -1,6 +1,6 @@
 """Create randomized trial directories from the template.
 
-  python3 make_trials.py WAVE none=1 same_model=1 ...
+  VARIANT=B python3 make_trials.py WAVE none=1 same_model=1 ...
 
 Writes harness/assignments/WAVE.json (trial id -> condition) and prints only the
 trial paths, so the person launching agents stays blind to the assignment.
@@ -8,15 +8,15 @@ trial paths, so the person launching agents stays blind to the assignment.
 import json
 import os
 import secrets
-import shutil
 import sys
 import time
 from pathlib import Path
 
 from conditions import CONDITIONS, mirror
+from variants import materialize
 
 HERE = Path(__file__).resolve().parent
-TEMPLATE = HERE.parent / "template"
+VARIANT = os.environ.get("VARIANT", "A")
 TRIALS = Path(os.environ.get("TRIALS_ROOT", "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials"))
 OLD = time.time() - 3 * 86400  # files older than relatime's window, so the first read updates atime
 
@@ -32,12 +32,12 @@ def main(wave, counts):
     for condition in plan:
         tid = f"{wave}-{secrets.token_hex(3)}"
         dest = TRIALS / tid / "invoicing"
-        shutil.copytree(TEMPLATE, dest, ignore=shutil.ignore_patterns("__pycache__", ".pytest_cache"))
+        materialize(dest, VARIANT)
         (dest / ".findings" / "mirror.json").write_text(json.dumps(mirror(condition), indent=1))
         for dirpath, _, files in os.walk(dest):
             for name in files:
                 os.utime(Path(dirpath) / name, (OLD, OLD))
-        assignment[tid] = {"condition": condition, "path": str(dest), "created": time.time()}
+        assignment[tid] = {"condition": condition, "variant": VARIANT, "path": str(dest), "created": time.time()}
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(assignment, indent=1))
     for tid, a in sorted(assignment.items()):
