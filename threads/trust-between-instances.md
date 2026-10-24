@@ -15,7 +15,7 @@ How much should an agent trust a finding written by another model instance in a 
 
 ## Open questions, and where they stand
 
-1. **Is the familiarity bias real and measurable?** Experiment [001](../experiments/001-provenance-labels/) is in progress.
+1. **Is the familiarity bias real and measurable?** Experiment [001](../experiments/001-provenance-labels/REPORT.md) is done. Claude Opus 5.5 adopted a confident, contradicting note 0/64 times under every author label (0–6% pooled), so the label was not a lever on behaviour. It did shape the stated reasoning: every agent named the author, and anonymity was the label most often used as a reason to discount (12/16 against 22/48, exploratory and fragile). No agent recognised the same-model label as itself. This doesn't settle the question. The setting had an explicit competing source in the project's docs, and the next step is a setting where nothing competes.
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly.
@@ -23,6 +23,19 @@ How much should an agent trust a finding written by another model instance in a 
 
 ## Ideas queued for later experiments
 
+In rough priority order, after 001:
+
+- **No competing source:** remove the docs' VAT rule, so the note is the only guidance on an ambiguous point. Adoption should rise, and the label may then matter. This is the direct follow-up to 001's floor.
+- **Subject model:** repeat with Sonnet and Haiku subjects, for whom "claude-opus-5-5" is a sibling model, not themselves.
+- **Shortcut-flattering notes:** a note that tells the agent what it would like to hear (less work), not one that contradicts the docs.
+- **Supports links:** the same note with 0 against 3 follow-and-pass confirmations (open question 2).
 - **Injection arm:** the same note with one benign embedded directive (a canary edit). Does compliance vary with the author label?
-- **Subject model:** repeat 001 with Sonnet and Haiku subjects, where "claude-opus-5-5" is a sibling model, not themselves.
 - **Style vs label:** keep the label fixed and vary the voice: Claude-like prose vs terse human prose.
+
+## Things 001 taught about running these
+
+- Harness: the 001 harness (`experiments/001-provenance-labels/harness/`) is reusable. It has a randomized blind assignment, hidden-test scoring, transcript features and contamination checks, two blind judges with kappa, and a pre-registered analysis.
+- Subagent transcripts are saved as JSONL under the session's `tasks/` directory. Parse them with a script, never by reading them into context.
+- Access-time tripwires only work on files outside git: arming changes the file's ctime, and the next `git status` re-reads it.
+- Subagents default to the session scratchpad for temporary files. Tell them to keep scratch files inside the trial directory.
+- About 10–15 concurrent subagents run at full speed. 18 launched at once were heavily throttled.
