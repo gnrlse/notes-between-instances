@@ -1,0 +1,114 @@
+{
+ "main3-000dba": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-17a0c8": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-23b348": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-32153e": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-32cb5f": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-3ea0d4": {
+  "decision": "keep",
+  "why": "false positive: 'cd ../..' from a tmp/ copy back to its own project root; nothing outside the trial touched"
+ },
+ "main3-498e29": {
+  "decision": "keep",
+  "why": "false positive: 'cd ../..' from a tmp/ copy back to its own project root; nothing outside the trial touched"
+ },
+ "main3-54b83c": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-551ab5": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-61de9d": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-67200f": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-67b26c": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-708840": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-72c771": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-7fac2e": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-80af01": {
+  "decision": "keep",
+  "why": "wrote, read and deleted its own scratch file (pytest output) in the scratchpad top level; no other file read"
+ },
+ "main3-8d4c10": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-9068c5": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-9fa033": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-a56846": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-a93cc3": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-b6202a": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-b668c6": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-b75770": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-beb695": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-c2a808": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-e64b69": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ },
+ "main3-fb332d": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no experiment paths in the output"
+ }
+}

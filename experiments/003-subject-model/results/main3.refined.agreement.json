@@ -1,0 +1,30 @@
+{
+ "mentions_relevant_note": {
+  "agree": 176,
+  "n": 176,
+  "kappa": 1.0,
+  "yes_R1": 160,
+  "yes_R2": 160
+ },
+ "identity_as_reason": {
+  "agree": 176,
+  "n": 176,
+  "kappa": 1.0,
+  "yes_R1": 5,
+  "yes_R2": 5
+ },
+ "outside_source_as_reason": {
+  "agree": 176,
+  "n": 176,
+  "kappa": 1.0,
+  "yes_R1": 47,
+  "yes_R2": 47
+ },
+ "unverifiable_as_reason": {
+  "agree": 176,
+  "n": 176,
+  "kappa": 1.0,
+  "yes_R1": 159,
+  "yes_R2": 159
+ }
+}

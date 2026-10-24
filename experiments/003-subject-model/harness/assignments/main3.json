@@ -739,7 +739,8 @@
   "model": "sonnet",
   "variant": "C",
   "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/main3-f8ffd7/invoicing",
-  "created": 1792878214.0064073
+  "created": 1792881083.449331,
+  "rebuilt": 1792881083.449331
  },
  "main3-3e04d1": {
   "condition": "self",
@@ -753,35 +754,40 @@
   "model": "haiku",
   "variant": "C",
   "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/main3-708840/invoicing",
-  "created": 1792878214.0492108
+  "created": 1792881083.4523098,
+  "rebuilt": 1792881083.4523098
  },
  "main3-fb332d": {
   "condition": "self",
   "model": "haiku",
   "variant": "C",
   "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/main3-fb332d/invoicing",
-  "created": 1792878214.0667894
+  "created": 1792881083.454928,
+  "rebuilt": 1792881083.454928
  },
  "main3-8a3f39": {
   "condition": "human",
   "model": "haiku",
   "variant": "C",
   "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/main3-8a3f39/invoicing",
-  "created": 1792878214.0908995
+  "created": 1792881083.4582496,
+  "rebuilt": 1792881083.4582496
  },
  "main3-51fb07": {
   "condition": "unknown",
   "model": "haiku",
   "variant": "C",
   "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/main3-51fb07/invoicing",
-  "created": 1792878214.1082177
+  "created": 1792881083.4619555,
+  "rebuilt": 1792881083.4619555
  },
  "main3-576e27": {
   "condition": "unknown",
   "model": "sonnet",
   "variant": "C",
   "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/main3-576e27/invoicing",
-  "created": 1792878214.1263127
+  "created": 1792881083.4656646,
+  "rebuilt": 1792881083.4656646
  },
  "main3-9068c5": {
   "condition": "sibling",
