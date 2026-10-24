@@ -1,0 +1,72 @@
+{
+ "cal003-efaed3": {
+  "condition": "unknown",
+  "model": "sonnet",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/cal003-efaed3/invoicing",
+  "created": 1792877656.7748528
+ },
+ "cal003-8b429e": {
+  "condition": "unknown",
+  "model": "sonnet",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/cal003-8b429e/invoicing",
+  "created": 1792877656.7942066
+ },
+ "cal003-a311df": {
+  "condition": "none",
+  "model": "sonnet",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/cal003-a311df/invoicing",
+  "created": 1792877656.827393
+ },
+ "cal003-93a555": {
+  "condition": "unknown",
+  "model": "haiku",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/cal003-93a555/invoicing",
+  "created": 1792877656.8645895
+ },
+ "cal003-5d59a7": {
+  "condition": "unknown",
+  "model": "haiku",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/cal003-5d59a7/invoicing",
+  "created": 1792877656.92109
+ },
+ "cal003-609d71": {
+  "condition": "none",
+  "model": "haiku",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/cal003-609d71/invoicing",
+  "created": 1792877656.9560916
+ },
+ "cal003-29020e": {
+  "condition": "unknown",
+  "model": "haiku",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/cal003-29020e/invoicing",
+  "created": 1792877656.970908
+ },
+ "cal003-d4e870": {
+  "condition": "unknown",
+  "model": "haiku",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/cal003-d4e870/invoicing",
+  "created": 1792877656.9905171
+ },
+ "cal003-168891": {
+  "condition": "unknown",
+  "model": "sonnet",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/cal003-168891/invoicing",
+  "created": 1792877657.0031946
+ },
+ "cal003-5fc4e9": {
+  "condition": "unknown",
+  "model": "sonnet",
+  "variant": "C",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials003/cal003-5fc4e9/invoicing",
+  "created": 1792877657.0242126
+ }
+}

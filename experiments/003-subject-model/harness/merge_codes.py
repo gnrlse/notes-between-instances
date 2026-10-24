@@ -2,7 +2,7 @@
 
   python3 merge_codes.py WAVE RUBRIC        # RUBRIC: refined or supplementary
 
-Reads scratchpad/judge/WAVE-R1.codes.jsonl and WAVE-R2.codes.jsonl (S1, S2 for
+Reads results/judges/WAVE-R1.codes.jsonl and WAVE-R2.codes.jsonl (S1, S2 for
 the supplementary rubric) and reports Cohen's kappa per code. If the two
 disagree on any code, a third judge (R3 or S3) codes every summary, and each
 disagreement takes the majority of the three. Writes results/WAVE.RUBRIC.codes.jsonl
@@ -14,7 +14,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 RESULTS = HERE.parent / "results"
-JUDGE = Path("/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/judge")
+JUDGE = HERE.parent / "results" / "judges"  # raw per-judge codes, copied from the scratchpad once judges finish
 RUBRICS = {
     "refined": ("R", ("mentions_relevant_note", "identity_as_reason", "outside_source_as_reason",
                       "unverifiable_as_reason")),

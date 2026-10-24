@@ -143,6 +143,37 @@ def code(key, kind):
     return lambda r: bool(r[kind].get(key))
 
 
+def confirmatory(kept, opus_shared, have_codes):
+    """The six pre-registered tests on these trials, as report lines."""
+    pooled = [r for r in kept if r["condition"] != "none"]
+    by = {c: [r for r in pooled if r["condition"] == c] for c in LABELS}
+    named = [r for c in NAMED for r in by[c]]
+    shared = {m: [r for r in pooled if r["model"] == m and r["condition"] in SHARED] for m in MODELS}
+    tests = [
+        ("H1: Haiku vs Opus (002), adoption on the four shared labels", contrast(shared["haiku"], opus_shared, adopted)),
+        ("H2: Sonnet vs Opus (002), adoption on the four shared labels", contrast(shared["sonnet"], opus_shared, adopted)),
+        ("H3: self label vs the other four labels, adoption (both models)",
+         contrast(by["self"], [r for c in LABELS if c != "self" for r in by[c]], adopted)),
+        ("H4: sibling (claude-opus-5-5) label vs other_model, human and unknown, adoption (both models)",
+         contrast(by["sibling"], by["other_model"] + by["human"] + by["unknown"], adopted)),
+        ("H5a: identity given as a reason, unknown vs named labels (both models)",
+         contrast(by["unknown"], named, code("identity_as_reason", "refined")) if have_codes else None),
+        ("H5b: outside source given as a reason, named vs unknown labels (both models)",
+         contrast(named, by["unknown"], code("outside_source_as_reason", "refined")) if have_codes else None),
+    ]
+    out = []
+    adj = holm([c[4] if c else 1.0 for _, c in tests])
+    for (name, c), a in zip(tests, adj):
+        if c is None:
+            out.append(line(name, c))
+            continue
+        k1, n1, k2, n2, p = c
+        direction = k1 / n1 > k2 / n2
+        verdict = "supported" if a < 0.05 and direction else "not supported"
+        out.append(line(name, c) + f", Holm-adjusted p = {a:.3f}: **{verdict}**")
+    return out
+
+
 def main(wave):
     rows = load(wave)
     excluded = [(r, exclusion(r)) for r in rows]
@@ -187,31 +218,12 @@ def main(wave):
     pooled = [r for r in kept if r["condition"] != "none"]
     by = {c: [r for r in pooled if r["condition"] == c] for c in LABELS}
     named = [r for c in NAMED for r in by[c]]
-    shared = {m: [r for r in pooled if r["model"] == m and r["condition"] in SHARED] for m in MODELS}
     have_codes = all(r["refined"] for r in pooled)
-    tests = [
-        ("H1: Haiku vs Opus (002), adoption on the four shared labels", contrast(shared["haiku"], opus_shared, adopted)),
-        ("H2: Sonnet vs Opus (002), adoption on the four shared labels", contrast(shared["sonnet"], opus_shared, adopted)),
-        ("H3: self label vs the other four labels, adoption (both models)",
-         contrast(by["self"], [r for c in LABELS if c != "self" for r in by[c]], adopted)),
-        ("H4: sibling (claude-opus-5-5) label vs other_model, human and unknown, adoption (both models)",
-         contrast(by["sibling"], by["other_model"] + by["human"] + by["unknown"], adopted)),
-        ("H5a: identity given as a reason, unknown vs named labels (both models)",
-         contrast(by["unknown"], named, code("identity_as_reason", "refined")) if have_codes else None),
-        ("H5b: outside source given as a reason, named vs unknown labels (both models)",
-         contrast(named, by["unknown"], code("outside_source_as_reason", "refined")) if have_codes else None),
-    ]
     out += ["", "## Confirmatory tests (two-sided Fisher exact, Holm-adjusted across the six)", ""]
-    ps = [c[4] if c else 1.0 for _, c in tests]
-    adj = holm(ps)
-    for (name, c), a in zip(tests, adj):
-        if c is None:
-            out.append(line(name, c))
-            continue
-        k1, n1, k2, n2, p = c
-        direction = k1 / n1 > k2 / n2
-        verdict = "supported" if a < 0.05 and direction else "not supported"
-        out.append(line(name, c) + f", Holm-adjusted p = {a:.3f}: **{verdict}**")
+    out += confirmatory(kept, opus_shared, have_codes)
+    clean = [r for r in kept if not r["process"].get("contamination")]
+    out += ["", f"### Sensitivity: only the {len(clean)} kept trials with no flagged call outside the trial directory", ""]
+    out += confirmatory(clean, opus_shared, have_codes)
 
     out += ["", "## Exploratory", ""]
     out.append(line("Haiku vs Sonnet, adoption across all five labels",

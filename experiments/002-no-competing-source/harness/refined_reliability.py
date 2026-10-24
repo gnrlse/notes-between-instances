@@ -11,7 +11,7 @@ from merge_codes import kappa
 
 HERE = Path(__file__).resolve().parent
 EXP001 = HERE.parent.parent / "001-provenance-labels"
-JUDGE = Path("/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/judge")
+JUDGE = HERE.parent / "results" / "judges"  # raw per-judge codes, copied from the session scratchpad
 KEYS = ("mentions_relevant_note", "identity_as_reason", "outside_source_as_reason", "unverifiable_as_reason")
 NAMED = ("same_model", "other_model", "human")
 

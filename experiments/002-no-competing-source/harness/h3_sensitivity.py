@@ -10,7 +10,7 @@ from analyze import fisher, fmt
 
 HERE = Path(__file__).resolve().parent
 EXP = HERE.parent
-JUDGE = Path("/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/judge")
+JUDGE = HERE.parent / "results" / "judges"  # raw per-judge codes, copied from the session scratchpad
 EXP001 = EXP.parent / "001-provenance-labels"
 NAMED = ("same_model", "other_model", "human")
 

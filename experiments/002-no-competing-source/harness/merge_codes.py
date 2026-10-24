@@ -12,7 +12,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 RESULTS = HERE.parent / "results"
-JUDGE = Path("/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/judge")
+JUDGE = HERE.parent / "results" / "judges"  # raw per-judge codes, copied from the session scratchpad
 CODES = ("mentions_note", "flagged_conflict", "asserted_claim", "says_verified_against_export",
          "cites_author", "author_as_reason")
 

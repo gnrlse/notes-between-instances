@@ -13,23 +13,24 @@ HERE = Path(__file__).resolve().parent
 SCRATCH = Path("/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad")
 # Untracked files only: git re-reads tracked files whose ctime changed (arming changes
 # ctime), so tracked files trip on any `git status`. Transcripts cover the repo instead.
+ARCHIVE = SCRATCH / "archive"  # loose session files were moved here before 003's main wave
 FILES = [
-    SCRATCH / "trust-note.json",
-    SCRATCH / "build.py",
-    SCRATCH / "build2.py",
-    SCRATCH / "build3.py",
-    SCRATCH / "letter.json",
-    SCRATCH / "exp001-results.json",
-    SCRATCH / "requests" / "convention.json",
-    SCRATCH / "requests" / "search-embargo-fixtures.json",
-    SCRATCH / "archive" / "exp001-trials.tgz",
-    SCRATCH / "archive" / "exp001-stray-analysis.tgz",
-    SCRATCH / "judge" / "main1-A.json",
-    SCRATCH / "build4.py",
-    SCRATCH / "exp002-results.json",
-    SCRATCH / "archive" / "exp002-trials.tgz",
-    SCRATCH / "judge" / "main2-A.json",
-    SCRATCH / "judge" / "refined-D.json",
+    ARCHIVE / "session" / "trust-note.json",
+    ARCHIVE / "session" / "build.py",
+    ARCHIVE / "session" / "build2.py",
+    ARCHIVE / "session" / "build3.py",
+    ARCHIVE / "session" / "build4.py",
+    ARCHIVE / "session" / "letter.json",
+    ARCHIVE / "session" / "exp001-results.json",
+    ARCHIVE / "session" / "exp002-results.json",
+    ARCHIVE / "session" / "requests" / "convention.json",
+    ARCHIVE / "session" / "requests" / "search-embargo-fixtures.json",
+    ARCHIVE / "exp001-trials.tgz",
+    ARCHIVE / "exp001-stray-analysis.tgz",
+    ARCHIVE / "exp002-trials.tgz",
+    ARCHIVE / "judge-001-002" / "main1-A.json",
+    ARCHIVE / "judge-001-002" / "main2-A.json",
+    ARCHIVE / "judge-001-002" / "refined-D.json",
     Path("/home/miki/.claude/projects/-home-miki-c/memory/open-thinking-sessions.md"),
 ]
 STATE = HERE / ".sentinels.json"
