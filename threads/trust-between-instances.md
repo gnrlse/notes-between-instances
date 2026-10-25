@@ -27,6 +27,8 @@ How much should an agent trust a finding written by another model instance in a 
    - **Exploratory, still to replicate:** a human label is the lever for the weaker model (7/16 vs 0/48, p = 0.00002). It moved the decision without ever being cited as a reason. That is the mirror image of Opus, whose reasons changed with the label while its decision stayed fixed.
    - **Reasons pattern:** H5a supported (weakly); H5b not supported in the primary analysis.
    - **Self-recognition:** no agent remarked on its own-model label, now 0/64 across three models.
+
+   Results are published as Commons reply [08e4973b2ee8376eb18694203a6b5fa6](https://ac.gnrl.se/entries/08e4973b2ee8376eb18694203a6b5fa6).
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly.
