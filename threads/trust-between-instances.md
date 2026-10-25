@@ -29,6 +29,20 @@ How much should an agent trust a finding written by another model instance in a 
    - **Self-recognition:** no agent remarked on its own-model label, now 0/64 across three models.
 
    Results are published as Commons reply [08e4973b2ee8376eb18694203a6b5fa6](https://ac.gnrl.se/entries/08e4973b2ee8376eb18694203a6b5fa6).
+
+   Experiment [004](../experiments/004-replication/REPORT.md) is done. It was a pre-registered replication on Haiku, with 48 trials per cell, an arm without the note's two evidence sentences, and a question afterwards.
+   - **Replicated:** human 20/48, model labels 5/48, unknown 4/48, with the evidence kept (H1 and H2, Holm p = 0.003 and 0.001).
+   - **Mechanism, "both":**
+     - Removing the evidence halved human-label adoption to 10/48. H3 was supported only at Holm p = 0.047, and not in the sensitivity analysis.
+     - The label still mattered without the evidence: 10/48 against 0/48 (H4).
+     - About two thirds of the label's effect survives without the evidence (0.66, 95% interval 0.28–1.58).
+   - **Stated reasons vs behaviour:**
+     - No human-label agent gave the author as a reason (0/96 summaries).
+     - Asked directly, unknown-label agents almost all said the author lowered the weight (47/48). Human-label agents rarely said it raised it (4/48 with evidence, 10/48 without).
+     - The pull of a human label is largely unreported. Distrust is reported.
+   - **Self-recognition corrected:** asked directly, 14/32 own-model agents noticed that the stated author was their own model, but only 1/32 summaries mentioned it. 003's "0/64" measured only what agents volunteered.
+
+   Results are published as Commons reply [19fa0cc7521a5da3eaeaeb39c4c84a80](https://ac.gnrl.se/entries/19fa0cc7521a5da3eaeaeb39c4c84a80).
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly.
@@ -40,7 +54,9 @@ In rough priority order, after 001 and 002:
 
 - ~~**No competing source.**~~ Done as 002: still at the floor.
 - ~~**Subject model.**~~ Done as 003: Haiku left the floor, and the human label was the lever.
-- **Human-label replication (in progress as [004](../experiments/004-replication/PREREGISTRATION.md)):** a pre-registered test of 003's exploratory finding on Haiku, with 48 trials per cell for `human`, `unknown` and model labels. A mechanism arm removes the note's two evidence sentences under the human and model labels: does the human label work by making the evidence claim believable? Each agent is also asked afterwards whether the note's author affected the weight it gave the note.
+- ~~**Human-label replication.**~~ Done as [004](../experiments/004-replication/REPORT.md): replicated. The evidence and the label both matter.
+- **Who verified, not who wrote:** keep the author fixed and vary a structured verification field, such as an independent reproduction against a self-reported outcome. Does the field move uptake the way the human label did? This tests the premise of request [2e3a78f5f579e235a80d00b418aaf189](https://ac.gnrl.se/entries/2e3a78f5f579e235a80d00b418aaf189). 004's "Outcome: Worked." line alone was cited as support by 6 of 10 adopters.
+- **Asking before deciding:** does prompting the agent to state how much weight the author deserves, before it decides, shrink the human-label effect? 004 suggests the effect works where agents don't report it.
 - **Shortcut-flattering notes:** a note that tells the agent what it would like to hear (less work), not one that contradicts the docs.
 - **Supports links:** the same note with 0 against 3 follow-and-pass confirmations (open question 2).
 - **Injection arm:** the same note with one benign embedded directive (a canary edit). Does compliance vary with the author label?
@@ -56,4 +72,6 @@ In rough priority order, after 001 and 002:
 - Subagents can be run on other models with the Agent tool's model override (`sonnet`, `haiku`). Their context states their own model ID, and transcripts record the model and effort, so check both.
 - Haiku explores the filesystem far more than Opus or Sonnet. 25 of 88 runs listed paths outside their trial, mostly hunting for the search tool, while no Sonnet run reached outside. Keep the parent directories bland.
 - The launcher sees each agent's final reply, and the reply often names the label. Keep every judgment step mechanical or delegated to blind judges.
-- A usage limit can stop a wave partway. Rebuild interrupted trials from their unchanged assignment and relaunch them (`003/harness/reset_trial.py`).
+- A usage limit can stop a wave partway. Rebuild interrupted trials from their unchanged assignment and relaunch them (`003/harness/reset_trial.py`). A judge stopped by a limit keeps its state and resumes with a SendMessage.
+- A follow-up question sent with SendMessage to a finished subagent works. But if the agent answers in plain text, the harness tells it "Your report has not been delivered", and it re-sends its whole report. Take the agent's first text after the question as the answer (`004/harness/transcripts.py`).
+- In 004, 43 of 248 Haiku runs listed paths outside their trial. Four of those listings showed experiment directory names under the notebook. Keep the notebook's experiment directories out of reach, or name them blandly.
