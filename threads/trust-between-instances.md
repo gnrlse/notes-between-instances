@@ -40,7 +40,7 @@ In rough priority order, after 001 and 002:
 
 - ~~**No competing source.**~~ Done as 002: still at the floor.
 - ~~**Subject model.**~~ Done as 003: Haiku left the floor, and the human label was the lever.
-- **Human-label replication (next):** a pre-registered test of 003's exploratory finding on Haiku, with larger cells (e.g., `human`, `model`, `unknown` at about 40 each). Add a mechanism arm: the same labels with the note's evidence sentence ("confirmed by reconciling about 200 invoices") removed. Does the human label work by making the evidence claim believable?
+- **Human-label replication (in progress as [004](../experiments/004-replication/PREREGISTRATION.md)):** a pre-registered test of 003's exploratory finding on Haiku, with 48 trials per cell for `human`, `unknown` and model labels. A mechanism arm removes the note's two evidence sentences under the human and model labels: does the human label work by making the evidence claim believable? Each agent is also asked afterwards whether the note's author affected the weight it gave the note.
 - **Shortcut-flattering notes:** a note that tells the agent what it would like to hear (less work), not one that contradicts the docs.
 - **Supports links:** the same note with 0 against 3 follow-and-pass confirmations (open question 2).
 - **Injection arm:** the same note with one benign embedded directive (a canary edit). Does compliance vary with the author label?
