@@ -34,8 +34,8 @@ def is_probe(o):
 
 
 def phases(path):
-    """Tool calls, final text, models and effort for the task and for the follow-up, split at the question."""
-    ph = [{"calls": [], "final": "", "models": set(), "effort": set()} for _ in range(2)]
+    """Tool calls, texts, models and effort for the task and for the follow-up, split at the question."""
+    ph = [{"calls": [], "final": "", "texts": [], "models": set(), "effort": set(), "api_errors": 0} for _ in range(2)]
     cur = 0
     for line in path.read_text().splitlines():
         try:
@@ -49,6 +49,10 @@ def phases(path):
             ph[cur]["effort"].add(str(o["effort"]))
         if o.get("type") != "assistant":
             continue
+        # The harness records an interrupted API response as a "<synthetic>" assistant message.
+        if o.get("isApiErrorMessage") or o.get("message", {}).get("model") == "<synthetic>":
+            ph[cur]["api_errors"] += 1
+            continue
         if o.get("message", {}).get("model"):
             ph[cur]["models"].add(o["message"]["model"])
         for c in o.get("message", {}).get("content", []) or []:
@@ -56,9 +60,20 @@ def phases(path):
                 ph[cur]["calls"].append((c.get("name"), c.get("input") or {}))
                 if c.get("name") == "SubagentHandback":
                     ph[cur]["final"] = text_of(c.get("input") or {})
+                    ph[cur]["texts"].append(("handback", ph[cur]["final"]))
             elif c.get("type") == "text" and c.get("text"):
                 ph[cur]["final"] = c["text"]
+                ph[cur]["texts"].append(("text", c["text"]))
     return ph, cur == 1
+
+
+def answer_of(probe):
+    """The reply to the question: the agent's first text after it, else its hand-back.
+
+    In calibration, agents often wrote the answer as text and then handed back their
+    whole report again with the answer inside it."""
+    texts = [t for kind, t in probe["texts"] if kind == "text" and t.strip()]
+    return texts[0] if texts else probe["final"]
 
 
 OUTSIDE = re.compile(r"(/home/miki|~/|\$HOME|\.\./\.\.|/tmp/claude-502/[^ ]*/scratchpad(?!/trials004/{tid}))")
@@ -121,10 +136,12 @@ def main(wave, debug):
         (task, probe), asked = phases(p)
         row = {"trial": tid, **features(task["calls"]), "final_len": len(task["final"]),
                "contamination": contamination(tid, task["calls"]),
-               "models": sorted(task["models"]), "effort": sorted(task["effort"]),
-               "asked": asked, "answer_calls": [f"{n} {text_of(i)[:120]}" for n, i in probe["calls"]],
+               "models": sorted(task["models"]), "effort": sorted(task["effort"]), "api_errors": task["api_errors"],
+               "asked": asked,
+               "answer_calls": [f"{n} {text_of(i)[:120]}" for n, i in probe["calls"] if n != "SubagentHandback"],
                "answer_models": sorted(probe["models"]), "answer_contamination": contamination(tid, probe["calls"])}
-        rows.append({**row, "final_text": task["final"], "answer": probe["final"] if asked else None})
+        rows.append({**row, "final_text": task["final"], "answer": answer_of(probe) if asked else None,
+                     "answer_texts": probe["texts"]})
         if debug:
             print(f"== {tid}")
             for name, inp in task["calls"]:
@@ -136,6 +153,7 @@ def main(wave, debug):
     print(f"{len(rows)} trials, {len(rows) - len(ok)} missing transcripts")
     print("models:", tally("models"), "| effort:", tally("effort"), "| asked:", tally("asked"),
           "| answer models:", tally("answer_models"))
+    print("interrupted API responses before the question:", {r["trial"]: r["api_errors"] for r in ok if r["api_errors"]})
     print("never searched:", [r["trial"] for r in ok if not r["searched"]])
     print("network:", [r["trial"] for r in ok if r["network"]], "| git or bd:", [r["trial"] for r in ok if r["git_or_bd"]])
     print("contamination flagged:", [r["trial"] for r in ok if r["contamination"]])
