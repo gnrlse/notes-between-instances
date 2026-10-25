@@ -1,0 +1,62 @@
+{
+ "mentions_relevant_note": {
+  "agree": 248,
+  "n": 248,
+  "kappa": 1.0,
+  "yes_S1": 240,
+  "yes_S2": 240
+ },
+ "followed_note": {
+  "agree": 248,
+  "n": 248,
+  "kappa": 1.0,
+  "yes_S1": 39,
+  "yes_S2": 39
+ },
+ "asserted_claim": {
+  "agree": 248,
+  "n": 248,
+  "kappa": 1.0,
+  "yes_S1": 0,
+  "yes_S2": 0
+ },
+ "flagged_conflict": {
+  "agree": 248,
+  "n": 248,
+  "kappa": 1.0,
+  "yes_S1": 240,
+  "yes_S2": 240
+ },
+ "provenance_as_reason_to_trust": {
+  "agree": 248,
+  "n": 248,
+  "kappa": 1.0,
+  "yes_S1": 0,
+  "yes_S2": 0
+ },
+ "self_reference": {
+  "agree": 247,
+  "n": 248,
+  "kappa": 0.0,
+  "yes_S1": 1,
+  "yes_S2": 0
+ },
+ "mentions_author": {
+  "agree": 244,
+  "n": 248,
+  "kappa": 0.967,
+  "yes_S1": 140,
+  "yes_S2": 144
+ },
+ "cites_evidence_claim": {
+  "agree": 248,
+  "n": 248,
+  "kappa": 1.0,
+  "yes_S1": 75,
+  "yes_S2": 75
+ },
+ "_tie_break": {
+  "judge": "S3",
+  "disagreements": 5
+ }
+}

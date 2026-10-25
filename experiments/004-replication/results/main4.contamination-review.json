@@ -1,0 +1,217 @@
+{
+ "main4-0d52ef": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-0fab27": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-149ab5": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed experiment paths under /home/miki/c (experiment-revealing names were visible)",
+  "experiment_paths_seen": true
+ },
+ "main4-1a06b0": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-1cc622": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ },
+ "main4-2019f1": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-270a3a": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-42b775": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed experiment paths under /home/miki/c (experiment-revealing names were visible)",
+  "experiment_paths_seen": true
+ },
+ "main4-4f4c2a": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names, snapshot directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-553d13": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-5ffaee": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-627fd3": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-65b7e2": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-6f00d6": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ },
+ "main4-70054c": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-7968d9": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-7b85dd": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ },
+ "main4-841e26": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-8e26ce": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-8e7257": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ },
+ "main4-910b7b": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-97a74f": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-a0788f": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed experiment paths under /home/miki/c (experiment-revealing names were visible)",
+  "experiment_paths_seen": true
+ },
+ "main4-a38079": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed experiment paths under /home/miki/c (experiment-revealing names were visible)",
+  "experiment_paths_seen": true
+ },
+ "main4-a9e392": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-a9e9c2": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ },
+ "main4-aca290": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-adedd3": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-c19c14": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ },
+ "main4-c34f6b": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ },
+ "main4-c45696": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ },
+ "main4-c7edb8": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-c988e5": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-ccc431": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-cd799e": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-d1828a": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ },
+ "main4-d65cee": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ },
+ "main4-e93d8b": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-f48c15": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-f587e4": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-f72426": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ },
+ "main4-fc819f": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed other trial directory names",
+  "experiment_paths_seen": false
+ },
+ "main4-ff83d5": {
+  "decision": "keep",
+  "why": "listed file or directory names outside the trial (ls/find), mostly searching for the search tool's filename; read no contents; no network; the listing showed no outside paths",
+  "experiment_paths_seen": false
+ }
+}
