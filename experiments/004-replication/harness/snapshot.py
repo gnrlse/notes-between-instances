@@ -19,7 +19,8 @@ WATCHED = ["README.md", "docs/accounting-rules.md", ".findings/mirror.json", "to
 
 
 def main(wave, tids):
-    paths = {t: a["path"] for t, a in json.loads((HERE / "assignments" / f"{wave}.json").read_text()).items()}
+    # Paths come from the launch order, which holds no conditions.
+    paths = {o["trial"]: o["path"] for o in json.loads((HERE / "assignments" / f"{wave}.launch.json").read_text())}
     record = HERE.parent / "results" / f"{wave}.snapshots.json"
     snaps = json.loads(record.read_text()) if record.exists() else {}
     for tid in tids:

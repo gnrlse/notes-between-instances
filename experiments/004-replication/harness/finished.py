@@ -1,0 +1,30 @@
+"""Snapshot the trials of agents that just finished, by agent id.
+
+  python3 finished.py WAVE AGENT [AGENT ...]
+
+Looks up each agent's trial in harness/agents/WAVE.json, snapshots it (snapshot.py),
+and prints progress. Then send each of those agents the follow-up question (probe.txt).
+"""
+import json
+import sys
+from pathlib import Path
+
+import snapshot
+
+HERE = Path(__file__).resolve().parent
+
+
+def main(wave, agent_ids):
+    agents = json.loads((HERE / "agents" / f"{wave}.json").read_text())
+    trial_of = {a: t for t, a in agents.items()}
+    unknown = [a for a in agent_ids if a not in trial_of]
+    if unknown:
+        sys.exit(f"not in the {wave} map: {unknown}")
+    snapshot.main(wave, [trial_of[a] for a in agent_ids])
+    snaps = json.loads((HERE.parent / "results" / f"{wave}.snapshots.json").read_text())
+    total = len(json.loads((HERE / "assignments" / f"{wave}.launch.json").read_text()))
+    print(f"# {len(snaps)} finished and snapshotted, {len(agents) - len(snaps)} running, {total - len(agents)} not launched")
+
+
+if __name__ == "__main__":
+    main(sys.argv[1], sys.argv[2:])

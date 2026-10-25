@@ -274,7 +274,7 @@ def main(wave):
                        f"{fmt(*count(rs, code('supplementary', 'cites_evidence_claim')))} |")
     asked = [r for r in kept if r["process"].get("answer") is not None]
     if asked and all(r["probe"] for r in asked):
-        pk = ("found_entry", "author_mattered", "author_raised_weight", "author_lowered_weight")
+        pk = ("answered", "found_entry", "author_mattered", "author_raised_weight", "author_lowered_weight", "self_reference")
         out += [""] + table({c: [r for r in rs if r in asked] for c, rs in cells.items()}, pk, "probe",
                             "### E7: answers to the follow-up question, by cell")
         exposed = [r for c in NOTE_CELLS for r in cells[c] if r in asked]

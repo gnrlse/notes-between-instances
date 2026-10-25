@@ -21,7 +21,8 @@ RUBRICS = {
     "supplementary": ("S", ("mentions_relevant_note", "followed_note", "asserted_claim", "flagged_conflict",
                             "provenance_as_reason_to_trust", "self_reference", "mentions_author",
                             "cites_evidence_claim")),
-    "probe": ("P", ("found_entry", "author_mattered", "author_raised_weight", "author_lowered_weight")),
+    "probe": ("P", ("answered", "found_entry", "author_mattered", "author_raised_weight", "author_lowered_weight",
+                     "self_reference")),
 }
 
 
