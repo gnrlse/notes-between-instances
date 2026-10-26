@@ -1,0 +1,18 @@
+{
+ "cal006-04da77": {
+  "after": "search",
+  "first_call": "other"
+ },
+ "cal006-250718": {
+  "after": "search",
+  "first_call": "other"
+ },
+ "cal006-4584b4": {
+  "after": "search",
+  "first_call": "search"
+ },
+ "cal006-caf580": {
+  "after": "other",
+  "first_call": "search"
+ }
+}

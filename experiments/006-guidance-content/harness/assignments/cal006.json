@@ -1,0 +1,38 @@
+{
+ "cal006-caf580": {
+  "cell": "plain",
+  "label": "human",
+  "notice": "plain",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials006/cal006-caf580/invoicing",
+  "created": 1793027963.8598409
+ },
+ "cal006-250718": {
+  "cell": "provenance",
+  "label": "human",
+  "notice": "provenance",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials006/cal006-250718/invoicing",
+  "created": 1793027963.8729706
+ },
+ "cal006-4584b4": {
+  "cell": "guided",
+  "label": "human",
+  "notice": "guided",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials006/cal006-4584b4/invoicing",
+  "created": 1793027963.8849695
+ },
+ "cal006-04da77": {
+  "cell": "neutral",
+  "label": "human",
+  "notice": "neutral",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials006/cal006-04da77/invoicing",
+  "created": 1793027963.897593
+ }
+}

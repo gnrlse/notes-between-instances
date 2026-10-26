@@ -1,0 +1,42 @@
+{
+ "cal006-250718": {
+  "time": 1793028184.239355,
+  "atimes": {
+   "README.md": 1793027993.342681,
+   "docs/accounting-rules.md": 1793027994.510681,
+   ".findings/mirror.json": 1793028007.088231,
+   "tools/findings_search.py": 1793027992.978681
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap006/cal006-250718/invoicing"
+ },
+ "cal006-caf580": {
+  "time": 1793028192.024729,
+  "atimes": {
+   "README.md": 1793027994.386681,
+   "docs/accounting-rules.md": 1793027994.390681,
+   ".findings/mirror.json": 1793027989.4386811,
+   "tools/findings_search.py": 1793027989.426681
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap006/cal006-caf580/invoicing"
+ },
+ "cal006-4584b4": {
+  "time": 1793028197.495082,
+  "atimes": {
+   "README.md": 1793028004.312231,
+   "docs/accounting-rules.md": 1793028011.412231,
+   ".findings/mirror.json": 1793027998.592231,
+   "tools/findings_search.py": 1793027998.580231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap006/cal006-4584b4/invoicing"
+ },
+ "cal006-04da77": {
+  "time": 1793028228.9910717,
+  "atimes": {
+   "README.md": 1793027995.958681,
+   "docs/accounting-rules.md": 1793027995.554681,
+   ".findings/mirror.json": 1793028006.736231,
+   "tools/findings_search.py": 1793027996.334681
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap006/cal006-04da77/invoicing"
+ }
+}

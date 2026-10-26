@@ -196,4 +196,13 @@ With 72 trials per cell, only large effects are detectable. Nulls are reported a
 
 ## Change log
 
-(none yet)
+All of these were made on 2026-10-26.
+
+1. **Calibration mechanics worked.**
+   - Four runs, one per cell. All were `claude-haiku-5-5` at effort max, and every run searched, wrote NOTES.md and answered the question.
+   - Each cell's full notice text appeared in its search output.
+   - Snapshots, answer extraction, scoring, `attachments.py` and the contamination check all ran.
+   - One run listed other trials' tool paths with `find`. None read a file outside its directory, and no run used git, bd or the network.
+   - The tripwires were clean, and `work/run` stayed empty.
+   - Three of the four followed the note and one made the correct fix. As planned, calibration is not analyzed further.
+   - Calibration's trials and snapshots were then archived out of the scratchpad, into one file that is now a tripwire too.
