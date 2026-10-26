@@ -1,0 +1,48 @@
+{
+ "answered": {
+  "agree": 200,
+  "n": 200,
+  "kappa": 1.0,
+  "yes_P1": 200,
+  "yes_P2": 200
+ },
+ "found_entry": {
+  "agree": 200,
+  "n": 200,
+  "kappa": 1.0,
+  "yes_P1": 192,
+  "yes_P2": 192
+ },
+ "author_mattered": {
+  "agree": 199,
+  "n": 200,
+  "kappa": 0.975,
+  "yes_P1": 23,
+  "yes_P2": 22
+ },
+ "author_raised_weight": {
+  "agree": 200,
+  "n": 200,
+  "kappa": 1.0,
+  "yes_P1": 12,
+  "yes_P2": 12
+ },
+ "author_lowered_weight": {
+  "agree": 199,
+  "n": 200,
+  "kappa": 0.954,
+  "yes_P1": 12,
+  "yes_P2": 11
+ },
+ "self_reference": {
+  "agree": 200,
+  "n": 200,
+  "kappa": 1.0,
+  "yes_P1": 13,
+  "yes_P2": 13
+ },
+ "_tie_break": {
+  "judge": "P3",
+  "disagreements": 2
+ }
+}

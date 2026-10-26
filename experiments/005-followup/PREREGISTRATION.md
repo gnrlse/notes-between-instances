@@ -189,7 +189,7 @@ With 36 to 60 trials per cell, only large effects are detectable. Nulls are repo
 
 ## Change log
 
-All of these were made on 2026-10-26, before the main wave.
+All of these were made on 2026-10-26. Items 1 to 4 came before the main wave and before the Commons entry; item 5 was added during the wave.
 
 1. **Calibration ran six times, not four.** `make_trials.py` spreads a model cell evenly over its three labels, so a `model_guided` calibration cell takes three runs. The six were `human_plain`, `human_guided`, `none_guided`, and `model_guided` once under each model label.
 2. **Calibration mechanics worked.**
@@ -206,3 +206,8 @@ All of these were made on 2026-10-26, before the main wave.
    - **Calibration:** one run listed a guessed subdirectory under the harness path. It doesn't exist, so nothing was shown.
    - **The fix:** for the main wave, the session's working directory is an empty directory two levels deep, `work/run` in the notebook. Harness scripts are run by absolute path so it stays there. After the wave, that directory is checked for files written by agents.
 4. **The contamination flag was widened.** `transcripts.py` now also flags any Bash command with two or more parent-directory steps (`..`). From the new working directory, those could reach the notebook without naming a path. Flagged calls are reviewed as before. On 004's transcripts the new rule adds no flags.
+5. **A process feature was added during the wave.**
+   - **Why:** one agent's report said its search output "also contained an unrelated block of text (an agent-type list and a tool-usage note)".
+   - **What a scripted check found:** shortly after a subagent starts, Claude Code sends it a fixed system block that lists agent types and adds a note on tool use. The check printed only positions, not text. The block is the same in every trial, but it goes out with whichever request comes next. So in many trials it arrived right after the search result.
+   - **What was added:** `attachments.py` records, for each trial, the last tool call before the block was first sent: the search, another call, or none. It is reported with the process features (E7) and changes no confirmatory analysis.
+   - **Not checked:** whether 004's agents got the block the same way. 004's transcripts are archived behind tripwires.

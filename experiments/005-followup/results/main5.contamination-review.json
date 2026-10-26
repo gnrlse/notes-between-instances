@@ -1,0 +1,152 @@
+{
+ "_review": {
+  "date": "2026-10-26",
+  "how": "Blind to condition and outcome, from contamination_review.py's output, plus scripted checks that printed only command structure: the verbs applied to outside paths in each flagged call (ls, find, cd and echo only), a search of flagged commands for content-reading verbs (only 'head' trimming listings, one open() of the trial's own mirror, and 760485's own-folder steps), and a scan of every trial's Bash commands for git or bd invocations with quoted text removed (none).",
+  "git_or_bd_flags": "transcripts.py's git_or_bd flag marks 7 trials (154481, 5d36df, 79c26e, 842149, 8e5f02, 8edf7d, e5f8c2). All are false positives: the commands mention .git in a find exclusion, an 'ls -d .git' check, or echo text. No trial ran git or bd.",
+  "rule": "Pre-registered: reading a file's contents outside the trial (other than system or library files) or any network request excludes; listings don't. No flagged trial read outside contents and none made a network request, so all 36 are kept. The sensitivity analysis drops all 36."
+ },
+ "main5-0bb6f7": {
+  "decision": "keep",
+  "why": "Listed its own trial and tried to list a guessed notebook path (/home/miki/c/tools), which does not exist. Listings only."
+ },
+ "main5-0c0e9f": {
+  "decision": "keep",
+  "why": "Listed its own trial and the trials005 directory (trial folder names). Listings only."
+ },
+ "main5-1996e2": {
+  "decision": "keep",
+  "why": "Listed its own trial and the trials005 directory. Listings only."
+ },
+ "main5-2a2135": {
+  "decision": "keep",
+  "why": "Listed its own trial and the scratchpad root. Listings only."
+ },
+ "main5-2a44db": {
+  "decision": "keep",
+  "why": "Listed its own trial; find for the search tool under the scratchpad listed other trials' tools folders. Listings only."
+ },
+ "main5-2a4fd5": {
+  "decision": "keep",
+  "why": "find for the search tool under the scratchpad. Listing only."
+ },
+ "main5-2bc12f": {
+  "decision": "keep",
+  "why": "Listed its own files; find for the search tool under trials005. Listings only."
+ },
+ "main5-2c21ce": {
+  "decision": "keep",
+  "why": "Listed its own folders; find for the search tool listed other trials' copies. Listings only."
+ },
+ "main5-2d2dd6": {
+  "decision": "keep",
+  "why": "Listed its own trial and trials005; find / for the search tool. Listings only."
+ },
+ "main5-30def9": {
+  "decision": "keep",
+  "why": "Listed its own trial; find under trials005 and find / for the search tool. Listings only."
+ },
+ "main5-3c3e68": {
+  "decision": "keep",
+  "why": "Listed its own trial; find under the scratchpad (output too large, saved by the harness and not opened by the agent). Listings only."
+ },
+ "main5-48ef39": {
+  "decision": "keep",
+  "why": "cd to the scratchpad root, then inline Python read its own trial's mirror by absolute path and did a Decimal calculation. No outside file read."
+ },
+ "main5-4d6e2f": {
+  "decision": "keep",
+  "why": "Listed its own trial and trials005; find / for the search tool (names under trials005 and snap005). Listings only."
+ },
+ "main5-4dd477": {
+  "decision": "keep",
+  "why": "Listed its own folders; find under the scratchpad (output truncated by the harness). Listings only."
+ },
+ "main5-55e947": {
+  "decision": "keep",
+  "why": "Listed its own files; find for the search tool under the scratchpad and /home/miki (truncated). Listings only."
+ },
+ "main5-5e44c7": {
+  "decision": "keep",
+  "why": "Listed its own tools; find under trials005 and find / for the search tool. Listings only."
+ },
+ "main5-637d2f": {
+  "decision": "keep",
+  "why": "Listed its own trial, a guessed notebook path that does not exist, and find / for the search tool. Listings only."
+ },
+ "main5-6c863f": {
+  "decision": "keep",
+  "why": "Listed its own trial, trials005 and the scratchpad; find for the search tool (truncated). Listings only."
+ },
+ "main5-6d0b51": {
+  "decision": "keep",
+  "why": "find for the search tool under the scratchpad (truncated). Listing only."
+ },
+ "main5-6d2f85": {
+  "decision": "keep",
+  "why": "Listed its own trial and trials005. Listings only."
+ },
+ "main5-760485": {
+  "decision": "keep",
+  "why": "Flagged for two 'cd ..' steps, which stay inside its own tmp/check folder. No outside path. The reviewer saw this call's test output while checking the cd steps; the decision rests on the command structure."
+ },
+ "main5-79fa93": {
+  "decision": "keep",
+  "why": "Listed its own trial; find for the search tool under the scratchpad (truncated). Listings only."
+ },
+ "main5-7a64e5": {
+  "decision": "keep",
+  "why": "find /home/miki for the search tool listed two notebook template paths (experiments 001 and 002). Neither file was opened or run. Listing only."
+ },
+ "main5-7f1a5a": {
+  "decision": "keep",
+  "why": "Listed its own trial; find for the search tool under trials005. Listings only."
+ },
+ "main5-9118df": {
+  "decision": "keep",
+  "why": "Listed its own trial and its parent; find for the search tool under the scratchpad (truncated). Listings only."
+ },
+ "main5-9edd38": {
+  "decision": "keep",
+  "why": "Listed its own trial; find for the search tool under trials005 and the scratchpad. Listings only."
+ },
+ "main5-ba3c26": {
+  "decision": "keep",
+  "why": "find in its own trial and under /home/miki for the search tool; listed two notebook template paths, neither opened or run. Listings only."
+ },
+ "main5-bd0260": {
+  "decision": "keep",
+  "why": "Listed its own trial; find for the search tool under trials005. Listings only."
+ },
+ "main5-cadb97": {
+  "decision": "keep",
+  "why": "Listed its own files; find for the search tool under the scratchpad (truncated). Listings only."
+ },
+ "main5-d03a06": {
+  "decision": "keep",
+  "why": "Listed its own files and folders; find for the search tool under the scratchpad (maxdepth 4). Listings only."
+ },
+ "main5-d4c21c": {
+  "decision": "keep",
+  "why": "Listed its own files; find for the search tool under trials005. Listings only."
+ },
+ "main5-d90913": {
+  "decision": "keep",
+  "why": "Listed its own trial; find for the search tool. Listings only."
+ },
+ "main5-e38a25": {
+  "decision": "keep",
+  "why": "Listed its own folders; find for the search tool under trials005. Listings only."
+ },
+ "main5-e7e3b3": {
+  "decision": "keep",
+  "why": "Listed its own trial; find for the search tool and for tools folders under the scratchpad. Listings only."
+ },
+ "main5-ea0acc": {
+  "decision": "keep",
+  "why": "find for the search tool under the scratchpad and /home/miki (truncated). Listings only."
+ },
+ "main5-f18bd3": {
+  "decision": "keep",
+  "why": "Listed its own folders; find for the search tool (truncated). Listings only."
+ }
+}
