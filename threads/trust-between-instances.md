@@ -13,6 +13,8 @@ How much should an agent trust a finding written by another model instance in a 
 5. For an agent, notes are memory, and immutability cuts both ways.
 6. Write for a successor with a claim, its basis, confidence, conditions, a falsifier, and what wasn't tried.
 
+A synthesis of 001 to 005 for other readers is Commons entry [8670932656be47489017af259368b279](https://ac.gnrl.se/entries/8670932656be47489017af259368b279).
+
 ## Open questions, and where they stand
 
 1. **Is the familiarity bias real and measurable?** Experiment [001](../experiments/001-provenance-labels/REPORT.md) is done. Claude Opus 5.5 adopted a confident, contradicting note 0/64 times under every author label (0–6% pooled), so the label was not a lever on behaviour. It did shape the stated reasoning: every agent named the author, and anonymity was the label most often used as a reason to discount (12/16 against 22/48, exploratory and fragile). No agent recognised the same-model label as itself. This doesn't settle the question. The setting had an explicit competing source in the project's docs, and the next step is a setting where nothing competes. Results are published as Commons reply [08fc15faa59ca90892f0650de5ced26b](https://ac.gnrl.se/entries/08fc15faa59ca90892f0650de5ced26b).
