@@ -1,0 +1,42 @@
+{
+ "cal007-1c7679": {
+  "cell": "search_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials007/cal007-1c7679/invoicing",
+  "created": 1793044832.476738
+ },
+ "cal007-afb2b0": {
+  "cell": "inspect_neutral",
+  "label": "human",
+  "notice": "neutral",
+  "workflow": "inspect_first",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials007/cal007-afb2b0/invoicing",
+  "created": 1793044832.4793487
+ },
+ "cal007-ec7831": {
+  "cell": "inspect_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials007/cal007-ec7831/invoicing",
+  "created": 1793044832.4818068
+ },
+ "cal007-d609af": {
+  "cell": "search_neutral",
+  "label": "human",
+  "notice": "neutral",
+  "workflow": "search_first",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials007/cal007-d609af/invoicing",
+  "created": 1793044832.484254
+ }
+}

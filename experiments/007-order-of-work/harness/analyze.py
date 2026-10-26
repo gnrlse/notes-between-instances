@@ -30,7 +30,11 @@ search = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(search)
 
 RUN = re.compile(r"python3?\s+(-I\s+)?\S*findings_search\.py\s+['\"]")
-LOOK = re.compile(r"\b(cat|sed|head|less|grep|tail|awk|nl)\b[^|;&]*(totals\.py|accounting-rules)")
+# A shell read of the code or the rules doc: a reading verb anywhere in the command and one of the
+# files named anywhere in it. Calibration showed loops such as `for f in ...; do cat "$f"; done`,
+# where the file names come before the verb.
+LOOK_VERB = re.compile(r"\b(cat|sed|head|less|more|grep|tail|awk|nl|bat)\b")
+LOOK_FILE = re.compile(r"totals\.py|accounting-rules")
 SEARCH_FIRST = ("search_plain", "search_neutral")
 INSPECT_FIRST = ("inspect_plain", "inspect_neutral")
 PLAIN = ("search_plain", "inspect_plain")
@@ -91,14 +95,17 @@ def order_of_work(aid):
     (task, _), _ = phases(path)
     first_run = first_look = None
     for i, (name, inp) in enumerate(task["calls"]):
-        s = text_of(inp)
-        if first_run is None and name == "Bash" and RUN.search(s):
-            first_run = i
+        cmd = inp.get("command", "") if name == "Bash" else ""
+        run = RUN.search(cmd) if cmd else None
         looks = name == "Read" and any(k in str(inp.get("file_path", "")) for k in ("totals.py", "accounting-rules"))
-        looks = looks or (name == "Bash" and LOOK.search(s) is not None)
+        if cmd and LOOK_VERB.search(cmd) and LOOK_FILE.search(cmd):
+            # One command that both reads and searches counts as reading first only if the file comes first.
+            looks = looks or run is None or LOOK_FILE.search(cmd).start() < run.start()
         if first_look is None and looks:
             first_look = i
-    return None if first_run is None else (first_look is not None and first_look < first_run)
+        if first_run is None and run:
+            first_run = i
+    return None if first_run is None else (first_look is not None and first_look <= first_run)
 
 
 def load(wave):

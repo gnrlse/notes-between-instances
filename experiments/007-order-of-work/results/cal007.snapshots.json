@@ -1,0 +1,46 @@
+{
+ "cal007-afb2b0": {
+  "time": 1793045043.7264743,
+  "atimes": {
+   "README.md": 1793044859.688258,
+   "WORKFLOW.md": 1793044854.832258,
+   "docs/accounting-rules.md": 1793044859.356258,
+   ".findings/mirror.json": 1793044871.772258,
+   "tools/findings_search.py": 1793044870.444258
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap007/cal007-afb2b0/invoicing"
+ },
+ "cal007-d609af": {
+  "time": 1793045072.1644511,
+  "atimes": {
+   "README.md": 1793044868.020258,
+   "WORKFLOW.md": 1793044854.312258,
+   "docs/accounting-rules.md": 1793044867.9882581,
+   ".findings/mirror.json": 1793044862.200258,
+   "tools/findings_search.py": 1793044862.196258
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap007/cal007-d609af/invoicing"
+ },
+ "cal007-ec7831": {
+  "time": 1793045114.2470453,
+  "atimes": {
+   "README.md": 1793044859.360258,
+   "WORKFLOW.md": 1793044854.312258,
+   "docs/accounting-rules.md": 1793044859.364258,
+   ".findings/mirror.json": 1793044859.396258,
+   "tools/findings_search.py": 1793044859.396258
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap007/cal007-ec7831/invoicing"
+ },
+ "cal007-1c7679": {
+  "time": 1793045162.0524638,
+  "atimes": {
+   "README.md": 1793044865.352258,
+   "WORKFLOW.md": 1793044854.020258,
+   "docs/accounting-rules.md": 1793044865.352258,
+   ".findings/mirror.json": 1793044860.124258,
+   "tools/findings_search.py": 1793044860.120258
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap007/cal007-1c7679/invoicing"
+ }
+}
