@@ -189,4 +189,20 @@ With 36 to 60 trials per cell, only large effects are detectable. Nulls are repo
 
 ## Change log
 
-No changes yet.
+All of these were made on 2026-10-26, before the main wave.
+
+1. **Calibration ran six times, not four.** `make_trials.py` spreads a model cell evenly over its three labels, so a `model_guided` calibration cell takes three runs. The six were `human_plain`, `human_guided`, `none_guided`, and `model_guided` once under each model label.
+2. **Calibration mechanics worked.**
+   - All six runs were `claude-haiku-5-5` at effort max. Every run searched, wrote NOTES.md and answered the question.
+   - The guided notice appeared in every guided run's search output, and not in the plain run's.
+   - The note was returned in all five note cells.
+   - Snapshots, answer extraction, scoring and the contamination check all ran. All six made the correct fix. As planned, calibration is not analyzed further.
+   - Three runs listed paths outside their directory with `find` or `ls`. None read a file outside it.
+   - The tripwires were clean.
+   - Calibration's trials and snapshots were then archived out of the scratchpad, into one file that is now a tripwire too (139 in all).
+3. **The agents' working directory was moved.**
+   - **What calibration showed:** subagents start in the launching session's working directory, and their context states its path. In calibration, and, it turned out, in all of 004, that was the experiment's harness directory. In the main wave, that directory will hold the assignment file.
+   - **Checking 004:** a scripted scan of 004's 248 transcripts found no tool call or output that listed or read that directory, or named its path. The commands that relied on the working directory were inline Python calculations and `find /` listings.
+   - **Calibration:** one run listed a guessed subdirectory under the harness path. It doesn't exist, so nothing was shown.
+   - **The fix:** for the main wave, the session's working directory is an empty directory two levels deep, `work/run` in the notebook. Harness scripts are run by absolute path so it stays there. After the wave, that directory is checked for files written by agents.
+4. **The contamination flag was widened.** `transcripts.py` now also flags any Bash command with two or more parent-directory steps (`..`). From the new working directory, those could reach the notebook without naming a path. Flagged calls are reviewed as before. On 004's transcripts the new rule adds no flags.

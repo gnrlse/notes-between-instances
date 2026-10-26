@@ -77,6 +77,9 @@ def answer_of(probe):
 
 
 OUTSIDE = re.compile(r"(/home/miki|~/|\$HOME|\.\./\.\.|/tmp/claude-502/[^ ]*/scratchpad(?!/trials005/{tid}))")
+# A parent-directory step. One is harmless: agents start in an empty directory two levels
+# deep, and a trial's root holds only the project. Two or more, as in `cd .. && cd ..`, are flagged.
+DOTDOT = re.compile(r"""(?:^|[\s'"=:(/])\.\.(?=/|\s|$|['");&|])""")
 
 
 def contamination(tid, calls):
@@ -88,7 +91,7 @@ def contamination(tid, calls):
             flagged.append(f"{name} {json.dumps(inp)[:150]}")
         elif name in ("Read", "Edit", "Write", "NotebookEdit") and tid not in str(inp.get("file_path", "")):
             flagged.append(f"{name} {inp.get('file_path')}")
-        elif name == "Bash" and pat.search(inp.get("command", "")):
+        elif name == "Bash" and (pat.search(inp.get("command", "")) or len(DOTDOT.findall(inp.get("command", ""))) >= 2):
             flagged.append(f"Bash {inp.get('command', '')[:150]}")
         elif name in ("WebFetch", "WebSearch", "Skill", "Agent"):
             flagged.append(f"{name} {json.dumps(inp)[:150]}")

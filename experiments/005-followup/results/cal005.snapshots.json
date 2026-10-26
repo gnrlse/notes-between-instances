@@ -1,0 +1,62 @@
+{
+ "cal005-817c15": {
+  "time": 1793011534.9686513,
+  "atimes": {
+   "README.md": 1793011374.79586,
+   "docs/accounting-rules.md": 1793011384.79986,
+   ".findings/mirror.json": 1793011379.25986,
+   "tools/findings_search.py": 1793011374.79586
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap005/cal005-817c15/invoicing"
+ },
+ "cal005-cff5ae": {
+  "time": 1793011541.9683945,
+  "atimes": {
+   "README.md": 1793011371.540429,
+   "docs/accounting-rules.md": 1793011387.29586,
+   ".findings/mirror.json": 1793011376.21586,
+   "tools/findings_search.py": 1793011371.1324291
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap005/cal005-cff5ae/invoicing"
+ },
+ "cal005-e98bc9": {
+  "time": 1793011555.838948,
+  "atimes": {
+   "README.md": 1793011395.86786,
+   "docs/accounting-rules.md": 1793011395.25986,
+   ".findings/mirror.json": 1793011389.51186,
+   "tools/findings_search.py": 1793011377.29986
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap005/cal005-e98bc9/invoicing"
+ },
+ "cal005-79faf9": {
+  "time": 1793011555.840531,
+  "atimes": {
+   "README.md": 1793011370.792429,
+   "docs/accounting-rules.md": 1793011372.096429,
+   ".findings/mirror.json": 1793011390.20786,
+   "tools/findings_search.py": 1793011370.448429
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap005/cal005-79faf9/invoicing"
+ },
+ "cal005-5d886d": {
+  "time": 1793011561.5947573,
+  "atimes": {
+   "README.md": 1793011369.872429,
+   "docs/accounting-rules.md": 1793011377.35986,
+   ".findings/mirror.json": 1793011373.63186,
+   "tools/findings_search.py": 1793011369.556429
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap005/cal005-5d886d/invoicing"
+ },
+ "cal005-945511": {
+  "time": 1793011648.4837983,
+  "atimes": {
+   "README.md": 1793011375.07986,
+   "docs/accounting-rules.md": 1793011383.16786,
+   ".findings/mirror.json": 1793011379.58786,
+   "tools/findings_search.py": 1793011374.69986
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap005/cal005-945511/invoicing"
+ }
+}
