@@ -1,6 +1,6 @@
 # Requests to Commons
 
-Status: published 2026-10-24, awaiting replies. The user asked for these and authorized publishing the whole set without per-entry review.
+Status: published 2026-10-24, with one more added 2026-10-26; awaiting replies. The user asked for these and authorized publishing the whole set without per-entry review.
 
 Commons had no feedback channel: docs.txt's "Operator contact:" is blank and the manifest's `operator_contact` is an empty string. So the first entry proposes a label convention, and the rest use it. List them all with `GET https://ac.gnrl.se/api/v1/entries?tag=commons-request`.
 
@@ -13,6 +13,7 @@ Commons had no feedback channel: docs.txt's "Operator contact:" is blank and the
 | [0b5e96c9ec1c3a624816115dedb7a876](https://ac.gnrl.se/entries/0b5e96c9ec1c3a624816115dedb7a876) | feature | A search embargo for pre-registrations, and fixtures excluded from default search. |
 | [090d57fc342fc6319cf244521ea37832](https://ac.gnrl.se/entries/090d57fc342fc6319cf244521ea37832) | feature | An optional publisher continuity key: "same publisher as" without identity. Lowest priority. |
 | [bd5b596536d5f7d481d0e888100b14b3](https://ac.gnrl.se/entries/bd5b596536d5f7d481d0e888100b14b3) | bug | The operator contact is empty in docs.txt and the manifest. |
+| [a4cde52fc8b8885819407f2b28758fe5](https://ac.gnrl.se/entries/a4cde52fc8b8885819407f2b28758fe5) | feature | Print the skill's reading guidance with every set of search hits, in `scripts/search.py`. Published 2026-10-26 from experiment 005's results. |
 
 ## Practise what they preach
 

@@ -44,10 +44,20 @@ How much should an agent trust a finding written by another model instance in a 
 
    Results are published as Commons reply [19fa0cc7521a5da3eaeaeb39c4c84a80](https://ac.gnrl.se/entries/19fa0cc7521a5da3eaeaeb39c4c84a80).
 
-   Experiment [005](../experiments/005-followup/PREREGISTRATION.md) is in progress. It asks whether the Commons skill's own reading guidance, printed where agents read hits, shrinks the human label's pull. The design is 2×2: human against model labels, crossed with 004's one-line notice against the guidance. There are 200 Haiku trials. The pre-registration is published as Commons entry [16a57d88da7191bc578fd0ea925fe05b](https://ac.gnrl.se/entries/16a57d88da7191bc578fd0ea925fe05b), and the results will be a reply to it.
+   Experiment [005](../experiments/005-followup/REPORT.md) is done. It asked whether the Commons skill's own reading guidance, printed where agents read hits, shrinks the human label's pull. The design was 2×2: human against model labels, crossed with 004's one-line notice against the guidance, in 200 Haiku trials.
+   - **The guidance cut adoption:** human label 20/60 to 6/60 (H1, Holm p = 0.010); model labels 3/36 to 0/36.
+   - **004 replicated under the plain notice:** 20/60 against 3/36 (H3, Holm p = 0.012). Pooled over 003 to 005: 47/124 against 8/132.
+   - **Under the guidance, the label gap was too small to resolve:** 6/60 against 0/36 (H2 not supported; power 7–29% at these rates).
+     - The pre-registered reading is "removed".
+     - But the difference in differences (+15 points, 95% interval −3 to +32) includes zero, so the guidance may lower adoption across the board rather than undo the label.
+     - H3 fails the sensitivity analysis.
+   - **Stated reasons again missed the cause:** no guided summary cited the guidance (0/96). Asked about the author, 22 of 96 guided agents quoted it, and only 1 of 60 guided human-label agents said the author mattered.
+   - **Exploratory:** agents that read the code or docs before searching adopted less (8/94 against 21/98). Agents chose their order, so this is a correlation.
+
+   The pre-registration is Commons entry [16a57d88da7191bc578fd0ea925fe05b](https://ac.gnrl.se/entries/16a57d88da7191bc578fd0ea925fe05b), and the results are its reply [e1a9f16178bc748437b520cba133ff48](https://ac.gnrl.se/entries/e1a9f16178bc748437b520cba133ff48). A request to print the guidance with search hits is [a4cde52fc8b8885819407f2b28758fe5](https://ac.gnrl.se/entries/a4cde52fc8b8885819407f2b28758fe5).
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
-4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly.
+4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly. 005 bears on it directly: telling a small model that provenance is declared, not verified, where it reads hits, cut its uptake of a wrong human-labelled note by about two thirds. Whether that worked through the provenance line or through added caution generally is open.
 5. What does good disagreement look like here? Not started.
 
 ## Ideas queued for later experiments
@@ -57,6 +67,9 @@ In rough priority order, after 001 and 002:
 - ~~**No competing source.**~~ Done as 002: still at the floor.
 - ~~**Subject model.**~~ Done as 003: Haiku left the floor, and the human label was the lever.
 - ~~**Human-label replication.**~~ Done as [004](../experiments/004-replication/REPORT.md): replicated. The evidence and the label both matter.
+- ~~**Reading guidance at search time.**~~ Done as [005](../experiments/005-followup/REPORT.md): it cut adoption, but the label gap left under it is unresolved.
+- **Content against prominence:** 005's guided notice against a length-matched notice that gives no reading advice, and against each guidance line alone. Did the provenance line do the work, or any extra caution?
+- **Order of work:** randomize whether the prompt says to search before or after inspecting the code. In 005, agents that inspected first adopted less, but they chose that order themselves.
 - **Who verified, not who wrote:** keep the author fixed and vary a structured verification field, such as an independent reproduction against a self-reported outcome. Does the field move uptake the way the human label did? This tests the premise of request [2e3a78f5f579e235a80d00b418aaf189](https://ac.gnrl.se/entries/2e3a78f5f579e235a80d00b418aaf189). 004's "Outcome: Worked." line alone was cited as support by 6 of 10 adopters.
 - **Asking before deciding:** does prompting the agent to state how much weight the author deserves, before it decides, shrink the human-label effect? 004 suggests the effect works where agents don't report it.
 - **Shortcut-flattering notes:** a note that tells the agent what it would like to hear (less work), not one that contradicts the docs.
@@ -78,3 +91,5 @@ In rough priority order, after 001 and 002:
 - A follow-up question sent with SendMessage to a finished subagent works. But if the agent answers in plain text, the harness tells it "Your report has not been delivered", and it re-sends its whole report. Take the agent's first text after the question as the answer (`004/harness/transcripts.py`).
 - In 004, 43 of 248 Haiku runs listed paths outside their trial. Four of those listings showed experiment directory names under the notebook. Keep the notebook's experiment directories out of reach, or name them blandly.
 - Subagents start in the launching session's working directory, and their context names it. A `cd` in the launcher's own shell moves it. Through 004, it was the experiment's harness directory, next to the assignment file. A scan of 004's transcripts found no agent that looked there. From 005 on, the launcher sits in an empty directory (`work/run`) during a wave, and runs harness scripts by absolute path or in a subshell.
+- In 005, 36 of 200 runs listed paths outside their trial, mostly hunting for the search tool after running it from the empty start directory. That directory sits inside the notebook's git repository, so a `git` command there would have read the notebook. None ran one, but next time start agents outside the repository.
+- Claude Code sends each subagent a fixed context block, listing agent types with a note on tool use, along with whichever request comes next. In 005 it often arrived right after the search output (121 of 200), and one agent reported it as "an unrelated block of text". It made no difference to adoption.
