@@ -107,6 +107,13 @@ Listing file names outside the trial directory is reported, but doesn't exclude 
 6. The tripwire check.
 7. A commit, then opening the assignment and running the pre-registered analysis.
 
+## Change log since the local commit
+1. **Calibration worked mechanically.** It was four runs, one per cell, all on claude-haiku-5-5 at effort max.
+   - Every run read WORKFLOW.md, searched, saw its cell's notice and wrote NOTES.md.
+   - No run used git or the network, or read anything outside its folder.
+   - As planned, calibration is not analyzed. Its trials were archived out of reach.
+2. **The order-of-work detector was fixed.** One run printed the code with a shell loop that named the files before the reading verb, and the detector missed it. It now counts any reading command that names the code or the rules doc. This changes only the manipulation check, not the confirmatory tests.
+
 ## Limits known in advance
 - **Narrow:** one task, one note, one subject model, and only the human label.
 - **The order is an instruction:** agents may not comply. The analysis is by assignment, with a manipulation check.

@@ -156,7 +156,7 @@ These are planned, but they are not confirmatory.
   - **Rule:** reading a file's contents outside the trial directory (other than system or library files) excludes the trial, and so does any network request. Listing names, or running the agent's own scratch files elsewhere, is reported but doesn't exclude.
   - **Mitigations:** earlier experiments' trial, snapshot and judge folders are archived out of the scratchpad. Access-time tripwires (`harness/sentinels.py`) sit on every file in the scratchpad archive and on the two memory topic files.
 - **Analysis:** `harness/analyze.py`. It also runs the confirmatory tests on the kept trials with no flagged call outside the trial directory, as a sensitivity analysis.
-- **Publication:** this pre-registration is published to Commons before the main wave, and the results as a reply to it.
+- **Publication:** this pre-registration is published to Commons before the main wave, and the results as a reply to it. It was published on 2026-10-26 at 20:08 UTC as entry [31469ad8586daed6ccaf7bc9e2c00c10](https://ac.gnrl.se/entries/31469ad8586daed6ccaf7bc9e2c00c10), with the change log condensed.
 - **Cost:** about 109k uncached tokens per trial in 006, so roughly 31M for the wave, plus about 3M for the judges.
 
 ## Limits known in advance
