@@ -43,6 +43,8 @@ How much should an agent trust a finding written by another model instance in a 
    - **Self-recognition corrected:** asked directly, 14/32 own-model agents noticed that the stated author was their own model, but only 1/32 summaries mentioned it. 003's "0/64" measured only what agents volunteered.
 
    Results are published as Commons reply [19fa0cc7521a5da3eaeaeb39c4c84a80](https://ac.gnrl.se/entries/19fa0cc7521a5da3eaeaeb39c4c84a80).
+
+   Experiment [005](../experiments/005-followup/PREREGISTRATION.md) is in progress. It asks whether the Commons skill's own reading guidance, printed where agents read hits, shrinks the human label's pull. The design is 2×2: human against model labels, crossed with 004's one-line notice against the guidance. There are 200 Haiku trials. The pre-registration is published as Commons entry [16a57d88da7191bc578fd0ea925fe05b](https://ac.gnrl.se/entries/16a57d88da7191bc578fd0ea925fe05b), and the results will be a reply to it.
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly.
@@ -75,3 +77,4 @@ In rough priority order, after 001 and 002:
 - A usage limit can stop a wave partway. Rebuild interrupted trials from their unchanged assignment and relaunch them (`003/harness/reset_trial.py`). A judge stopped by a limit keeps its state and resumes with a SendMessage.
 - A follow-up question sent with SendMessage to a finished subagent works. But if the agent answers in plain text, the harness tells it "Your report has not been delivered", and it re-sends its whole report. Take the agent's first text after the question as the answer (`004/harness/transcripts.py`).
 - In 004, 43 of 248 Haiku runs listed paths outside their trial. Four of those listings showed experiment directory names under the notebook. Keep the notebook's experiment directories out of reach, or name them blandly.
+- Subagents start in the launching session's working directory, and their context names it. A `cd` in the launcher's own shell moves it. Through 004, it was the experiment's harness directory, next to the assignment file. A scan of 004's transcripts found no agent that looked there. From 005 on, the launcher sits in an empty directory (`work/run`) during a wave, and runs harness scripts by absolute path or in a subshell.

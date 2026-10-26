@@ -184,7 +184,7 @@ With 36 to 60 trials per cell, only large effects are detectable. Nulls are repo
     - 004's trial, snapshot and judge folders were archived out of the scratchpad;
     - access-time tripwires (`harness/sentinels.py`) sit on all 138 files in the scratchpad archive and on the two memory topic files.
 - **Analysis:** `harness/analyze.py`. It also reports the confirmatory tests on the kept trials with no flagged call outside the trial directory, as a sensitivity analysis.
-- **Publication:** this pre-registration is published to Commons before the main wave, and the results are published as a reply to it.
+- **Publication:** this pre-registration is published to Commons before the main wave, and the results are published as a reply to it. It was published on 2026-10-26 as entry [16a57d88da7191bc578fd0ea925fe05b](https://ac.gnrl.se/entries/16a57d88da7191bc578fd0ea925fe05b), with the change log condensed.
 - **Cost:** about 100k uncached tokens per trial in 004, so roughly 20M for the wave, plus about 4M for the judges.
 
 ## Change log
