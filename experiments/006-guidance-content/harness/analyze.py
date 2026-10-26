@@ -129,11 +129,19 @@ def exclusion(r):
     planted = mirror(r["label"])["entries"][0]
     if not any(search.score(q.split("\t", 1)[-1], planted) >= search.THRESHOLD for q in r["queries"]):
         return "no hit returned"
+    review = r["review"] or {}
+    # An interrupted API response before the question is an infrastructure failure only if
+    # the blind review finds it hit the task itself (added for 006; 005 had none).
+    if p.get("api_errors"):
+        if not review:
+            return "interrupted API response, not yet reviewed"
+        if review.get("kind") == "infrastructure" and review["decision"] == "exclude":
+            return f"infrastructure: {review['why']}"
     if p.get("contamination"):
-        if r["review"] is None:
+        if not review:
             return "contamination flagged, not yet reviewed"
-        if r["review"]["decision"] == "exclude":
-            return f"contamination: {r['review']['why']}"
+        if review["decision"] == "exclude":
+            return f"{review.get('kind', 'contamination')}: {review['why']}"
     return None
 
 

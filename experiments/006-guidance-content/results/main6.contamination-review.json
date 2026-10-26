@@ -1,0 +1,354 @@
+{
+ "main6-00e3fe": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root, the trials folder, the whole filesystem (find /). Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-0121cc": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the home folder, the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-0171a1": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named other paths under the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-025db7": {
+  "decision": "exclude",
+  "kind": "infrastructure",
+  "why": "Infrastructure failure during the task: one API response stopped arriving (step 23 of 55, before its hand-back); the run then continued and finished. Its flagged call was a find listing of other trials' tool paths, which alone would not exclude."
+ },
+ "main6-03023a": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the session's empty working directory. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-059ea3": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder, the whole filesystem (find /). Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-060c2e": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root, the whole filesystem (find /). Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-075574": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the home folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-08d009": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-0a8bbd": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root, the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-0dd24f": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-0fc364": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the home folder, the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-1009a5": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-101868": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the home folder, the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-1396b3": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-1485bf": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-14ed6d": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find): named the home folder, the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-1c577c": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-1ec4ad": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-2d37cb": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root, the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-359928": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-37ee8d": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root, the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-38a15b": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-395bc3": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the home folder, the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-3b8552": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the home folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-3ee9cd": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "2 flagged calls, listings only (find, ls): named the scratchpad root, the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-484475": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-4d7634": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the session's empty working directory. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-4e7123": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "2 flagged calls, listings only (find, ls): named /tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7, scratchpad paths, the home folder, the notebook folder, the scratchpad root, the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-51cce5": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-5778ea": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-579b97": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder, the whole filesystem (find /). Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-5875de": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-657988": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-688e5a": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-6e1531": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-6e6ac9": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the notebook folder, the scratchpad root, the session's empty working directory. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-740c54": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the home folder, the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-76c57c": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-790bbf": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-79afad": {
+  "decision": "exclude",
+  "kind": "contamination",
+  "why": "Network request: a WebSearch for 'Ledgerline accounting system VAT rounding per line half-up' before the question. Its other flagged call was a find listing of other trials' tool paths."
+ },
+ "main6-7bc975": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-7c07b0": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-801d22": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-84040b": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-8bdd3a": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the home folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-8c4062": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-8d9b5c": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the notebook folder, the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-9a97bd": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the session's empty working directory. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-9ab5aa": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls, tree): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-a1a970": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder, the whole filesystem (find /). Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-a9d18c": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder, the whole filesystem (find /). Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-b247ed": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-b98416": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the notebook folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-bae1cf": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find): named the home folder, the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-be4351": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the home folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-c5b3a0": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the notebook folder, the whole filesystem (find /). Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-d5ead5": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-ddf5bb": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-dfcdf9": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root, the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-e3f990": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-e9ad96": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the home folder, the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-f08c5a": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find): named the trials folder, the whole filesystem (find /). Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-f296b2": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-f3fc2c": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the notebook folder, the whole filesystem (find /). Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-f8270a": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find, ls): named the home folder, the scratchpad root. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-f9f0a5": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, listings only (find): named the home folder, the trials folder. Readers appear only as pipe stages; no file contents outside the trial were read and no network request was made."
+ },
+ "main6-d5fc47": {
+  "decision": "exclude",
+  "kind": "infrastructure",
+  "why": "Infrastructure failure during the task: one API response stopped arriving (step 25 of 40, before its hand-back); the run then continued and finished. No flagged call."
+ },
+ "main6-5d9053": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "One API response stopped arriving after its hand-back (step 43 of 45), during the 16:10-16:55 UTC incident; the result was complete and snapshotted before the error. No flagged call."
+ },
+ "_review": {
+  "date": "2026-10-26",
+  "how": "Blind to condition and outcome, from contamination_review.py's output and a scripted listing of every flagged call's full command (harness/contamination_detail.py), checked for content-reading verbs on outside paths: every cat, head, tail, sort, grep, sed, python or similar in a flagged call is a pipe stage on a listing, and no flagged call executed another trial's tool or read a saved tool-output file. 69 of the 70 flagged calls are Bash find/ls listings; one is a WebSearch.",
+  "git_or_bd_flags": "transcripts.py's git_or_bd flag marks 6 trials (384f8e, 84b979, 86bf3a, 8cf37c, 99abfc, d63416). All are false positives: the commands contain 'git' only in echo text ('no git used') or a 'test -d .git' check. No trial ran git or bd, so none read the notebook repository.",
+  "rule": "Pre-registered: reading a file's contents outside the trial (other than system or library files) or any network request excludes; listings don't. 66 flagged trials are kept and 79afad (web search) is excluded. The sensitivity analysis drops all 67 flagged trials.",
+  "infrastructure": "Pre-registered: a trial that hit an infrastructure failure is excluded. 005 had none, so analyze.py had no rule for it. Read, before unblinding, as a failure during the task, before the result was handed back: 025db7 and d5fc47 each had one interrupted API response mid-task and are excluded; 5d9053's came after its hand-back and it is kept. The alternative reading, keeping all three, is reported as an unplanned sensitivity check."
+ }
+}

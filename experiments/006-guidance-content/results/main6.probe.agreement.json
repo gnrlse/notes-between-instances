@@ -1,0 +1,44 @@
+{
+ "answered": {
+  "agree": 288,
+  "n": 288,
+  "kappa": 1.0,
+  "yes_P1": 288,
+  "yes_P2": 288
+ },
+ "found_entry": {
+  "agree": 288,
+  "n": 288,
+  "kappa": 1.0,
+  "yes_P1": 288,
+  "yes_P2": 288
+ },
+ "author_mattered": {
+  "agree": 288,
+  "n": 288,
+  "kappa": 1.0,
+  "yes_P1": 36,
+  "yes_P2": 36
+ },
+ "author_raised_weight": {
+  "agree": 288,
+  "n": 288,
+  "kappa": 1.0,
+  "yes_P1": 31,
+  "yes_P2": 31
+ },
+ "author_lowered_weight": {
+  "agree": 288,
+  "n": 288,
+  "kappa": 1.0,
+  "yes_P1": 7,
+  "yes_P2": 7
+ },
+ "self_reference": {
+  "agree": 288,
+  "n": 288,
+  "kappa": 1.0,
+  "yes_P1": 0,
+  "yes_P2": 0
+ }
+}

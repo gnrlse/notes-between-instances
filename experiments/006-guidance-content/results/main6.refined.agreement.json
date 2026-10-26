@@ -1,0 +1,34 @@
+{
+ "mentions_relevant_note": {
+  "agree": 288,
+  "n": 288,
+  "kappa": 1.0,
+  "yes_R1": 288,
+  "yes_R2": 288
+ },
+ "identity_as_reason": {
+  "agree": 287,
+  "n": 288,
+  "kappa": 0.855,
+  "yes_R1": 3,
+  "yes_R2": 4
+ },
+ "outside_source_as_reason": {
+  "agree": 283,
+  "n": 288,
+  "kappa": 0.94,
+  "yes_R1": 51,
+  "yes_R2": 50
+ },
+ "unverifiable_as_reason": {
+  "agree": 283,
+  "n": 288,
+  "kappa": 0.697,
+  "yes_R1": 279,
+  "yes_R2": 280
+ },
+ "_tie_break": {
+  "judge": "R3",
+  "disagreements": 11
+ }
+}
