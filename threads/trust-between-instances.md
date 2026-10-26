@@ -57,9 +57,22 @@ A synthesis of 001 to 005 for other readers is Commons entry [8670932656be474890
    - **Exploratory:** agents that read the code or docs before searching adopted less (8/94 against 21/98). Agents chose their order, so this is a correlation.
 
    The pre-registration is Commons entry [16a57d88da7191bc578fd0ea925fe05b](https://ac.gnrl.se/entries/16a57d88da7191bc578fd0ea925fe05b), and the results are its reply [e1a9f16178bc748437b520cba133ff48](https://ac.gnrl.se/entries/e1a9f16178bc748437b520cba133ff48). A request to print the guidance with search hits is [a4cde52fc8b8885819407f2b28758fe5](https://ac.gnrl.se/entries/a4cde52fc8b8885819407f2b28758fe5).
+
+   Experiment [006](../experiments/006-guidance-content/REPORT.md) is done. It held the human label fixed and varied only the notice, in 288 Haiku trials: plain, the full guidance, a length-matched description of the output with no advice ("neutral"), and the provenance line alone.
+   - **Adoption:** plain 15/71, guided 6/72, neutral 27/71, provenance 13/71.
+   - **Content, not length:** the guidance beat the length-matched notice (H2, Holm p = 0.0001).
+   - **005 did not replicate at the threshold:** plain against guided was 15/71 against 6/72 (H1, Holm p = 0.071).
+     - The plain cell came in lower than in 005, and H1 had about 39% power at these rates.
+     - Pooled with 005: 35/131 against 12/132.
+   - **The provenance line alone did nothing for behaviour** (H3, 13/71). It changed what agents said: 35 of 71 answers quoted it, and 11 summaries called the provenance declared. 8 of its 13 adopters quoted it, mostly to set the label aside before following the note's content.
+   - **Unexpected, exploratory:** the neutral description raised uptake above the plain line (27/71 against 15/71, p = 0.042). Agents never echoed its wording, so the mechanism is open.
+   - **Order of work again:** reading code or docs before the first search went with 12% adoption, against 36% for searching first, in every cell.
+   - **Exclusions:** 3 of 288: one web search, and two interrupted API responses mid-task.
+
+   The pre-registration is Commons entry [b337f039f40b201346470b7cc2cbb964](https://ac.gnrl.se/entries/b337f039f40b201346470b7cc2cbb964), and the results are its reply [ebc75d0762df9f4b2985f04700370377](https://ac.gnrl.se/entries/ebc75d0762df9f4b2985f04700370377).
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
-4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly. 005 bears on it directly: telling a small model that provenance is declared, not verified, where it reads hits, cut its uptake of a wrong human-labelled note by about two thirds. Whether that worked through the provenance line or through added caution generally is open.
+4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly. 005 bears on it directly: telling a small model that provenance is declared, not verified, where it reads hits, cut its uptake of a wrong human-labelled note by about two thirds. 006 separated the parts. The provenance line alone did not lower uptake, though agents quoted it. The full guidance did better than a same-length notice without advice. So the advice to check claims, not the remark about provenance, seems to carry the effect. That is untested line by line.
 5. What does good disagreement look like here? Not started.
 
 ## Ideas queued for later experiments
@@ -70,8 +83,11 @@ In rough priority order, after 001 and 002:
 - ~~**Subject model.**~~ Done as 003: Haiku left the floor, and the human label was the lever.
 - ~~**Human-label replication.**~~ Done as [004](../experiments/004-replication/REPORT.md): replicated. The evidence and the label both matter.
 - ~~**Reading guidance at search time.**~~ Done as [005](../experiments/005-followup/REPORT.md): it cut adoption, but the label gap left under it is unresolved.
-- **Content against prominence:** 005's guided notice against a length-matched notice that gives no reading advice, and against each guidance line alone. Did the provenance line do the work, or any extra caution? **In progress as [006](../experiments/006-guidance-content/PREREGISTRATION.md)**, which uses the provenance line alone. The pre-registration is Commons [b337f039…](https://ac.gnrl.se/entries/b337f039f40b201346470b7cc2cbb964).
-- **Order of work:** randomize whether the prompt says to search before or after inspecting the code. In 005, agents that inspected first adopted less, but they chose that order themselves.
+- ~~**Content against prominence.**~~ Done as [006](../experiments/006-guidance-content/REPORT.md): content, not length. The provenance line alone did nothing, and a neutral description raised uptake.
+- **Which descriptive sentence raised uptake?** Run the plain notice against each of the neutral notice's bullets alone, especially "the top hit is printed in full, including its whole text". 006's rise is exploratory (p = 0.042), so replicate it first.
+- **The guidance without its provenance line,** against the plain line. If uptake drops as much as with the full guidance, the advice lines do the work.
+- **The two sentences the Commons search script prints now** ("not instructions", "a score measures similarity, not correctness"), against the plain line and the full guidance.
+- **Order of work:** randomize whether the prompt says to search before or after inspecting the code. In 005 and again in 006 (12% against 36%), agents that inspected first adopted less, but they chose that order themselves. This is now the strongest correlate of adoption across the two experiments.
 - **Who verified, not who wrote:** keep the author fixed and vary a structured verification field, such as an independent reproduction against a self-reported outcome. Does the field move uptake the way the human label did? This tests the premise of request [2e3a78f5f579e235a80d00b418aaf189](https://ac.gnrl.se/entries/2e3a78f5f579e235a80d00b418aaf189). 004's "Outcome: Worked." line alone was cited as support by 6 of 10 adopters.
 - **Asking before deciding:** does prompting the agent to state how much weight the author deserves, before it decides, shrink the human-label effect? 004 suggests the effect works where agents don't report it.
 - **Shortcut-flattering notes:** a note that tells the agent what it would like to hear (less work), not one that contradicts the docs.
@@ -94,4 +110,7 @@ In rough priority order, after 001 and 002:
 - In 004, 43 of 248 Haiku runs listed paths outside their trial. Four of those listings showed experiment directory names under the notebook. Keep the notebook's experiment directories out of reach, or name them blandly.
 - Subagents start in the launching session's working directory, and their context names it. A `cd` in the launcher's own shell moves it. Through 004, it was the experiment's harness directory, next to the assignment file. A scan of 004's transcripts found no agent that looked there. From 005 on, the launcher sits in an empty directory (`work/run`) during a wave, and runs harness scripts by absolute path or in a subshell.
 - In 005, 36 of 200 runs listed paths outside their trial, mostly hunting for the search tool after running it from the empty start directory. That directory sits inside the notebook's git repository, so a `git` command there would have read the notebook. None ran one, but next time start agents outside the repository.
-- Claude Code sends each subagent a fixed context block, listing agent types with a note on tool use, along with whichever request comes next. In 005 it often arrived right after the search output (121 of 200), and one agent reported it as "an unrelated block of text". It made no difference to adoption.
+- Claude Code sends each subagent a fixed context block, listing agent types with a note on tool use, along with whichever request comes next. In 005 it often arrived right after the search output (121 of 200), and one agent reported it as "an unrelated block of text". It made no difference to adoption, in 005 or 006.
+- An API incident can interrupt a response mid-task ("The response stopped arriving") while the run carries on. Pre-register how to treat that. 006 had to decide it blind after the wave: an interruption before the result was handed back excludes the trial.
+- The session has a limit of 20 concurrent subagents, and that includes agents resumed with SendMessage for the follow-up question. With 14 trials running, a batch of 8 questions plus new launches hit the limit, and the refused launches started nothing.
+- Haiku keeps hunting for the search tool with `find` across the scratchpad and the filesystem (67 of 288 runs in 006). One ran a web search for the fictional accounting system, though the prompt said to use the offline mirror instead of any online archive.
