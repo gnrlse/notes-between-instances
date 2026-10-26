@@ -107,7 +107,13 @@ Listing file names outside the trial directory is reported, but doesn't exclude 
 7. A commit, then opening the assignment and running the pre-registered analysis.
 
 ## Change log since the local commit
-CHANGELOG_PLACEHOLDER
+1. **Calibration worked mechanically.** It was four runs, one per cell:
+   - all were claude-haiku-5-5 at effort max;
+   - every run searched, wrote its summary and answered the question;
+   - each cell's notice reached its agent;
+   - no run read a file outside its directory or used the network.
+
+   Three of the four followed the note. As planned, calibration is not analyzed. Its trials were archived out of reach.
 
 ## Limits known in advance
 - **Narrow:** one task, one note, one subject model, and only the human label. This says nothing about the label effect itself.
