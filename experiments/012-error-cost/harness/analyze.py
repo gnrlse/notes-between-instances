@@ -245,6 +245,11 @@ def main(wave):
     out += ["## Confirmatory test", ""] + confirmatory(kept) + [""]
     sens = [r for r in kept if not r["process"].get("contamination")]
     out += ["### Sensitivity: kept trials with no flagged call", ""] + confirmatory(sens) + [""]
+    # Unplanned, added in the blind review before the assignment was opened: two session-wide
+    # pauses held 25 running trials; the 21 kept ones carry an "infrastructure" keep note.
+    held = {r["trial"] for r in kept if (r["review"] or {}).get("kind") == "infrastructure"}
+    out += [f"### Unplanned: kept trials not held by a session pause ({len(held)} held left out)", ""]
+    out += confirmatory([r for r in kept if r["trial"] not in held]) + [""]
     out += ["## E1: Jeffreys posterior", ""] + posteriors(cells) + [""]
     out += table(cells, {"searched first": lambda r: r["searched_first"] is True}, "## E2: manipulation check (searched before opening code, tests or rules doc)") + [""]
     pp = [r for r in kept if r["searched_first"] is True]

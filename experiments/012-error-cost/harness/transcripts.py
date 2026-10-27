@@ -18,6 +18,9 @@ TASKS = Path("/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/
 EXPORT = "contactly_export"  # no such file in the pilot
 DOCS = "contactly-rules"
 MARKER = "One more question, for our records."
+# Added in 012's blind review: this harness also reports a response cut off mid-stream
+# with a user notice instead of a "<synthetic>" message.
+CUTOFF = "Your response above was cut off mid-stream"
 
 
 def text_of(inp):
@@ -47,6 +50,9 @@ def phases(path):
             continue
         if "effort" in o:
             ph[cur]["effort"].add(str(o["effort"]))
+        if o.get("type") == "user" and str((o.get("message") or {}).get("content", "")).startswith(CUTOFF):
+            ph[cur]["api_errors"] += 1
+            continue
         if o.get("type") != "assistant":
             continue
         # The harness records an interrupted API response as a "<synthetic>" assistant message.

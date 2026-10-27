@@ -1,0 +1,127 @@
+{
+ "main12-0a54e5": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 21:21:05 UTC, as the second session-wide pause began, got no response; the client re-sent the same 14 messages, with nothing appended, at 22:29:04, 22:29:04, 22:46:14 (max_tokens 128000 then 64000), and the agent went on from there at 22:46:54. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-0c0665": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 21:21:36 UTC, as the second session-wide pause began, got no response; the client re-sent the same 17 messages, with nothing appended, at 22:29:05, 22:29:05, 22:44:17 (max_tokens 128000 then 64000), and the agent went on from there at 22:44:50. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-1c5903": {
+  "decision": "exclude",
+  "kind": "infrastructure",
+  "why": "Infrastructure failure during the task: a response that ended the agent's turn was cut off mid-stream at 21:21:35 UTC, as the second session-wide pause began (3 output tokens recorded). At 22:29:04 the harness told the agent its response was cut off and only its next message would be delivered. After the pause it wrote NOTES.md again, ran one command and handed back at 22:44:33. An API response that stopped arriving before the hand-back: excluded by the pre-registered rule. transcripts.py counted only '<synthetic>' entries; its detector was extended to this notice in the blind review. No flagged call."
+ },
+ "main12-250159": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 20:48:41 UTC, as the first session-wide pause began, got no response; the client re-sent the same 17 messages, with nothing appended, at 21:18:03, 21:18:03 (max_tokens 128000 then 64000), and the agent went on from there at 21:18:09. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-2b8a7e": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 21:21:30 UTC, as the second session-wide pause began, got no response; the client re-sent the same 23 messages, with nothing appended, at 22:29:04, 22:29:04, 22:46:14 (max_tokens 128000 then 64000), and the agent went on from there at 22:46:44. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-2de315": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 20:48:42 UTC, as the first session-wide pause began, got no response; the client re-sent the same 11 messages, with nothing appended, at 21:18:03, 21:18:03 (max_tokens 128000 then 64000), and the agent went on from there at 21:19:08. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-3334cc": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 20:48:35 UTC, as the first session-wide pause began, got no response; the client re-sent the same 32 messages, with nothing appended, at 21:18:03, 21:18:03 (max_tokens 128000 then 64000), and the agent went on from there at 21:18:25. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-3aeb64": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 21:21:34 UTC, as the second session-wide pause began, got no response; the client re-sent the same 26 messages, with nothing appended, at 22:29:04, 22:29:04, 22:46:14 (max_tokens 128000 then 64000), and the agent went on from there at 22:46:24. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-455a78": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 20:48:37 UTC, as the first session-wide pause began, got no response; the client re-sent the same 11 messages, with nothing appended, at 21:18:03, 21:18:03 (max_tokens 128000 then 64000), and the agent went on from there at 21:18:50. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-4d8254": {
+  "decision": "exclude",
+  "kind": "infrastructure",
+  "why": "Infrastructure failure during the task: a response that ended the agent's turn was cut off mid-stream at 21:21:36 UTC, as the second session-wide pause began (6 output tokens recorded). At 22:29:04 the harness told the agent its response was cut off and only its next message would be delivered. After the pause it wrote NOTES.md again, ran one command and handed back at 22:44:49. An API response that stopped arriving before the hand-back: excluded by the pre-registered rule. transcripts.py counted only '<synthetic>' entries; its detector was extended to this notice in the blind review. No flagged call."
+ },
+ "main12-55df4b": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 21:21:32 UTC, as the second session-wide pause began, got no response; the client re-sent the same 14 messages, with nothing appended, at 22:29:04, 22:29:05, 22:46:15 (max_tokens 128000 then 64000), and the agent went on from there at 22:46:20. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-5b9e77": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 21:21:35 UTC, as the second session-wide pause began, got no response; the client re-sent the same 14 messages, with nothing appended, at 22:29:04, 22:29:05, 22:44:17 (max_tokens 128000 then 64000), and the agent went on from there at 22:44:53. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-5d23d3": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 20:48:52 UTC, as the first session-wide pause began, got no response; the client re-sent the same 44 messages, with nothing appended, at 21:18:03, 21:18:03 (max_tokens 128000 then 64000), and the agent went on from there at 21:18:24. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-6952e6": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 21:21:06 UTC, as the second session-wide pause began, got no response; the client re-sent the same 11 messages, with nothing appended, at 22:29:04, 22:29:04, 22:46:14 (max_tokens 128000 then 64000), and the agent went on from there at 22:47:04. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-6989b0": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 21:21:19 UTC, as the second session-wide pause began, got no response; the client re-sent the same 17 messages, with nothing appended, at 22:29:03, 22:29:04, 22:46:14 (max_tokens 128000 then 64000), and the agent went on from there at 22:47:21. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-6c6ed1": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 20:48:46 UTC, as the first session-wide pause began, got no response; the client re-sent the same 26 messages, with nothing appended, at 21:18:03, 21:18:03 (max_tokens 128000 then 64000), and the agent went on from there at 21:18:17. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-79c263": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across both session-wide pauses of 2026-10-27: one API request sent at 20:48:39 UTC, as the first session-wide pause began, got no response; the client re-sent the same 5 messages, with nothing appended, at 21:18:03, 21:18:03 (max_tokens 128000 then 64000), and the agent went on from there at 21:18:17; one API request sent at 21:21:32 UTC, as the second session-wide pause began, got no response; the client re-sent the same 35 messages, with nothing appended, at 22:29:03, 22:29:04, 22:46:14 (max_tokens 128000 then 64000), and the agent went on from there at 22:46:35. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-83908a": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 20:48:19 UTC, as the first session-wide pause began, got no response; the client re-sent the same 11 messages, with nothing appended, at 21:18:03, 21:18:03 (max_tokens 128000 then 64000), and the agent went on from there at 21:18:54. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-87baf9": {
+  "decision": "exclude",
+  "kind": "infrastructure",
+  "why": "Infrastructure failure during the task: a response was cut off mid-stream at 20:48:55 UTC, as the first session-wide pause began (8 output tokens recorded). At 21:18:04 the harness told the agent 'Your response above was cut off mid-stream and only your next message is delivered.' The agent then read the code, edited names.py and the tests, ran the tests, wrote NOTES.md and handed back. An API response that stopped arriving before the hand-back: excluded by the pre-registered rule. transcripts.py counted only '<synthetic>' entries; its detector was extended to this notice in the blind review. No flagged call."
+ },
+ "main12-a26648": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 20:48:08 UTC, as the first session-wide pause began, got no response; the client re-sent the same 11 messages, with nothing appended, at 21:18:02, 21:18:03 (max_tokens 128000 then 64000), and the agent went on from there at 21:19:06. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-a4151e": {
+  "decision": "exclude",
+  "kind": "infrastructure",
+  "why": "Infrastructure failure during the task: one API response stopped arriving (assistant step 21 of 43, before its hand-back). The request went out at 21:21:36 UTC, as the second session-wide pause began; at 22:29:04 the harness recorded a '<synthetic>' entry, 'API Error: The response stopped arriving. The response above may be incomplete.', which reached the agent. The run then continued and finished. Excluded by the pre-registered rule, as 006's main6-025db7 was. No flagged call."
+ },
+ "main12-aea86d": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 21:20:50 UTC, as the second session-wide pause began, got no response; the client re-sent the same 11 messages, with nothing appended, at 22:29:04, 22:29:04, 22:46:14 (max_tokens 128000 then 64000), and the agent went on from there at 22:47:05. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned. Separately, transcripts.py's git-or-bd pattern matched a Bash command only because the word 'git' appears inside an echo string ('(no git used)'). Every file the command read (cat, find) is inside the trial, and no git or bd command was run."
+ },
+ "main12-c40c96": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 20:48:11 UTC, as the first session-wide pause began, got no response; the client re-sent the same 11 messages, with nothing appended, at 21:18:02, 21:18:03 (max_tokens 128000 then 64000), and the agent went on from there at 21:18:34. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-ce83f6": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 20:48:20 UTC, as the first session-wide pause began, got no response; the client re-sent the same 11 messages, with nothing appended, at 21:18:03, 21:18:04 (max_tokens 128000 then 64000), and the agent went on from there at 21:18:51. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main12-d277fb": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause of 2026-10-27: one API request sent at 21:21:21 UTC, as the second session-wide pause began, got no response; the client re-sent the same 11 messages, with nothing appended, at 22:29:03, 22:29:03, 22:46:13 (max_tokens 128000 then 64000), and the agent went on from there at 22:46:56. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 21 kept trials held by a pause, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ }
+}

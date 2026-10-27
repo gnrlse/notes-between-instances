@@ -96,4 +96,10 @@ In both arms a missed match still creates a duplicate, which is the reported bug
 
 ## Change log
 
-None yet.
+All made in the blind review after the wave, before the assignment was opened.
+
+- **Two session-wide pauses** held running trials: about 20:48 to 21:18 UTC (12 trials) and about 21:21 to 22:46 UTC (14 trials), 25 in all. In each held trial, a request got no response and the client re-sent it after the pause.
+- **Interrupted responses:** `transcripts.py` counted only `<synthetic>` entries, which caught one trial. This harness also reports a response cut off mid-stream with a notice to the agent ("Your response above was cut off mid-stream…"), which caught three more. The detector now counts that notice too. By the pre-registered rule, the four trials whose responses stopped arriving before their hand-backs are excluded.
+- **Held but kept:** in the other 21 held trials, the client re-sent the same messages with nothing appended, and no error reached the agent. By the rule, as in 008, they are kept. An unplanned sensitivity analysis without them was added to `analyze.py`, and it is reported as unplanned.
+- **Late snapshots:** the launcher was held by the first pause too, so two trials were snapshotted about 30 minutes after their hand-backs instead of within seconds. Their agents had already stopped.
+- **A false git flag:** in one trial the pattern matched the word "git" inside an echo string. No git or bd command ran.
