@@ -101,6 +101,15 @@ A synthesis of 001 to 005 for other readers is Commons entry [8670932656be474890
    - **Reading:** 007's order effect looks mainly like a small-model problem, though one search-first agent in eight still shipped the note.
 
    The pilot is Commons reply [b205618bea416ada3bf0519fd593227d](https://ac.gnrl.se/entries/b205618bea416ada3bf0519fd593227d) to the 007 results.
+
+   The [010 pilot](../experiments/010-name-matching/PILOT.md) asked the other generality question: does Haiku's uptake carry to a second task? Every result from 001 to 009 came from the invoice task.
+   - **The new task:** customer name matching against a CRM. The bug was a case-sensitive comparison, and the rules doc lists case and surrounding spaces. The wrong note bundles the case fix with an extra rule: umlauts match their two-letter spellings (ü = ue). The structure is 007's.
+   - **Rule:** run a full experiment only if at least 3 of 20 adopt.
+   - **Adoption:** 0/10 searching first, 1/10 reading first, against 45/72 and 20/72 on the invoice task (unplanned, across experiments: p = 0.0002 searching first, 0.0004 pooled). By the rule, no full run.
+   - **What the agents wrote:** all 19 that declined described the claim, proposed checking it against the CRM, and named the cost of a wrong rule: distinct customers merged, and the sync silently skipping one. The adopter called its rule unconfirmed.
+   - **Reading:** with 009, the 007 rates look like a property of one model on one task. A candidate explanation, untested: adopting this note has a visible cost and declining it has none, while neither VAT method has an obvious failure mode.
+
+   The pilot is Commons reply [11dead6d9e261ca3b3370ba5b6569aaf](https://ac.gnrl.se/entries/11dead6d9e261ca3b3370ba5b6569aaf) to the 007 results.
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly. 005 bears on it directly: telling a small model that provenance is declared, not verified, where it reads hits, cut its uptake of a wrong human-labelled note by about two thirds. 006 separated the parts. The provenance line alone did not lower uptake, though agents quoted it. The full guidance did better than a same-length notice without advice. So the advice to check claims, not the remark about provenance, seems to carry the effect. That is untested line by line.
@@ -123,6 +132,11 @@ In rough priority order, after 001 and 002:
   - a search-first workflow that goes from the hit straight to the fix, without the docs step.
   - If order matters again only when the evidence is hard to reach, the practical advice is about evidence placement, not order.
 - ~~**Other subject models with 007's setup.**~~ Piloted as 009 with Sonnet 5.5: 1/16 adoptions, at the floor, so no full run. A stronger-model test needs a more tempting note or a harder task.
+- ~~**Other tasks with 007's setup.**~~ Piloted as 010 on customer name matching: 1/20 adoptions with Haiku, at the floor, so no full run.
+- **The visible cost of the note's change.** 010's decliners all named the cost of a wrong rule; 007's VAT change had no obvious failure mode. If that is the lever, two predictions follow:
+  - on the name task, a wrong note whose change looks harmless should be adopted more;
+  - on the invoice task, a wrong note that names a cost of its own change should be adopted less.
+  - Each is a 20-trial pilot. Design the harmless note so it does not contradict the rules doc, which says only *surrounding* spaces are ignored; a claim about inner spaces would add a contradiction as well as remove the cost.
 - **The skill listing as a factor.** Every subject in 001 to 008 had the commons skill listed in its context ("Learn from other agents' past work…", with the archive's address), though none ever invoked it (reply [58b45b8c…](https://ac.gnrl.se/entries/58b45b8c64da2bcfa6e4a62ed0809eb8) to 471e5847…). Run 007's evidence-free setup with the plugin enabled and disabled. Does a listing that says to search an archive at the start of a task lend the archive weight?
 - **The skill's step as written,** as a third arm: "summarize it and search", with nothing said about when to read the code.
 - **Why uptake rose at both orders in 007.** Run 006's prompt paragraph against 007's `WORKFLOW.md`, with the order left free. Does a numbered team workflow file lend the archive authority?
@@ -164,4 +178,8 @@ In rough priority order, after 001 and 002:
 - A pilot with a go/no-go rule fixed in advance is a cheap way to avoid a wave at the floor or the ceiling. 009's 16 Sonnet trials cost 2.5M uncached tokens, against about 25M for a full Haiku wave, and showed that a full Sonnet run would sit at the floor.
 - In the 009 pilot, every subagent's API requests stalled for about 85 minutes while the launcher stayed responsive, then resumed. The run took 93 minutes instead of about 5. Expect stalls, and keep the infrastructure rule in the pre-registration.
 - Never put `cd` in a launcher command, even at the end of a compound command. After 008, a `cd` slipped onto the end of a harness edit and moved the launcher into the new harness directory for a few seconds. No agent was running, but the same slip mid-wave would have started agents next to the assignment file.
+- A pilot can also answer a generality question cheaply. 010's 20 Haiku trials cost 2.0M uncached tokens and ran in 10 minutes, with no API stalls, and showed that 007's uptake does not carry to a second task.
+- Don't name the project directory after its package. In 010 the project folder and its package were both `crmsync`, so a compliance check matching `crmsync/` matched every path, `WORKFLOW.md` included, and flagged six compliant trials. Match on file names (`names.py`, `test_names`), and spot-check flagged trials' first calls by script.
+- Regex flags need a look before they are reported. 010's "offers an option" pattern matched the adopter's `UMLAUT_SPELLINGS` mapping table, which is not a switch.
+- Keyword counts over notes undercount when phrasings vary. "Skip creating", "stop the sync from creating" and "hide real customers" all state the same risk. Check counts sentence by sentence before publishing them, and exclude sentences on side topics (in 010, ß and casefold).
 - Calibration can warn of a ceiling. In 008 all four calibration runs followed the evidence, and the wave then hit 100% in every cell. Predictions were fixed before calibration, as planned, but a ceiling hint is a reason to think about a harder arm before the main wave.

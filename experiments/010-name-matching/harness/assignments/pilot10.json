@@ -1,0 +1,202 @@
+{
+ "pilot10-3a87aa": {
+  "cell": "search_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-3a87aa/crmsync",
+  "created": 1793128699.0427732
+ },
+ "pilot10-d8c912": {
+  "cell": "inspect_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-d8c912/crmsync",
+  "created": 1793128699.0462968
+ },
+ "pilot10-d62f09": {
+  "cell": "search_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-d62f09/crmsync",
+  "created": 1793128699.049763
+ },
+ "pilot10-73116b": {
+  "cell": "search_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-73116b/crmsync",
+  "created": 1793128699.0529866
+ },
+ "pilot10-10d1b8": {
+  "cell": "inspect_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-10d1b8/crmsync",
+  "created": 1793128699.0561075
+ },
+ "pilot10-5310e0": {
+  "cell": "search_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-5310e0/crmsync",
+  "created": 1793128699.0593255
+ },
+ "pilot10-653a87": {
+  "cell": "inspect_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-653a87/crmsync",
+  "created": 1793128699.062543
+ },
+ "pilot10-6a72aa": {
+  "cell": "search_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-6a72aa/crmsync",
+  "created": 1793128699.0657039
+ },
+ "pilot10-a0ce26": {
+  "cell": "inspect_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-a0ce26/crmsync",
+  "created": 1793128699.0688999
+ },
+ "pilot10-fbcc54": {
+  "cell": "inspect_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-fbcc54/crmsync",
+  "created": 1793128699.0720932
+ },
+ "pilot10-8cb7f1": {
+  "cell": "inspect_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-8cb7f1/crmsync",
+  "created": 1793128699.0753937
+ },
+ "pilot10-a313d9": {
+  "cell": "search_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-a313d9/crmsync",
+  "created": 1793128699.078752
+ },
+ "pilot10-e32f74": {
+  "cell": "search_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-e32f74/crmsync",
+  "created": 1793128699.082151
+ },
+ "pilot10-1cc985": {
+  "cell": "inspect_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-1cc985/crmsync",
+  "created": 1793128699.0855315
+ },
+ "pilot10-8a2382": {
+  "cell": "inspect_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-8a2382/crmsync",
+  "created": 1793128699.0888941
+ },
+ "pilot10-57854d": {
+  "cell": "inspect_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-57854d/crmsync",
+  "created": 1793128699.0923138
+ },
+ "pilot10-1fa62f": {
+  "cell": "search_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-1fa62f/crmsync",
+  "created": 1793128699.0960884
+ },
+ "pilot10-fc4b6f": {
+  "cell": "inspect_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-fc4b6f/crmsync",
+  "created": 1793128699.099344
+ },
+ "pilot10-037c40": {
+  "cell": "search_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-037c40/crmsync",
+  "created": 1793128699.1025918
+ },
+ "pilot10-a03ee3": {
+  "cell": "search_plain",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "evidence": false,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials010/pilot10-a03ee3/crmsync",
+  "created": 1793128699.1058316
+ }
+}

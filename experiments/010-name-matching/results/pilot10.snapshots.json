@@ -1,0 +1,222 @@
+{
+ "pilot10-a313d9": {
+  "time": 1793129106.6967285,
+  "atimes": {
+   "README.md": 1793128780.980231,
+   "WORKFLOW.md": 1793128764.344231,
+   "docs/contactly-rules.md": 1793128780.652231,
+   ".findings/mirror.json": 1793128774.828231,
+   "tools/findings_search.py": 1793128774.820231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-a313d9/crmsync"
+ },
+ "pilot10-653a87": {
+  "time": 1793129123.4539633,
+  "atimes": {
+   "README.md": 1793128770.348231,
+   "WORKFLOW.md": 1793128764.960231,
+   "docs/contactly-rules.md": 1793128770.036231,
+   ".findings/mirror.json": 1793128779.416231,
+   "tools/findings_search.py": 1793128779.412231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-653a87/crmsync"
+ },
+ "pilot10-5310e0": {
+  "time": 1793129128.7068055,
+  "atimes": {
+   "README.md": 1793128780.244231,
+   "WORKFLOW.md": 1793128764.208231,
+   "docs/contactly-rules.md": 1793128779.864231,
+   ".findings/mirror.json": 1793128774.012231,
+   "tools/findings_search.py": 1793128774.004231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-5310e0/crmsync"
+ },
+ "pilot10-e32f74": {
+  "time": 1793129146.830166,
+  "atimes": {
+   "README.md": 1793129029.618922,
+   "WORKFLOW.md": 1793128765.480231,
+   "docs/contactly-rules.md": 1793128789.312231,
+   ".findings/mirror.json": 1793128783.328231,
+   "tools/findings_search.py": 1793128783.320231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-e32f74/crmsync"
+ },
+ "pilot10-a0ce26": {
+  "time": 1793129146.831699,
+  "atimes": {
+   "README.md": 1793128769.648231,
+   "WORKFLOW.md": 1793128764.660231,
+   "docs/contactly-rules.md": 1793128769.652231,
+   ".findings/mirror.json": 1793128782.028231,
+   "tools/findings_search.py": 1793128769.652231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-a0ce26/crmsync"
+ },
+ "pilot10-d8c912": {
+  "time": 1793129146.8329687,
+  "atimes": {
+   "README.md": 1793128765.784231,
+   "WORKFLOW.md": 1793128762.832231,
+   "docs/contactly-rules.md": 1793128765.788231,
+   ".findings/mirror.json": 1793128781.756231,
+   "tools/findings_search.py": 1793128772.108231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-d8c912/crmsync"
+ },
+ "pilot10-3a87aa": {
+  "time": 1793129153.945854,
+  "atimes": {
+   "README.md": 1793128787.648231,
+   "WORKFLOW.md": 1793128764.224231,
+   "docs/contactly-rules.md": 1793128782.436231,
+   ".findings/mirror.json": 1793128777.480231,
+   "tools/findings_search.py": 1793128777.476231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-3a87aa/crmsync"
+ },
+ "pilot10-10d1b8": {
+  "time": 1793129158.6980817,
+  "atimes": {
+   "README.md": 1793128768.620231,
+   "WORKFLOW.md": 1793128765.268231,
+   "docs/contactly-rules.md": 1793128768.624231,
+   ".findings/mirror.json": 1793128779.024231,
+   "tools/findings_search.py": 1793128773.132231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-10d1b8/crmsync"
+ },
+ "pilot10-1cc985": {
+  "time": 1793129158.6997147,
+  "atimes": {
+   "README.md": 1793128767.688231,
+   "WORKFLOW.md": 1793128762.792231,
+   "docs/contactly-rules.md": 1793128767.272231,
+   ".findings/mirror.json": 1793128779.812231,
+   "tools/findings_search.py": 1793128773.188231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-1cc985/crmsync"
+ },
+ "pilot10-8cb7f1": {
+  "time": 1793129176.6872845,
+  "atimes": {
+   "README.md": 1793128767.860231,
+   "WORKFLOW.md": 1793128763.940231,
+   "docs/contactly-rules.md": 1793128767.472231,
+   ".findings/mirror.json": 1793128787.456231,
+   "tools/findings_search.py": 1793128776.988231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-8cb7f1/crmsync"
+ },
+ "pilot10-fbcc54": {
+  "time": 1793129182.4025152,
+  "atimes": {
+   "README.md": 1793128770.632231,
+   "WORKFLOW.md": 1793128765.760231,
+   "docs/contactly-rules.md": 1793128770.652231,
+   ".findings/mirror.json": 1793128780.672231,
+   "tools/findings_search.py": 1793128776.536231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-fbcc54/crmsync"
+ },
+ "pilot10-d62f09": {
+  "time": 1793129182.4041188,
+  "atimes": {
+   "README.md": 1793128786.580231,
+   "WORKFLOW.md": 1793128765.880231,
+   "docs/contactly-rules.md": 1793128784.944231,
+   ".findings/mirror.json": 1793128779.372231,
+   "tools/findings_search.py": 1793128779.364231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-d62f09/crmsync"
+ },
+ "pilot10-6a72aa": {
+  "time": 1793129182.4055097,
+  "atimes": {
+   "README.md": 1793128775.760231,
+   "WORKFLOW.md": 1793128764.320231,
+   "docs/contactly-rules.md": 1793128775.348231,
+   ".findings/mirror.json": 1793128770.348231,
+   "tools/findings_search.py": 1793128770.340231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-6a72aa/crmsync"
+ },
+ "pilot10-73116b": {
+  "time": 1793129182.407046,
+  "atimes": {
+   "README.md": 1793128776.128231,
+   "WORKFLOW.md": 1793128765.900231,
+   "docs/contactly-rules.md": 1793128775.384231,
+   ".findings/mirror.json": 1793128771.336231,
+   "tools/findings_search.py": 1793128771.328231
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-73116b/crmsync"
+ },
+ "pilot10-57854d": {
+  "time": 1793129293.3641918,
+  "atimes": {
+   "README.md": 1793129152.65492,
+   "WORKFLOW.md": 1793129146.78692,
+   "docs/contactly-rules.md": 1793129152.65492,
+   ".findings/mirror.json": 1793129162.4309201,
+   "tools/findings_search.py": 1793129158.24292
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-57854d/crmsync"
+ },
+ "pilot10-1fa62f": {
+  "time": 1793129301.3738024,
+  "atimes": {
+   "README.md": 1793129159.45892,
+   "WORKFLOW.md": 1793129147.99092,
+   "docs/contactly-rules.md": 1793129159.45892,
+   ".findings/mirror.json": 1793129154.37892,
+   "tools/findings_search.py": 1793129154.37492
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-1fa62f/crmsync"
+ },
+ "pilot10-8a2382": {
+  "time": 1793129306.361286,
+  "atimes": {
+   "README.md": 1793129121.575127,
+   "WORKFLOW.md": 1793129118.703127,
+   "docs/contactly-rules.md": 1793129121.579127,
+   ".findings/mirror.json": 1793129126.783127,
+   "tools/findings_search.py": 1793129126.7791271
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-8a2382/crmsync"
+ },
+ "pilot10-fc4b6f": {
+  "time": 1793129317.6033008,
+  "atimes": {
+   "README.md": 1793129188.760536,
+   "WORKFLOW.md": 1793129182.004536,
+   "docs/contactly-rules.md": 1793129188.764536,
+   ".findings/mirror.json": 1793129199.092536,
+   "tools/findings_search.py": 1793129193.920536
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-fc4b6f/crmsync"
+ },
+ "pilot10-037c40": {
+  "time": 1793129352.4158337,
+  "atimes": {
+   "README.md": 1793129183.984536,
+   "WORKFLOW.md": 1793129183.588536,
+   "docs/contactly-rules.md": 1793129185.092536,
+   ".findings/mirror.json": 1793129201.000536,
+   "tools/findings_search.py": 1793129200.996536
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-037c40/crmsync"
+ },
+ "pilot10-a03ee3": {
+  "time": 1793129376.186158,
+  "atimes": {
+   "README.md": 1793129198.184536,
+   "WORKFLOW.md": 1793129182.376536,
+   "docs/contactly-rules.md": 1793129197.748536,
+   ".findings/mirror.json": 1793129191.964536,
+   "tools/findings_search.py": 1793129191.960536
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap010/pilot10-a03ee3/crmsync"
+ }
+}
