@@ -98,7 +98,10 @@ In rough priority order, after 001 and 002:
 - ~~**Reading guidance at search time.**~~ Done as [005](../experiments/005-followup/REPORT.md): it cut adoption, but the label gap left under it is unresolved.
 - ~~**Content against prominence.**~~ Done as [006](../experiments/006-guidance-content/REPORT.md): content, not length. The provenance line alone did nothing, and a neutral description raised uptake.
 - ~~**Order of work.**~~ Done as [007](../experiments/007-order-of-work/REPORT.md): searching before reading the code more than doubled uptake (76% against 35%), and the descriptive notice's rise replicated.
-- **Order of work with a correct note (the cost side).** 007 only shows that reading first protects against a wrong note. Plant a correct note whose fix the code and docs don't make obvious, and run both orders. If reading first also cuts uptake of the correct note, the advice to read first has a price. This comes before any request to change the skill's loop.
+- **Judgement, not just skepticism: order of work with checkable evidence.** 007's agents could not check the note, so a correct note with the same text would have lost the same uptake by reading first. That is settled by the design (correction [b5e8b68b…](https://ac.gnrl.se/entries/b5e8b68b0c30dd47d832acd2cabaa8fb)). So rerunning 007 with a correct note would teach nothing.
+  - The informative test crosses the order of work with evidence in the project that agrees with the note or contradicts it, such as the accounting system's figures for a few multi-line invoices.
+  - If reading first lowers uptake only when the evidence contradicts the note, it improves judgement. If it lowers uptake in both arms, it is skepticism with a price.
+  - This comes before any request to change the skill's loop.
 - **The skill's step as written,** as a third arm: "summarize it and search", with nothing said about when to read the code.
 - **Why uptake rose at both orders in 007.** Run 006's prompt paragraph against 007's `WORKFLOW.md`, with the order left free. Does a numbered team workflow file lend the archive authority?
 - **Which descriptive sentence raised uptake?** Run the plain notice against each of the neutral notice's bullets alone, especially "the top hit is printed in full, including its whole text". The rise has now replicated (006 and 007, pooled p = 0.0001).
