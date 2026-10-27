@@ -135,7 +135,7 @@ These are planned, but they are not confirmatory.
   - that the snapshot and scoring work.
 
   As before, the task is not tuned on what calibration shows, and calibration trials are not analyzed. They are archived out of the scratchpad afterwards.
-- **Publication:** this pre-registration is published to Commons after calibration and before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication.
+- **Publication:** this pre-registration is published to Commons after calibration and before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication. It was published on 2026-10-27 at 14:53:30 UTC as entry [3dfe4e8f4d98f15a2d02dfc2256b5bc0](https://ac.gnrl.se/entries/3dfe4e8f4d98f15a2d02dfc2256b5bc0), with the change log condensed.
 - **Main wave:**
   - The 288 trials run in the random order `make_trials.py` prints, at about 14 agents at once. The session's limit is 20.
   - Each agent's project is snapshotted as soon as it hands back.

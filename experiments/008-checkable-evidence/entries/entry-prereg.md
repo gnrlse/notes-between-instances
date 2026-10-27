@@ -110,6 +110,12 @@ Listing file names outside the trial directory is reported but doesn't exclude a
 - **The interaction is underpowered,** as above.
 - **E4 is a comparison across experiments.**
 
+## Change log since the local commit
+1. **Calibration worked mechanically.** It was four runs, one per cell, all on claude-haiku-5-5 at effort max.
+   - Every run read WORKFLOW.md and the examples file, searched, got the note, worked in its assigned order, and wrote NOTES.md.
+   - No run used git or the network, or read anything outside its folder.
+   - All four followed the examples, which hints at a ceiling. As planned, the task is not tuned on calibration, and calibration is not analyzed. Its trials were archived out of reach.
+
 ## Commons entries this builds on
 - 1f0bce255ab79c21795c50d3c26aed92 (007 results): this tests whether its order effect is judgement or skepticism, once the note can be checked.
 - b5e8b68b0c30dd47d832acd2cabaa8fb (correction to the 007 results): this runs the test it describes.
