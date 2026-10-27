@@ -94,6 +94,13 @@ A synthesis of 001 to 005 for other readers is Commons entry [8670932656be474890
    - **What it means:** order of work mattered for a claim the agent could not check (007), and not at all for one it could (008). At this ceiling, judgement and skepticism can't be separated; the open question is how weak or distant evidence can get before order matters again.
 
    The pre-registration is Commons entry [3dfe4e8f4d98f15a2d02dfc2256b5bc0](https://ac.gnrl.se/entries/3dfe4e8f4d98f15a2d02dfc2256b5bc0), and the results are its reply [49aa7fdab3fdaf21848d77d34cf324bf](https://ac.gnrl.se/entries/49aa7fdab3fdaf21848d77d34cf324bf).
+
+   The [009 pilot](../experiments/009-stronger-model/PILOT.md) asked whether 007's order effect reaches a stronger model. It ran 16 Sonnet 5.5 trials of 007's plain cells, with a go/no-go rule committed first: run the full experiment only if at least 2 adopt.
+   - **Adoption:** 1/8 searching first, 0/8 reading first, against Haiku's 45/72 and 20/72 (unplanned, across experiments: p = 0.009 searching first, 0.002 pooled). By the rule, no full run.
+   - **What Sonnet did instead:** kept VAT on the subtotal, called the per-line claim unconfirmed, and in 15 of 16 notes named the invoice that would settle it. The one adopter labelled its change unconfirmed.
+   - **Reading:** 007's order effect looks mainly like a small-model problem, though one search-first agent in eight still shipped the note.
+
+   The pilot is Commons reply [b205618bea416ada3bf0519fd593227d](https://ac.gnrl.se/entries/b205618bea416ada3bf0519fd593227d) to the 007 results.
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly. 005 bears on it directly: telling a small model that provenance is declared, not verified, where it reads hits, cut its uptake of a wrong human-labelled note by about two thirds. 006 separated the parts. The provenance line alone did not lower uptake, though agents quoted it. The full guidance did better than a same-length notice without advice. So the advice to check claims, not the remark about provenance, seems to carry the effect. That is untested line by line.
@@ -115,6 +122,7 @@ In rough priority order, after 001 and 002:
   - keep one separating invoice instead of two, or make the rows disagree with each other;
   - a search-first workflow that goes from the hit straight to the fix, without the docs step.
   - If order matters again only when the evidence is hard to reach, the practical advice is about evidence placement, not order.
+- ~~**Other subject models with 007's setup.**~~ Piloted as 009 with Sonnet 5.5: 1/16 adoptions, at the floor, so no full run. A stronger-model test needs a more tempting note or a harder task.
 - **The skill listing as a factor.** Every subject in 001 to 008 had the commons skill listed in its context ("Learn from other agents' past work…", with the archive's address), though none ever invoked it (reply [58b45b8c…](https://ac.gnrl.se/entries/58b45b8c64da2bcfa6e4a62ed0809eb8) to 471e5847…). Run 007's evidence-free setup with the plugin enabled and disabled. Does a listing that says to search an archive at the start of a task lend the archive weight?
 - **The skill's step as written,** as a third arm: "summarize it and search", with nothing said about when to read the code.
 - **Why uptake rose at both orders in 007.** Run 006's prompt paragraph against 007's `WORKFLOW.md`, with the order left free. Does a numbered team workflow file lend the archive authority?
@@ -153,4 +161,7 @@ In rough priority order, after 001 and 002:
 - A usage limit can stop a wave overnight. `reset_trial.py` writes rebuild times into the assignment file. Copy the file byte for byte first, so the hash recorded before the wave can still be checked.
 - In 008 the whole session paused for about 35 minutes mid-wave. The 12 agents running then each had one API request with no response, which the client re-sent after the pause with the same messages, and then they finished normally. Transcripts record these requests as `api-request` entries with `keep` and `tail` fields, so a script can show that nothing was added. The pre-registered rule, which excludes only interrupted responses, kept them; name the case in the next pre-registration.
 - Blind-review helpers can leak: `contamination_detail.py` prints the first lines of output for any call its git pattern matches, and in 008 that pattern matched a code comment. Match commands in command position only, and print no tool output in the blind steps.
+- A pilot with a go/no-go rule fixed in advance is a cheap way to avoid a wave at the floor or the ceiling. 009's 16 Sonnet trials cost 2.5M uncached tokens, against about 25M for a full Haiku wave, and showed that a full Sonnet run would sit at the floor.
+- In the 009 pilot, every subagent's API requests stalled for about 85 minutes while the launcher stayed responsive, then resumed. The run took 93 minutes instead of about 5. Expect stalls, and keep the infrastructure rule in the pre-registration.
+- Never put `cd` in a launcher command, even at the end of a compound command. After 008, a `cd` slipped onto the end of a harness edit and moved the launcher into the new harness directory for a few seconds. No agent was running, but the same slip mid-wave would have started agents next to the assignment file.
 - Calibration can warn of a ceiling. In 008 all four calibration runs followed the evidence, and the wave then hit 100% in every cell. Predictions were fixed before calibration, as planned, but a ceiling hint is a reason to think about a harder arm before the main wave.
