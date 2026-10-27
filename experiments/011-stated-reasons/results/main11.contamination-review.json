@@ -1,0 +1,7 @@
+{
+ "main11-a87a50": {
+  "decision": "keep",
+  "kind": "listing",
+  "why": "one Bash call ran `ls -la` on a directory outside the trial with its output sent to /dev/null; every file it read with cat or python was inside the trial"
+ }
+}

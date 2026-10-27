@@ -1,0 +1,1322 @@
+{
+ "main11-0327cb": {
+  "time": 1793130483.8620124,
+  "atimes": {
+   "README.md": 1793130366.329496,
+   "WORKFLOW.md": 1793130350.905333,
+   "docs/contactly-rules.md": 1793130366.329496,
+   ".findings/mirror.json": 1793130360.505496,
+   "tools/findings_search.py": 1793130360.497496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-0327cb/crmsync"
+ },
+ "main11-544789": {
+  "time": 1793130489.7364118,
+  "atimes": {
+   "README.md": 1793130387.72812,
+   "WORKFLOW.md": 1793130351.257333,
+   "docs/contactly-rules.md": 1793130363.265496,
+   ".findings/mirror.json": 1793130357.909496,
+   "tools/findings_search.py": 1793130357.9054961
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-544789/crmsync"
+ },
+ "main11-518d98": {
+  "time": 1793130489.7377548,
+  "atimes": {
+   "README.md": 1793130393.31212,
+   "WORKFLOW.md": 1793130350.637333,
+   "docs/contactly-rules.md": 1793130362.281496,
+   ".findings/mirror.json": 1793130357.957496,
+   "tools/findings_search.py": 1793130357.953496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-518d98/crmsync"
+ },
+ "main11-de7977": {
+  "time": 1793130512.0670924,
+  "atimes": {
+   "README.md": 1793130369.317496,
+   "WORKFLOW.md": 1793130352.289333,
+   "docs/contactly-rules.md": 1793130368.537496,
+   ".findings/mirror.json": 1793130362.961496,
+   "tools/findings_search.py": 1793130362.953496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-de7977/crmsync"
+ },
+ "main11-5a71bd": {
+  "time": 1793130512.0682023,
+  "atimes": {
+   "README.md": 1793130364.777496,
+   "WORKFLOW.md": 1793130352.005333,
+   "docs/contactly-rules.md": 1793130364.777496,
+   ".findings/mirror.json": 1793130359.913496,
+   "tools/findings_search.py": 1793130359.9054961
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-5a71bd/crmsync"
+ },
+ "main11-413d50": {
+  "time": 1793130535.0943525,
+  "atimes": {
+   "README.md": 1793130364.777496,
+   "WORKFLOW.md": 1793130351.233333,
+   "docs/contactly-rules.md": 1793130364.777496,
+   ".findings/mirror.json": 1793130359.109496,
+   "tools/findings_search.py": 1793130359.105496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-413d50/crmsync"
+ },
+ "main11-219267": {
+  "time": 1793130542.6067467,
+  "atimes": {
+   "README.md": 1793130369.689496,
+   "WORKFLOW.md": 1793130351.005333,
+   "docs/contactly-rules.md": 1793130369.3494961,
+   ".findings/mirror.json": 1793130364.257496,
+   "tools/findings_search.py": 1793130364.249496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-219267/crmsync"
+ },
+ "main11-0dbcf3": {
+  "time": 1793130550.8514826,
+  "atimes": {
+   "README.md": 1793130363.477496,
+   "WORKFLOW.md": 1793130351.585333,
+   "docs/contactly-rules.md": 1793130363.093496,
+   ".findings/mirror.json": 1793130357.817496,
+   "tools/findings_search.py": 1793130357.809496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-0dbcf3/crmsync"
+ },
+ "main11-93ae38": {
+  "time": 1793130550.8527486,
+  "atimes": {
+   "README.md": 1793130363.393496,
+   "WORKFLOW.md": 1793130351.669333,
+   "docs/contactly-rules.md": 1793130363.393496,
+   ".findings/mirror.json": 1793130358.305496,
+   "tools/findings_search.py": 1793130358.301496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-93ae38/crmsync"
+ },
+ "main11-51d9de": {
+  "time": 1793130550.8538141,
+  "atimes": {
+   "README.md": 1793130370.813496,
+   "WORKFLOW.md": 1793130351.421333,
+   "docs/contactly-rules.md": 1793130370.425496,
+   ".findings/mirror.json": 1793130365.281496,
+   "tools/findings_search.py": 1793130365.273496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-51d9de/crmsync"
+ },
+ "main11-9eac0b": {
+  "time": 1793130550.854899,
+  "atimes": {
+   "README.md": 1793130362.453496,
+   "WORKFLOW.md": 1793130350.761333,
+   "docs/contactly-rules.md": 1793130361.029496,
+   ".findings/mirror.json": 1793130356.981496,
+   "tools/findings_search.py": 1793130356.977496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-9eac0b/crmsync"
+ },
+ "main11-5cbdb2": {
+  "time": 1793130582.9056957,
+  "atimes": {
+   "README.md": 1793130369.257496,
+   "WORKFLOW.md": 1793130352.413333,
+   "docs/contactly-rules.md": 1793130367.333496,
+   ".findings/mirror.json": 1793130362.381496,
+   "tools/findings_search.py": 1793130362.373496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-5cbdb2/crmsync"
+ },
+ "main11-84c7fe": {
+  "time": 1793130582.9069424,
+  "atimes": {
+   "README.md": 1793130366.357496,
+   "WORKFLOW.md": 1793130353.813496,
+   "docs/contactly-rules.md": 1793130366.357496,
+   ".findings/mirror.json": 1793130361.917496,
+   "tools/findings_search.py": 1793130361.913496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-84c7fe/crmsync"
+ },
+ "main11-0fbbec": {
+  "time": 1793130622.1637022,
+  "atimes": {
+   "README.md": 1793130364.361496,
+   "WORKFLOW.md": 1793130351.637333,
+   "docs/contactly-rules.md": 1793130363.993496,
+   ".findings/mirror.json": 1793130358.993496,
+   "tools/findings_search.py": 1793130358.985496
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-0fbbec/crmsync"
+ },
+ "main11-8e527e": {
+  "time": 1793130666.5094638,
+  "atimes": {
+   "README.md": 1793130549.354817,
+   "WORKFLOW.md": 1793130527.454432,
+   "docs/contactly-rules.md": 1793130549.346817,
+   ".findings/mirror.json": 1793130543.250432,
+   "tools/findings_search.py": 1793130543.238432
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-8e527e/crmsync"
+ },
+ "main11-df09ab": {
+  "time": 1793130688.7807713,
+  "atimes": {
+   "README.md": 1793130596.954178,
+   "WORKFLOW.md": 1793130581.174178,
+   "docs/contactly-rules.md": 1793130596.950178,
+   ".findings/mirror.json": 1793130590.206178,
+   "tools/findings_search.py": 1793130590.198178
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-df09ab/crmsync"
+ },
+ "main11-8c7378": {
+  "time": 1793130688.7819858,
+  "atimes": {
+   "README.md": 1793130542.362432,
+   "WORKFLOW.md": 1793130528.810432,
+   "docs/contactly-rules.md": 1793130542.362432,
+   ".findings/mirror.json": 1793130537.406432,
+   "tools/findings_search.py": 1793130537.398432
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-8c7378/crmsync"
+ },
+ "main11-14218a": {
+  "time": 1793130708.0270088,
+  "atimes": {
+   "README.md": 1793130534.266432,
+   "WORKFLOW.md": 1793130508.960493,
+   "docs/contactly-rules.md": 1793130533.942432,
+   ".findings/mirror.json": 1793130526.954432,
+   "tools/findings_search.py": 1793130526.946432
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-14218a/crmsync"
+ },
+ "main11-03dcd0": {
+  "time": 1793130720.2849054,
+  "atimes": {
+   "README.md": 1793130526.150432,
+   "WORKFLOW.md": 1793130507.264493,
+   "docs/contactly-rules.md": 1793130526.150432,
+   ".findings/mirror.json": 1793130520.726432,
+   "tools/findings_search.py": 1793130520.718432
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-03dcd0/crmsync"
+ },
+ "main11-98485c": {
+  "time": 1793130720.286307,
+  "atimes": {
+   "README.md": 1793130638.426495,
+   "WORKFLOW.md": 1793130581.086178,
+   "docs/contactly-rules.md": 1793130603.486178,
+   ".findings/mirror.json": 1793130597.662178,
+   "tools/findings_search.py": 1793130597.654178
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-98485c/crmsync"
+ },
+ "main11-e9c534": {
+  "time": 1793130762.846613,
+  "atimes": {
+   "README.md": 1793130592.926178,
+   "WORKFLOW.md": 1793130580.478178,
+   "docs/contactly-rules.md": 1793130592.1741781,
+   ".findings/mirror.json": 1793130588.182178,
+   "tools/findings_search.py": 1793130588.1741781
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-e9c534/crmsync"
+ },
+ "main11-4745c5": {
+  "time": 1793130803.9737406,
+  "atimes": {
+   "README.md": 1793130621.674495,
+   "WORKFLOW.md": 1793130603.054178,
+   "docs/contactly-rules.md": 1793130621.674495,
+   ".findings/mirror.json": 1793130615.346495,
+   "tools/findings_search.py": 1793130615.338495
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-4745c5/crmsync"
+ },
+ "main11-712fbf": {
+  "time": 1793130803.9751005,
+  "atimes": {
+   "README.md": 1793130523.226432,
+   "WORKFLOW.md": 1793130508.356493,
+   "docs/contactly-rules.md": 1793130523.226432,
+   ".findings/mirror.json": 1793130518.366432,
+   "tools/findings_search.py": 1793130518.358432
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-712fbf/crmsync"
+ },
+ "main11-0ce797": {
+  "time": 1793130809.5657957,
+  "atimes": {
+   "README.md": 1793130685.737165,
+   "WORKFLOW.md": 1793130635.770495,
+   "docs/contactly-rules.md": 1793130645.433934,
+   ".findings/mirror.json": 1793130641.441934,
+   "tools/findings_search.py": 1793130641.433934
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-0ce797/crmsync"
+ },
+ "main11-948579": {
+  "time": 1793130809.567163,
+  "atimes": {
+   "README.md": 1793130595.126178,
+   "WORKFLOW.md": 1793130579.862178,
+   "docs/contactly-rules.md": 1793130594.794178,
+   ".findings/mirror.json": 1793130589.454178,
+   "tools/findings_search.py": 1793130589.446178
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-948579/crmsync"
+ },
+ "main11-08ca8f": {
+  "time": 1793130816.037666,
+  "atimes": {
+   "README.md": 1793130633.846495,
+   "WORKFLOW.md": 1793130602.434178,
+   "docs/contactly-rules.md": 1793130614.798495,
+   ".findings/mirror.json": 1793130610.342495,
+   "tools/findings_search.py": 1793130610.334495
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-08ca8f/crmsync"
+ },
+ "main11-4d49f9": {
+  "time": 1793130821.067214,
+  "atimes": {
+   "README.md": 1793130716.627759,
+   "WORKFLOW.md": 1793130704.571759,
+   "docs/contactly-rules.md": 1793130716.627759,
+   ".findings/mirror.json": 1793130712.151759,
+   "tools/findings_search.py": 1793130712.143759
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-4d49f9/crmsync"
+ },
+ "main11-d84302": {
+  "time": 1793130826.94554,
+  "atimes": {
+   "README.md": 1793130595.042178,
+   "WORKFLOW.md": 1793130580.130178,
+   "docs/contactly-rules.md": 1793130746.565757,
+   ".findings/mirror.json": 1793130589.418178,
+   "tools/findings_search.py": 1793130589.410178
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-d84302/crmsync"
+ },
+ "main11-1b17b6": {
+  "time": 1793130866.8147871,
+  "atimes": {
+   "README.md": 1793130629.282495,
+   "WORKFLOW.md": 1793130581.302178,
+   "docs/contactly-rules.md": 1793130792.602387,
+   ".findings/mirror.json": 1793130591.050178,
+   "tools/findings_search.py": 1793130591.042178
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-1b17b6/crmsync"
+ },
+ "main11-0bcc8f": {
+  "time": 1793130866.816088,
+  "atimes": {
+   "README.md": 1793130714.939759,
+   "WORKFLOW.md": 1793130703.887759,
+   "docs/contactly-rules.md": 1793130714.587759,
+   ".findings/mirror.json": 1793130709.647759,
+   "tools/findings_search.py": 1793130709.643759
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-0bcc8f/crmsync"
+ },
+ "main11-34ad96": {
+  "time": 1793130906.6870875,
+  "atimes": {
+   "README.md": 1793130787.262387,
+   "WORKFLOW.md": 1793130735.199759,
+   "docs/contactly-rules.md": 1793130753.409757,
+   ".findings/mirror.json": 1793130748.369757,
+   "tools/findings_search.py": 1793130748.365757
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-34ad96/crmsync"
+ },
+ "main11-8103cc": {
+  "time": 1793130936.06148,
+  "atimes": {
+   "README.md": 1793130736.289757,
+   "WORKFLOW.md": 1793130719.827759,
+   "docs/contactly-rules.md": 1793130736.289757,
+   ".findings/mirror.json": 1793130729.259759,
+   "tools/findings_search.py": 1793130729.251759
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-8103cc/crmsync"
+ },
+ "main11-0d720b": {
+  "time": 1793130936.0628898,
+  "atimes": {
+   "README.md": 1793130702.157165,
+   "WORKFLOW.md": 1793130683.997165,
+   "docs/contactly-rules.md": 1793130701.7811651,
+   ".findings/mirror.json": 1793130695.889165,
+   "tools/findings_search.py": 1793130695.881165
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-0d720b/crmsync"
+ },
+ "main11-c9cda1": {
+  "time": 1793130970.7674253,
+  "atimes": {
+   "README.md": 1793130802.976053,
+   "WORKFLOW.md": 1793130774.854387,
+   "docs/contactly-rules.md": 1793130786.650387,
+   ".findings/mirror.json": 1793130782.270387,
+   "tools/findings_search.py": 1793130782.266387
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-c9cda1/crmsync"
+ },
+ "main11-d16e25": {
+  "time": 1793130970.7683806,
+  "atimes": {
+   "README.md": 1793130790.234387,
+   "WORKFLOW.md": 1793130735.583759,
+   "docs/contactly-rules.md": 1793130755.337757,
+   ".findings/mirror.json": 1793130750.065757,
+   "tools/findings_search.py": 1793130750.061757
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-d16e25/crmsync"
+ },
+ "main11-93eec6": {
+  "time": 1793131023.930183,
+  "atimes": {
+   "README.md": 1793130877.839192,
+   "WORKFLOW.md": 1793130860.316129,
+   "docs/contactly-rules.md": 1793130877.103192,
+   ".findings/mirror.json": 1793130870.783192,
+   "tools/findings_search.py": 1793130870.775192
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-93eec6/crmsync"
+ },
+ "main11-ed37dd": {
+  "time": 1793131044.811164,
+  "atimes": {
+   "README.md": 1793130876.587192,
+   "WORKFLOW.md": 1793130860.480129,
+   "docs/contactly-rules.md": 1793130875.719192,
+   ".findings/mirror.json": 1793130870.383192,
+   "tools/findings_search.py": 1793130870.371192
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-ed37dd/crmsync"
+ },
+ "main11-b9cb48": {
+  "time": 1793131044.8205907,
+  "atimes": {
+   "README.md": 1793130893.227192,
+   "WORKFLOW.md": 1793130881.671192,
+   "docs/contactly-rules.md": 1793130893.227192,
+   ".findings/mirror.json": 1793130888.871192,
+   "tools/findings_search.py": 1793130888.863192
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-b9cb48/crmsync"
+ },
+ "main11-f4bd61": {
+  "time": 1793131051.398801,
+  "atimes": {
+   "README.md": 1793130877.567192,
+   "WORKFLOW.md": 1793130861.444129,
+   "docs/contactly-rules.md": 1793130877.543192,
+   ".findings/mirror.json": 1793130870.8231921,
+   "tools/findings_search.py": 1793130870.819192
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-f4bd61/crmsync"
+ },
+ "main11-14ae1f": {
+  "time": 1793131051.4057155,
+  "atimes": {
+   "README.md": 1793130898.465938,
+   "WORKFLOW.md": 1793130881.327192,
+   "docs/contactly-rules.md": 1793130896.969938,
+   ".findings/mirror.json": 1793130893.441938,
+   "tools/findings_search.py": 1793130893.433938
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-14ae1f/crmsync"
+ },
+ "main11-107cb3": {
+  "time": 1793131066.266776,
+  "atimes": {
+   "README.md": 1793130871.255192,
+   "WORKFLOW.md": 1793130860.580129,
+   "docs/contactly-rules.md": 1793130871.255192,
+   ".findings/mirror.json": 1793130866.215192,
+   "tools/findings_search.py": 1793130866.211192
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-107cb3/crmsync"
+ },
+ "main11-a87a50": {
+  "time": 1793131106.1545153,
+  "atimes": {
+   "README.md": 1793130913.361938,
+   "WORKFLOW.md": 1793130860.932129,
+   "docs/contactly-rules.md": 1793130875.015192,
+   ".findings/mirror.json": 1793130868.763192,
+   "tools/findings_search.py": 1793130868.759192
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-a87a50/crmsync"
+ },
+ "main11-9c6996": {
+  "time": 1793131113.553717,
+  "atimes": {
+   "README.md": 1793130959.328765,
+   "WORKFLOW.md": 1793130918.193938,
+   "docs/contactly-rules.md": 1793130959.328765,
+   ".findings/mirror.json": 1793130929.190824,
+   "tools/findings_search.py": 1793130929.182824
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-9c6996/crmsync"
+ },
+ "main11-cd4f93": {
+  "time": 1793131155.7783968,
+  "atimes": {
+   "README.md": 1793130873.091192,
+   "WORKFLOW.md": 1793130860.484129,
+   "docs/contactly-rules.md": 1793130873.043192,
+   ".findings/mirror.json": 1793130867.811192,
+   "tools/findings_search.py": 1793130867.803192
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-cd4f93/crmsync"
+ },
+ "main11-32e29b": {
+  "time": 1793131164.8958702,
+  "atimes": {
+   "README.md": 1793131001.235928,
+   "WORKFLOW.md": 1793130985.780765,
+   "docs/contactly-rules.md": 1793131000.495928,
+   ".findings/mirror.json": 1793130994.531928,
+   "tools/findings_search.py": 1793130994.523928
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-32e29b/crmsync"
+ },
+ "main11-114715": {
+  "time": 1793131164.9034348,
+  "atimes": {
+   "README.md": 1793130984.220765,
+   "WORKFLOW.md": 1793130970.684765,
+   "docs/contactly-rules.md": 1793130984.184765,
+   ".findings/mirror.json": 1793130978.148765,
+   "tools/findings_search.py": 1793130978.140765
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-114715/crmsync"
+ },
+ "main11-242052": {
+  "time": 1793131164.9122224,
+  "atimes": {
+   "README.md": 1793130982.416765,
+   "WORKFLOW.md": 1793130970.052765,
+   "docs/contactly-rules.md": 1793130981.652765,
+   ".findings/mirror.json": 1793130977.340765,
+   "tools/findings_search.py": 1793130977.332765
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-242052/crmsync"
+ },
+ "main11-480db9": {
+  "time": 1793131164.9266415,
+  "atimes": {
+   "README.md": 1793131003.1199281,
+   "WORKFLOW.md": 1793130986.692765,
+   "docs/contactly-rules.md": 1793131002.739928,
+   ".findings/mirror.json": 1793130996.987928,
+   "tools/findings_search.py": 1793130996.983928
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-480db9/crmsync"
+ },
+ "main11-732393": {
+  "time": 1793131164.931885,
+  "atimes": {
+   "README.md": 1793130878.107192,
+   "WORKFLOW.md": 1793130861.3041291,
+   "docs/contactly-rules.md": 1793131137.361617,
+   ".findings/mirror.json": 1793130870.543192,
+   "tools/findings_search.py": 1793130870.539192
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-732393/crmsync"
+ },
+ "main11-7c0d3b": {
+  "time": 1793131252.5506234,
+  "atimes": {
+   "README.md": 1793131156.96432,
+   "WORKFLOW.md": 1793131103.816312,
+   "docs/contactly-rules.md": 1793131113.668312,
+   ".findings/mirror.json": 1793131108.984312,
+   "tools/findings_search.py": 1793131108.9603121
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-7c0d3b/crmsync"
+ },
+ "main11-d88f16": {
+  "time": 1793131269.7605393,
+  "atimes": {
+   "README.md": 1793131117.909617,
+   "WORKFLOW.md": 1793131102.340312,
+   "docs/contactly-rules.md": 1793131117.905617,
+   ".findings/mirror.json": 1793131110.316312,
+   "tools/findings_search.py": 1793131110.288312
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-d88f16/crmsync"
+ },
+ "main11-0d5dd4": {
+  "time": 1793131269.765766,
+  "atimes": {
+   "README.md": 1793131114.600312,
+   "WORKFLOW.md": 1793131102.912312,
+   "docs/contactly-rules.md": 1793131114.600312,
+   ".findings/mirror.json": 1793131108.332312,
+   "tools/findings_search.py": 1793131108.316312
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-0d5dd4/crmsync"
+ },
+ "main11-6fd517": {
+  "time": 1793131277.015173,
+  "atimes": {
+   "README.md": 1793131121.833617,
+   "WORKFLOW.md": 1793131103.5163121,
+   "docs/contactly-rules.md": 1793131121.833617,
+   ".findings/mirror.json": 1793131115.068312,
+   "tools/findings_search.py": 1793131115.040312
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-6fd517/crmsync"
+ },
+ "main11-9a2ff0": {
+  "time": 1793131308.5808911,
+  "atimes": {
+   "README.md": 1793131146.409617,
+   "WORKFLOW.md": 1793131102.736312,
+   "docs/contactly-rules.md": 1793131121.601617,
+   ".findings/mirror.json": 1793131116.737617,
+   "tools/findings_search.py": 1793131116.717617
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-9a2ff0/crmsync"
+ },
+ "main11-eb8d91": {
+  "time": 1793131318.9782448,
+  "atimes": {
+   "README.md": 1793131113.512312,
+   "WORKFLOW.md": 1793131102.628312,
+   "docs/contactly-rules.md": 1793131113.500312,
+   ".findings/mirror.json": 1793131108.332312,
+   "tools/findings_search.py": 1793131108.316312
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-eb8d91/crmsync"
+ },
+ "main11-67f46e": {
+  "time": 1793131318.9826865,
+  "atimes": {
+   "README.md": 1793131166.16432,
+   "WORKFLOW.md": 1793131140.729617,
+   "docs/contactly-rules.md": 1793131165.82832,
+   ".findings/mirror.json": 1793131159.57632,
+   "tools/findings_search.py": 1793131159.54832
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-67f46e/crmsync"
+ },
+ "main11-46c468": {
+  "time": 1793131318.9879506,
+  "atimes": {
+   "README.md": 1793131151.11632,
+   "WORKFLOW.md": 1793131139.161617,
+   "docs/contactly-rules.md": 1793131151.11632,
+   ".findings/mirror.json": 1793131145.773617,
+   "tools/findings_search.py": 1793131145.749617
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-46c468/crmsync"
+ },
+ "main11-5dda66": {
+  "time": 1793131373.385653,
+  "atimes": {
+   "README.md": 1793131216.724159,
+   "WORKFLOW.md": 1793131197.277676,
+   "docs/contactly-rules.md": 1793131216.284159,
+   ".findings/mirror.json": 1793131210.409676,
+   "tools/findings_search.py": 1793131210.389676
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-5dda66/crmsync"
+ },
+ "main11-b413d5": {
+  "time": 1793131380.7268171,
+  "atimes": {
+   "README.md": 1793131212.816159,
+   "WORKFLOW.md": 1793131196.077676,
+   "docs/contactly-rules.md": 1793131212.296159,
+   ".findings/mirror.json": 1793131206.197676,
+   "tools/findings_search.py": 1793131206.181676
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-b413d5/crmsync"
+ },
+ "main11-b67136": {
+  "time": 1793131380.7357914,
+  "atimes": {
+   "README.md": 1793131209.381676,
+   "WORKFLOW.md": 1793131197.425676,
+   "docs/contactly-rules.md": 1793131209.385676,
+   ".findings/mirror.json": 1793131203.453676,
+   "tools/findings_search.py": 1793131203.441676
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-b67136/crmsync"
+ },
+ "main11-c6a05d": {
+  "time": 1793131405.2864115,
+  "atimes": {
+   "README.md": 1793131258.476487,
+   "WORKFLOW.md": 1793131197.717676,
+   "docs/contactly-rules.md": 1793131212.284159,
+   ".findings/mirror.json": 1793131205.685676,
+   "tools/findings_search.py": 1793131205.685676
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-c6a05d/crmsync"
+ },
+ "main11-be294d": {
+  "time": 1793131460.6084573,
+  "atimes": {
+   "README.md": 1793131273.064487,
+   "WORKFLOW.md": 1793131196.861676,
+   "docs/contactly-rules.md": 1793131214.384159,
+   ".findings/mirror.json": 1793131208.881676,
+   "tools/findings_search.py": 1793131208.853676
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-be294d/crmsync"
+ },
+ "main11-840957": {
+  "time": 1793131473.454168,
+  "atimes": {
+   "README.md": 1793131213.080159,
+   "WORKFLOW.md": 1793131197.581676,
+   "docs/contactly-rules.md": 1793131212.492159,
+   ".findings/mirror.json": 1793131205.473676,
+   "tools/findings_search.py": 1793131205.453676
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-840957/crmsync"
+ },
+ "main11-bbcc8b": {
+  "time": 1793131473.4596467,
+  "atimes": {
+   "README.md": 1793131312.116981,
+   "WORKFLOW.md": 1793131299.65052,
+   "docs/contactly-rules.md": 1793131312.108981,
+   ".findings/mirror.json": 1793131305.39452,
+   "tools/findings_search.py": 1793131305.37052
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-bbcc8b/crmsync"
+ },
+ "main11-f51e15": {
+  "time": 1793131473.464608,
+  "atimes": {
+   "README.md": 1793131360.844462,
+   "WORKFLOW.md": 1793131343.572462,
+   "docs/contactly-rules.md": 1793131359.084462,
+   ".findings/mirror.json": 1793131354.104462,
+   "tools/findings_search.py": 1793131354.080462
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-f51e15/crmsync"
+ },
+ "main11-609633": {
+  "time": 1793131486.0302858,
+  "atimes": {
+   "README.md": 1793131312.876981,
+   "WORKFLOW.md": 1793131298.07052,
+   "docs/contactly-rules.md": 1793131312.100981,
+   ".findings/mirror.json": 1793131306.62652,
+   "tools/findings_search.py": 1793131306.61852
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-609633/crmsync"
+ },
+ "main11-53f10a": {
+  "time": 1793131486.0380645,
+  "atimes": {
+   "README.md": 1793131323.968981,
+   "WORKFLOW.md": 1793131300.93052,
+   "docs/contactly-rules.md": 1793131323.968981,
+   ".findings/mirror.json": 1793131317.928981,
+   "tools/findings_search.py": 1793131317.916981
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-53f10a/crmsync"
+ },
+ "main11-3e65b8": {
+  "time": 1793131540.653994,
+  "atimes": {
+   "README.md": 1793131279.45852,
+   "WORKFLOW.md": 1793131266.268487,
+   "docs/contactly-rules.md": 1793131278.67852,
+   ".findings/mirror.json": 1793131272.552487,
+   "tools/findings_search.py": 1793131272.520487
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-3e65b8/crmsync"
+ },
+ "main11-4edd36": {
+  "time": 1793131540.6612377,
+  "atimes": {
+   "README.md": 1793131358.048462,
+   "WORKFLOW.md": 1793131345.620462,
+   "docs/contactly-rules.md": 1793131358.048462,
+   ".findings/mirror.json": 1793131352.424462,
+   "tools/findings_search.py": 1793131352.416462
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-4edd36/crmsync"
+ },
+ "main11-9f5e59": {
+  "time": 1793131550.27254,
+  "atimes": {
+   "README.md": 1793131357.912462,
+   "WORKFLOW.md": 1793131344.364462,
+   "docs/contactly-rules.md": 1793131357.912462,
+   ".findings/mirror.json": 1793131351.976462,
+   "tools/findings_search.py": 1793131351.960462
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-9f5e59/crmsync"
+ },
+ "main11-7ff980": {
+  "time": 1793131550.2788334,
+  "atimes": {
+   "README.md": 1793131359.372462,
+   "WORKFLOW.md": 1793131343.684462,
+   "docs/contactly-rules.md": 1793131358.588462,
+   ".findings/mirror.json": 1793131353.516462,
+   "tools/findings_search.py": 1793131353.496462
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-7ff980/crmsync"
+ },
+ "main11-a3586c": {
+  "time": 1793131550.2836347,
+  "atimes": {
+   "README.md": 1793131417.23377,
+   "WORKFLOW.md": 1793131401.846157,
+   "docs/contactly-rules.md": 1793131416.79777,
+   ".findings/mirror.json": 1793131410.02977,
+   "tools/findings_search.py": 1793131410.01377
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-a3586c/crmsync"
+ },
+ "main11-ae8f4b": {
+  "time": 1793131550.288862,
+  "atimes": {
+   "README.md": 1793131422.07377,
+   "WORKFLOW.md": 1793131404.47377,
+   "docs/contactly-rules.md": 1793131420.43377,
+   ".findings/mirror.json": 1793131415.83777,
+   "tools/findings_search.py": 1793131415.80177
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-ae8f4b/crmsync"
+ },
+ "main11-955bb1": {
+  "time": 1793131587.177714,
+  "atimes": {
+   "README.md": 1793131462.459634,
+   "WORKFLOW.md": 1793131403.06577,
+   "docs/contactly-rules.md": 1793131426.31377,
+   ".findings/mirror.json": 1793131420.47777,
+   "tools/findings_search.py": 1793131420.44977
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-955bb1/crmsync"
+ },
+ "main11-42e59e": {
+  "time": 1793131593.846273,
+  "atimes": {
+   "README.md": 1793131437.627634,
+   "WORKFLOW.md": 1793131420.97777,
+   "docs/contactly-rules.md": 1793131437.499634,
+   ".findings/mirror.json": 1793131430.18577,
+   "tools/findings_search.py": 1793131430.17377
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-42e59e/crmsync"
+ },
+ "main11-a7d2c9": {
+  "time": 1793131666.5416021,
+  "atimes": {
+   "README.md": 1793131546.25646,
+   "WORKFLOW.md": 1793131525.12779,
+   "docs/contactly-rules.md": 1793131545.90846,
+   ".findings/mirror.json": 1793131539.55646,
+   "tools/findings_search.py": 1793131539.53646
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-a7d2c9/crmsync"
+ },
+ "main11-5e49b3": {
+  "time": 1793131684.063862,
+  "atimes": {
+   "README.md": 1793131540.28846,
+   "WORKFLOW.md": 1793131525.75179,
+   "docs/contactly-rules.md": 1793131540.22046,
+   ".findings/mirror.json": 1793131534.25246,
+   "tools/findings_search.py": 1793131534.23646
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-5e49b3/crmsync"
+ },
+ "main11-9a1290": {
+  "time": 1793131695.4559903,
+  "atimes": {
+   "README.md": 1793131539.19246,
+   "WORKFLOW.md": 1793131525.35579,
+   "docs/contactly-rules.md": 1793131539.19246,
+   ".findings/mirror.json": 1793131533.26446,
+   "tools/findings_search.py": 1793131533.24046
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-9a1290/crmsync"
+ },
+ "main11-5855ea": {
+  "time": 1793131700.899019,
+  "atimes": {
+   "README.md": 1793131613.329762,
+   "WORKFLOW.md": 1793131524.41179,
+   "docs/contactly-rules.md": 1793131541.28846,
+   ".findings/mirror.json": 1793131534.84446,
+   "tools/findings_search.py": 1793131534.84046
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-5855ea/crmsync"
+ },
+ "main11-3c79ac": {
+  "time": 1793131717.1153479,
+  "atimes": {
+   "README.md": 1793131577.217086,
+   "WORKFLOW.md": 1793131524.33579,
+   "docs/contactly-rules.md": 1793131537.25646,
+   ".findings/mirror.json": 1793131530.57646,
+   "tools/findings_search.py": 1793131530.55246
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-3c79ac/crmsync"
+ },
+ "main11-a861fb": {
+  "time": 1793131721.7222335,
+  "atimes": {
+   "README.md": 1793131538.02846,
+   "WORKFLOW.md": 1793131524.93179,
+   "docs/contactly-rules.md": 1793131538.02446,
+   ".findings/mirror.json": 1793131532.85646,
+   "tools/findings_search.py": 1793131532.83246
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-a861fb/crmsync"
+ },
+ "main11-676aa7": {
+  "time": 1793131738.2992637,
+  "atimes": {
+   "README.md": 1793131605.453762,
+   "WORKFLOW.md": 1793131584.6210861,
+   "docs/contactly-rules.md": 1793131605.445762,
+   ".findings/mirror.json": 1793131599.301762,
+   "tools/findings_search.py": 1793131599.281762
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-676aa7/crmsync"
+ },
+ "main11-a6e16e": {
+  "time": 1793131749.6735876,
+  "atimes": {
+   "README.md": 1793131597.973762,
+   "WORKFLOW.md": 1793131584.6210861,
+   "docs/contactly-rules.md": 1793131597.233762,
+   ".findings/mirror.json": 1793131591.721086,
+   "tools/findings_search.py": 1793131591.717086
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-a6e16e/crmsync"
+ },
+ "main11-a90154": {
+  "time": 1793131754.1711626,
+  "atimes": {
+   "README.md": 1793131604.665762,
+   "WORKFLOW.md": 1793131585.473086,
+   "docs/contactly-rules.md": 1793131604.673762,
+   ".findings/mirror.json": 1793131597.193762,
+   "tools/findings_search.py": 1793131597.173762
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-a90154/crmsync"
+ },
+ "main11-212112": {
+  "time": 1793131774.0433881,
+  "atimes": {
+   "README.md": 1793131599.597762,
+   "WORKFLOW.md": 1793131585.165086,
+   "docs/contactly-rules.md": 1793131599.597762,
+   ".findings/mirror.json": 1793131593.065762,
+   "tools/findings_search.py": 1793131593.049762
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-212112/crmsync"
+ },
+ "main11-7c215d": {
+  "time": 1793131774.0474398,
+  "atimes": {
+   "README.md": 1793131655.71078,
+   "WORKFLOW.md": 1793131584.513086,
+   "docs/contactly-rules.md": 1793131596.553762,
+   ".findings/mirror.json": 1793131591.897086,
+   "tools/findings_search.py": 1793131591.865086
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-7c215d/crmsync"
+ },
+ "main11-d44e20": {
+  "time": 1793131790.385266,
+  "atimes": {
+   "README.md": 1793131667.974698,
+   "WORKFLOW.md": 1793131612.009762,
+   "docs/contactly-rules.md": 1793131632.46278,
+   ".findings/mirror.json": 1793131626.11078,
+   "tools/findings_search.py": 1793131626.07878
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-d44e20/crmsync"
+ },
+ "main11-71ff28": {
+  "time": 1793131790.3904338,
+  "atimes": {
+   "README.md": 1793131705.443114,
+   "WORKFLOW.md": 1793131678.694698,
+   "docs/contactly-rules.md": 1793131692.247114,
+   ".findings/mirror.json": 1793131687.302698,
+   "tools/findings_search.py": 1793131687.274698
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-71ff28/crmsync"
+ },
+ "main11-c6f819": {
+  "time": 1793131806.4471276,
+  "atimes": {
+   "README.md": 1793131631.99878,
+   "WORKFLOW.md": 1793131610.509762,
+   "docs/contactly-rules.md": 1793131631.65478,
+   ".findings/mirror.json": 1793131625.95878,
+   "tools/findings_search.py": 1793131625.91878
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-c6f819/crmsync"
+ },
+ "main11-2d1f16": {
+  "time": 1793131806.4531891,
+  "atimes": {
+   "README.md": 1793131642.0827801,
+   "WORKFLOW.md": 1793131585.373086,
+   "docs/contactly-rules.md": 1793131599.265762,
+   ".findings/mirror.json": 1793131594.477762,
+   "tools/findings_search.py": 1793131594.465762
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-2d1f16/crmsync"
+ },
+ "main11-607aa0": {
+  "time": 1793131869.1211462,
+  "atimes": {
+   "README.md": 1793131736.792141,
+   "WORKFLOW.md": 1793131715.883114,
+   "docs/contactly-rules.md": 1793131736.428141,
+   ".findings/mirror.json": 1793131729.728141,
+   "tools/findings_search.py": 1793131729.700141
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-607aa0/crmsync"
+ },
+ "main11-2f2d45": {
+  "time": 1793131873.5224884,
+  "atimes": {
+   "README.md": 1793131708.947114,
+   "WORKFLOW.md": 1793131695.667114,
+   "docs/contactly-rules.md": 1793131708.199114,
+   ".findings/mirror.json": 1793131702.763114,
+   "tools/findings_search.py": 1793131702.759114
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-2f2d45/crmsync"
+ },
+ "main11-028a3c": {
+  "time": 1793131900.9241405,
+  "atimes": {
+   "README.md": 1793131783.225198,
+   "WORKFLOW.md": 1793131769.917198,
+   "docs/contactly-rules.md": 1793131783.065198,
+   ".findings/mirror.json": 1793131777.217198,
+   "tools/findings_search.py": 1793131777.189198
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-028a3c/crmsync"
+ },
+ "main11-8a99a3": {
+  "time": 1793131922.7444692,
+  "atimes": {
+   "README.md": 1793131730.532141,
+   "WORKFLOW.md": 1793131716.815114,
+   "docs/contactly-rules.md": 1793131729.548141,
+   ".findings/mirror.json": 1793131724.020141,
+   "tools/findings_search.py": 1793131724.000141
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-8a99a3/crmsync"
+ },
+ "main11-8ef14d": {
+  "time": 1793131944.2032497,
+  "atimes": {
+   "README.md": 1793131748.460141,
+   "WORKFLOW.md": 1793131737.236141,
+   "docs/contactly-rules.md": 1793131748.460141,
+   ".findings/mirror.json": 1793131741.788141,
+   "tools/findings_search.py": 1793131741.776141
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-8ef14d/crmsync"
+ },
+ "main11-0112dd": {
+  "time": 1793131949.0168536,
+  "atimes": {
+   "README.md": 1793131802.107196,
+   "WORKFLOW.md": 1793131736.804141,
+   "docs/contactly-rules.md": 1793131756.641198,
+   ".findings/mirror.json": 1793131749.648141,
+   "tools/findings_search.py": 1793131749.628141
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-0112dd/crmsync"
+ },
+ "main11-33f4bc": {
+  "time": 1793131953.5875556,
+  "atimes": {
+   "README.md": 1793131802.391196,
+   "WORKFLOW.md": 1793131789.979196,
+   "docs/contactly-rules.md": 1793131802.091196,
+   ".findings/mirror.json": 1793131796.423196,
+   "tools/findings_search.py": 1793131796.403196
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-33f4bc/crmsync"
+ },
+ "main11-37bea5": {
+  "time": 1793131958.0800564,
+  "atimes": {
+   "README.md": 1793131834.196285,
+   "WORKFLOW.md": 1793131822.340285,
+   "docs/contactly-rules.md": 1793131832.664285,
+   ".findings/mirror.json": 1793131828.164285,
+   "tools/findings_search.py": 1793131828.148285
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-37bea5/crmsync"
+ },
+ "main11-63ae05": {
+  "time": 1793131983.660613,
+  "atimes": {
+   "README.md": 1793131832.080285,
+   "WORKFLOW.md": 1793131806.635196,
+   "docs/contactly-rules.md": 1793131830.128285,
+   ".findings/mirror.json": 1793131825.544285,
+   "tools/findings_search.py": 1793131825.528285
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-63ae05/crmsync"
+ },
+ "main11-b11346": {
+  "time": 1793131983.6678884,
+  "atimes": {
+   "README.md": 1793131826.392285,
+   "WORKFLOW.md": 1793131806.467196,
+   "docs/contactly-rules.md": 1793131825.560285,
+   ".findings/mirror.json": 1793131820.832285,
+   "tools/findings_search.py": 1793131820.808285
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-b11346/crmsync"
+ },
+ "main11-3fd625": {
+  "time": 1793131983.6771,
+  "atimes": {
+   "README.md": 1793131840.5762851,
+   "WORKFLOW.md": 1793131790.683196,
+   "docs/contactly-rules.md": 1793131803.463196,
+   ".findings/mirror.json": 1793131797.979196,
+   "tools/findings_search.py": 1793131797.963196
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-3fd625/crmsync"
+ },
+ "main11-e4506b": {
+  "time": 1793131990.8476236,
+  "atimes": {
+   "README.md": 1793131762.369198,
+   "WORKFLOW.md": 1793131748.976141,
+   "docs/contactly-rules.md": 1793131956.270426,
+   ".findings/mirror.json": 1793131755.685198,
+   "tools/findings_search.py": 1793131755.649198
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-e4506b/crmsync"
+ },
+ "main11-47950d": {
+  "time": 1793132015.6819286,
+  "atimes": {
+   "README.md": 1793131782.633198,
+   "WORKFLOW.md": 1793131769.085198,
+   "docs/contactly-rules.md": 1793131781.865198,
+   ".findings/mirror.json": 1793131777.313198,
+   "tools/findings_search.py": 1793131777.2731981
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-47950d/crmsync"
+ },
+ "main11-5897fc": {
+  "time": 1793132020.6246085,
+  "atimes": {
+   "README.md": 1793131910.451548,
+   "WORKFLOW.md": 1793131890.191548,
+   "docs/contactly-rules.md": 1793131910.063548,
+   ".findings/mirror.json": 1793131903.031548,
+   "tools/findings_search.py": 1793131903.007548
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-5897fc/crmsync"
+ },
+ "main11-1083be": {
+  "time": 1793132020.631829,
+  "atimes": {
+   "README.md": 1793131837.700285,
+   "WORKFLOW.md": 1793131822.960285,
+   "docs/contactly-rules.md": 1793131837.328285,
+   ".findings/mirror.json": 1793131829.732285,
+   "tools/findings_search.py": 1793131829.716285
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-1083be/crmsync"
+ },
+ "main11-567a99": {
+  "time": 1793132073.416842,
+  "atimes": {
+   "README.md": 1793131927.29695,
+   "WORKFLOW.md": 1793131912.25295,
+   "docs/contactly-rules.md": 1793131927.29695,
+   ".findings/mirror.json": 1793131921.42895,
+   "tools/findings_search.py": 1793131921.40495
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-567a99/crmsync"
+ },
+ "main11-916020": {
+  "time": 1793132086.7401264,
+  "atimes": {
+   "README.md": 1793131892.239548,
+   "WORKFLOW.md": 1793131891.899548,
+   "docs/contactly-rules.md": 1793131893.319548,
+   ".findings/mirror.json": 1793131901.631548,
+   "tools/findings_search.py": 1793131901.607548
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-916020/crmsync"
+ },
+ "main11-ebbc68": {
+  "time": 1793132109.1193407,
+  "atimes": {
+   "README.md": 1793131999.470693,
+   "WORKFLOW.md": 1793131981.442693,
+   "docs/contactly-rules.md": 1793131999.086693,
+   ".findings/mirror.json": 1793131993.642693,
+   "tools/findings_search.py": 1793131993.618693
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-ebbc68/crmsync"
+ },
+ "main11-0ff702": {
+  "time": 1793132146.0524673,
+  "atimes": {
+   "README.md": 1793131951.142426,
+   "WORKFLOW.md": 1793131934.3689501,
+   "docs/contactly-rules.md": 1793131951.142426,
+   ".findings/mirror.json": 1793131942.20895,
+   "tools/findings_search.py": 1793131942.18895
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-0ff702/crmsync"
+ },
+ "main11-6da7cb": {
+  "time": 1793132152.701445,
+  "atimes": {
+   "README.md": 1793132059.755002,
+   "WORKFLOW.md": 1793131987.266693,
+   "docs/contactly-rules.md": 1793132005.846693,
+   ".findings/mirror.json": 1793132000.022693,
+   "tools/findings_search.py": 1793132000.0066931
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-6da7cb/crmsync"
+ },
+ "main11-d6846d": {
+  "time": 1793132157.331513,
+  "atimes": {
+   "README.md": 1793132031.405744,
+   "WORKFLOW.md": 1793132014.777744,
+   "docs/contactly-rules.md": 1793132030.945744,
+   ".findings/mirror.json": 1793132022.917744,
+   "tools/findings_search.py": 1793132022.905744
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-d6846d/crmsync"
+ },
+ "main11-7e1d74": {
+  "time": 1793132161.4743025,
+  "atimes": {
+   "README.md": 1793132029.013744,
+   "WORKFLOW.md": 1793132015.149744,
+   "docs/contactly-rules.md": 1793132027.4577441,
+   ".findings/mirror.json": 1793132023.8097441,
+   "tools/findings_search.py": 1793132023.781744
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-7e1d74/crmsync"
+ },
+ "main11-af60d2": {
+  "time": 1793132175.2704391,
+  "atimes": {
+   "README.md": 1793132003.114693,
+   "WORKFLOW.md": 1793131982.310693,
+   "docs/contactly-rules.md": 1793132002.746693,
+   ".findings/mirror.json": 1793131997.690693,
+   "tools/findings_search.py": 1793131997.666693
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-af60d2/crmsync"
+ },
+ "main11-43123c": {
+  "time": 1793132182.073942,
+  "atimes": {
+   "README.md": 1793132040.571002,
+   "WORKFLOW.md": 1793132014.777744,
+   "docs/contactly-rules.md": 1793132040.567002,
+   ".findings/mirror.json": 1793132033.937744,
+   "tools/findings_search.py": 1793132033.921744
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-43123c/crmsync"
+ },
+ "main11-e2901c": {
+  "time": 1793132186.6342041,
+  "atimes": {
+   "README.md": 1793132018.125744,
+   "WORKFLOW.md": 1793132018.125744,
+   "docs/contactly-rules.md": 1793132018.197744,
+   ".findings/mirror.json": 1793132033.381744,
+   "tools/findings_search.py": 1793132018.197744
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-e2901c/crmsync"
+ },
+ "main11-6869d0": {
+  "time": 1793132204.3491645,
+  "atimes": {
+   "README.md": 1793132056.931002,
+   "WORKFLOW.md": 1793132043.199002,
+   "docs/contactly-rules.md": 1793132056.115002,
+   ".findings/mirror.json": 1793132051.155002,
+   "tools/findings_search.py": 1793132051.135002
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-6869d0/crmsync"
+ },
+ "main11-3d80f8": {
+  "time": 1793132214.5084462,
+  "atimes": {
+   "README.md": 1793132053.459002,
+   "WORKFLOW.md": 1793132043.079002,
+   "docs/contactly-rules.md": 1793132053.459002,
+   ".findings/mirror.json": 1793132048.699002,
+   "tools/findings_search.py": 1793132048.671002
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-3d80f8/crmsync"
+ },
+ "main11-9a521a": {
+  "time": 1793132246.7760162,
+  "atimes": {
+   "README.md": 1793132105.245401,
+   "WORKFLOW.md": 1793132044.327002,
+   "docs/contactly-rules.md": 1793132067.327002,
+   ".findings/mirror.json": 1793132060.643002,
+   "tools/findings_search.py": 1793132060.615002
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-9a521a/crmsync"
+ },
+ "main11-2c58b7": {
+  "time": 1793132251.3929172,
+  "atimes": {
+   "README.md": 1793132000.918693,
+   "WORKFLOW.md": 1793131983.094693,
+   "docs/contactly-rules.md": 1793132000.914693,
+   ".findings/mirror.json": 1793131994.022693,
+   "tools/findings_search.py": 1793131993.998693
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-2c58b7/crmsync"
+ },
+ "main11-ff8876": {
+  "time": 1793132273.9603014,
+  "atimes": {
+   "README.md": 1793132065.475002,
+   "WORKFLOW.md": 1793132043.799002,
+   "docs/contactly-rules.md": 1793132065.335002,
+   ".findings/mirror.json": 1793132058.131002,
+   "tools/findings_search.py": 1793132058.111002
+  },
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/snap011/main11-ff8876/crmsync"
+ }
+}
