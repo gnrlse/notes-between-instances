@@ -1,0 +1,110 @@
+{
+ "_review": {
+  "date": "2026-10-27",
+  "how": "Blind to condition and outcome, from contamination_review.py's output, contamination_detail.py's full text of every flagged call and every git or bd call, and scripted checks in the session scratchpad that print no condition: where transcripts.py's git/bd match sits in each call (command or description), the full command of the calls whose description matched, and per-transcript API-error entries, classifier no-verdict results, tool errors, the largest gap between entries, the entry types on both sides of it, and the shape (messages kept and appended) of the requests around it.",
+  "rule": "Pre-registered: reading a file's contents outside the trial directory (other than system or library files), or any network request, excludes the trial; listings and the agent's own scratch files elsewhere don't. 2 trials have a flagged call (00b2ab, 9abe74). Both are false positives: 'cd .. && cd ..' or 'cd ../..' returns from the agent's own tmp/mutant folder to its project root, every path in the call is inside the trial directory, and the output names no outside path. Both are kept. The pre-registered sensitivity analysis drops both. No trial used the network.",
+  "git_or_bd_flags": "transcripts.py's git_or_bd flag marks 3 trials, and none of them ran git or bd. In 46d62c and 9ec387 the word is in a Bash call's description ('check for git metadata'); the commands were 'ls -la' and a test for a .git folder inside the trial's own project, which printed that there was none. In 985c4f it is in a Python comment inside a heredoc that wrote a scratch script to the agent's own tmp/ folder. No trial ran git or bd anywhere, so none read the notebook's repository.",
+  "infrastructure": "All 288 transcripts exist and show only claude-haiku-5-5 at effort max. None has an interrupted API response (a '<synthetic>' entry), an API-error entry or a classifier no-verdict result, so no trial is excluded for infrastructure. 12 trials ran across a session-wide pause (about 15:55Z to 16:31Z, 33 to 36 minutes): each had one request re-sent after the pause, with nothing added to its messages. They are kept and noted, with an unplanned sensitivity analysis without them. 43 trials had 59 ordinary tool errors between them, such as a failed command, which do not exclude. Every trial handed back and has a snapshot; none was stopped or rerun.",
+  "search": "Every trial searched (1 to 4 searches). Whether a search returned the note is checked by analyze.py from the logged queries.",
+  "disclosure": "As in 007, the launcher saw each agent's final reply when it handed back; nothing from those replies is used. contamination_detail.py's git pattern matched 985c4f's code comment and so printed two lines of that scratch script's output, and the two flagged calls (00b2ab, 9abe74) contain test-mutant code. Every decision here rests on paths, commands and transcript mechanics only.",
+  "paused_trials": [
+   "main8-02624f",
+   "main8-0d4200",
+   "main8-125021",
+   "main8-509e8d",
+   "main8-5e95ac",
+   "main8-7c1c7d",
+   "main8-85f193",
+   "main8-85fe86",
+   "main8-954dbd",
+   "main8-b079ac",
+   "main8-e3498f",
+   "main8-ee221c"
+  ]
+ },
+ "main8-00b2ab": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, a false positive: 'cd .. && cd ..' returns from its own tmp/mutant folder to its project root. Every path in the call is inside the trial directory, and its output names no outside path."
+ },
+ "main8-9abe74": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, a false positive: 'cd ../..' returns from its own tmp/mutant folder to its project root. Every path in the call is inside the trial directory, and its output names no outside path."
+ },
+ "main8-46d62c": {
+  "decision": "keep",
+  "kind": "git_or_bd",
+  "why": "No git or bd command. The word is in a Bash description ('check for git metadata'); the command listed its own project and tested for a .git folder there, and printed that there was none."
+ },
+ "main8-9ec387": {
+  "decision": "keep",
+  "kind": "git_or_bd",
+  "why": "No git or bd command. The word is in a Bash description ('check for git metadata'); the command listed its own project and tested for a .git there, and printed that there was none."
+ },
+ "main8-985c4f": {
+  "decision": "keep",
+  "kind": "git_or_bd",
+  "why": "No git or bd command. The word is in a Python comment inside a heredoc that wrote a scratch script to its own tmp/ folder, which it then ran on its own project."
+ },
+ "main8-02624f": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main8-0d4200": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main8-125021": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main8-509e8d": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main8-5e95ac": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main8-7c1c7d": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main8-85f193": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main8-85fe86": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main8-954dbd": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main8-b079ac": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main8-e3498f": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ },
+ "main8-ee221c": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across the session-wide pause of 2026-10-27. One API request, sent between 15:55Z and 15:58Z, got no response; after the pause the client re-sent the same message list (the same messages kept, nothing appended) between 16:30Z and 16:32Z, and the agent went on from there. No '<synthetic>' or API-error entry reached the agent, and no response was cut off mid-stream, so this is not an interrupted API response under the pre-registered rule. Kept and noted. An unplanned sensitivity analysis without the 12 paused trials, decided here before any assignment was opened, will be reported and labelled as unplanned."
+ }
+}
