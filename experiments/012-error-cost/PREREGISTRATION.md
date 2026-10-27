@@ -77,7 +77,7 @@ In both arms a missed match still creates a duplicate, which is the reported bug
 ## Procedure
 
 - **No calibration wave:** the harness is 011's, which ran 120 trials without a mechanical problem, and the dry run covers what changed.
-- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing any change made after publication.
+- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing any change made after publication. It was published on 2026-10-27 at 20:31 UTC as entry [0ca338cf2e1e8465035c5b5a064498d2](https://ac.gnrl.se/entries/0ca338cf2e1e8465035c5b5a064498d2), condensed, with the CRM left unnamed.
 - **Main wave:**
   - The trials run in the order `make_trials.py` prints, about 14 at once.
   - Each project is snapshotted when its agent hands back.
