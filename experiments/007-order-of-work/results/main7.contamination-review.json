@@ -1,0 +1,146 @@
+{
+ "_review": {
+  "date": "2026-10-27",
+  "how": "Blind to condition and outcome, from contamination_review.py's output, contamination_detail.py's full text of every flagged call and every git or bd call, and scripted checks that print no code, notes or condition: whether git or bd appears in command position outside heredocs and quoted text, what the one git command printed after its own marker line, and per-transcript timing, API-error entries, classifier failures and tool errors.",
+  "rule": "Pre-registered: reading a file's contents outside the trial directory (other than system or library files), or any network request, excludes the trial; listings and the agent's own scratch files elsewhere don't. 4 trials have a flagged call (0c70bd, 0e392a, 13529c, 8f1d13). None read another file's contents outside its directory and none used the network, so all 4 are kept. The sensitivity analysis drops all 4, including 0c70bd, whose flag is a false positive (cd ../.. back to its own project root).",
+  "git_or_bd_flags": "transcripts.py's git_or_bd flag marks 5 trials. In 4 (035fe8, 30e2de, 7e6b54, a61932) the words appear only as text, such as a NOTES.md line saying no git or bd command was run. d58f2c ran one real git command, `git rev-parse --show-toplevel`, from inside its own trial directory, and it printed its fallback, 'no git repository here'. It read no repository and no outside file, so it is kept. No trial ran git or bd in the launch directory, so none read the notebook's repository.",
+  "infrastructure": "No transcript has an interrupted API response (a '<synthetic>' entry), a classifier no-verdict result or a model other than claude-haiku-5-5. So no trial is excluded for infrastructure. Two slow episodes are kept and noted: 11bdfc (2.6 hours, one gap of about an hour) and the 11 agents that were all paused together from about 11:15Z to 11:28Z. 25 trials had 34 ordinary tool errors between them, such as a failed command, which do not exclude.",
+  "reruns": "The 7 trials stopped at the usage limit (0c70bd, cd51af, ab1538, ea88a8, 23eef7, bbf04a, 13350d) were first marked as excluded for having no result. Before any assignment was opened, that was corrected to the pre-registered procedure: rebuild and rerun. Every trial now has a snapshot, so the 'never handed back' exclusion (change 3) should apply to none.",
+  "stray_file": "13529c wrote its last pytest run's output to a file in the session scratchpad, outside its trial directory, and read it back. The 98-byte file was still there after the wave and was removed unread. 8f1d13 did the same with its own file and deleted it itself. No other trial's calls touched either file."
+ },
+ "main7-0c70bd": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, a false positive: 'cd ../..' returns from its own tmp/verify_old folder to its project root. Every path in the call is inside the trial directory, and its output names no outside path. First run stopped by the experimenter at about 2026-10-26T20:17Z, before handing back, because the session's usage limit was reached. Rebuilt from its unchanged assignment and rerun on 2026-10-27 at about 11:46Z, as the pre-registered procedure for interruptions says. Only the rerun is analyzed. The stopped first run had no flagged call, no git, bd or network use and no interrupted API response."
+ },
+ "main7-0e392a": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call, a listing only: in a final check, 'find' on the session scratchpad (maxdepth 2, newer than WORKFLOW.md) looked for files created outside the project and printed up to 20 names. It read no file contents outside the trial and made no network request."
+ },
+ "main7-13529c": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "1 flagged call: it redirected its own pytest output to a file in the session scratchpad and read that file back with tail, then listed its own project files. That is the agent's own scratch file elsewhere, which is reported but doesn't exclude. No other outside file was read, and no network was used. The file was left behind and removed unread after the wave."
+ },
+ "main7-8f1d13": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "3 flagged calls: it redirected its own pytest output to a file in the session scratchpad and read it back, deleted the file, and twice listed the scratchpad with ls to check that nothing was left. Own scratch file and listings only. No other outside file was read, and no network was used."
+ },
+ "main7-d58f2c": {
+  "decision": "keep",
+  "kind": "git",
+  "why": "One git command, 'git rev-parse --show-toplevel', run from inside its trial directory to check for a repository. It printed its fallback, 'no git repository here'. No repository or outside file was read."
+ },
+ "main7-035fe8": {
+  "decision": "keep",
+  "kind": "git (false positive)",
+  "why": "The git_or_bd flag fired on text only, such as a NOTES.md line saying no git or bd command was run. No git or bd command was run."
+ },
+ "main7-30e2de": {
+  "decision": "keep",
+  "kind": "git (false positive)",
+  "why": "The git_or_bd flag fired on text only, such as a NOTES.md line saying no git or bd command was run. No git or bd command was run."
+ },
+ "main7-7e6b54": {
+  "decision": "keep",
+  "kind": "git (false positive)",
+  "why": "The git_or_bd flag fired on text only, such as a NOTES.md line saying no git or bd command was run. No git or bd command was run."
+ },
+ "main7-a61932": {
+  "decision": "keep",
+  "kind": "git (false positive)",
+  "why": "The git_or_bd flag fired on text only, such as a NOTES.md line saying no git or bd command was run. No git or bd command was run."
+ },
+ "main7-cd51af": {
+  "decision": "keep",
+  "kind": "rerun",
+  "why": "First run stopped by the experimenter at about 2026-10-26T20:17Z, before handing back, because the session's usage limit was reached. Rebuilt from its unchanged assignment and rerun on 2026-10-27 at about 11:46Z, as the pre-registered procedure for interruptions says. Only the rerun is analyzed. The stopped first run had no flagged call, no git, bd or network use and no interrupted API response."
+ },
+ "main7-ab1538": {
+  "decision": "keep",
+  "kind": "rerun",
+  "why": "First run stopped by the experimenter at about 2026-10-26T20:17Z, before handing back, because the session's usage limit was reached. Rebuilt from its unchanged assignment and rerun on 2026-10-27 at about 11:46Z, as the pre-registered procedure for interruptions says. Only the rerun is analyzed. The stopped first run had no flagged call, no git, bd or network use and no interrupted API response."
+ },
+ "main7-ea88a8": {
+  "decision": "keep",
+  "kind": "rerun",
+  "why": "First run stopped by the experimenter at about 2026-10-26T20:17Z, before handing back, because the session's usage limit was reached. Rebuilt from its unchanged assignment and rerun on 2026-10-27 at about 11:46Z, as the pre-registered procedure for interruptions says. Only the rerun is analyzed. The stopped first run had no flagged call, no git, bd or network use and no interrupted API response."
+ },
+ "main7-23eef7": {
+  "decision": "keep",
+  "kind": "rerun",
+  "why": "First run stopped by the experimenter at about 2026-10-26T20:17Z, before handing back, because the session's usage limit was reached. Rebuilt from its unchanged assignment and rerun on 2026-10-27 at about 11:46Z, as the pre-registered procedure for interruptions says. Only the rerun is analyzed. The stopped first run had no flagged call, no git, bd or network use and no interrupted API response."
+ },
+ "main7-bbf04a": {
+  "decision": "keep",
+  "kind": "rerun",
+  "why": "First run stopped by the experimenter at about 2026-10-26T20:17Z, before handing back, because the session's usage limit was reached. Rebuilt from its unchanged assignment and rerun on 2026-10-27 at about 11:46Z, as the pre-registered procedure for interruptions says. Only the rerun is analyzed. The stopped first run had no flagged call, no git, bd or network use and no interrupted API response."
+ },
+ "main7-13350d": {
+  "decision": "keep",
+  "kind": "rerun",
+  "why": "First run stopped by the experimenter at about 2026-10-26T20:17Z, before handing back, because the session's usage limit was reached. Rebuilt from its unchanged assignment and rerun on 2026-10-27 at about 11:46Z, as the pre-registered procedure for interruptions says. Only the rerun is analyzed. The stopped first run had no flagged call, no git, bd or network use and no interrupted API response."
+ },
+ "main7-11bdfc": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Ran 07:40-10:16Z (9,374 s) with gaps of up to an hour between transcript entries, the largest from 08:28 to 09:28Z. No interrupted API response, no classifier failure and no failed tool call. Not an infrastructure failure under the pre-registered rule."
+ },
+ "main7-75101d": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Took 1037 s against a wave median of 212 s. Like every agent running at the time, it paused from about 11:15-11:16Z to 11:25-11:28Z (largest gap 766 s) and then finished normally. No interrupted API response, no classifier failure. Not an infrastructure failure under the pre-registered rule, which needs a response that stopped arriving."
+ },
+ "main7-f53a93": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Took 1094 s against a wave median of 212 s. Like every agent running at the time, it paused from about 11:15-11:16Z to 11:25-11:28Z (largest gap 725 s) and then finished normally. No interrupted API response, no classifier failure. Not an infrastructure failure under the pre-registered rule, which needs a response that stopped arriving."
+ },
+ "main7-9f6fcd": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Took 722 s against a wave median of 212 s. Like every agent running at the time, it paused from about 11:15-11:16Z to 11:25-11:28Z (largest gap 513 s) and then finished normally. No interrupted API response, no classifier failure. Not an infrastructure failure under the pre-registered rule, which needs a response that stopped arriving."
+ },
+ "main7-319942": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Took 774 s against a wave median of 212 s. Like every agent running at the time, it paused from about 11:15-11:16Z to 11:25-11:28Z (largest gap 510 s) and then finished normally. No interrupted API response, no classifier failure. Not an infrastructure failure under the pre-registered rule, which needs a response that stopped arriving."
+ },
+ "main7-543a6b": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Took 993 s against a wave median of 212 s. Like every agent running at the time, it paused from about 11:15-11:16Z to 11:25-11:28Z (largest gap 728 s) and then finished normally. No interrupted API response, no classifier failure; one ordinary tool error. Not an infrastructure failure under the pre-registered rule, which needs a response that stopped arriving."
+ },
+ "main7-9c3f05": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Took 942 s against a wave median of 212 s. Like every agent running at the time, it paused from about 11:15-11:16Z to 11:25-11:28Z (largest gap 702 s) and then finished normally. No interrupted API response, no classifier failure. Not an infrastructure failure under the pre-registered rule, which needs a response that stopped arriving."
+ },
+ "main7-af1776": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Took 877 s against a wave median of 212 s. Like every agent running at the time, it paused from about 11:15-11:16Z to 11:25-11:28Z (largest gap 708 s) and then finished normally. No interrupted API response, no classifier failure. Not an infrastructure failure under the pre-registered rule, which needs a response that stopped arriving."
+ },
+ "main7-023c61": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Took 884 s against a wave median of 212 s. Like every agent running at the time, it paused from about 11:15-11:16Z to 11:25-11:28Z (largest gap 708 s) and then finished normally. No interrupted API response, no classifier failure; one ordinary tool error. Not an infrastructure failure under the pre-registered rule, which needs a response that stopped arriving."
+ },
+ "main7-ba2245": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Took 959 s against a wave median of 212 s. Like every agent running at the time, it paused from about 11:15-11:16Z to 11:25-11:28Z (largest gap 709 s) and then finished normally. No interrupted API response, no classifier failure. Not an infrastructure failure under the pre-registered rule, which needs a response that stopped arriving."
+ },
+ "main7-2211fc": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Took 881 s against a wave median of 212 s. Like every agent running at the time, it paused from about 11:15-11:16Z to 11:25-11:28Z (largest gap 691 s) and then finished normally. No interrupted API response, no classifier failure. Not an infrastructure failure under the pre-registered rule, which needs a response that stopped arriving."
+ },
+ "main7-187c5b": {
+  "decision": "keep",
+  "kind": "slow",
+  "why": "Took 1017 s against a wave median of 212 s. Like every agent running at the time, it paused from about 11:15-11:16Z to 11:25-11:28Z (largest gap 715 s) and then finished normally. No interrupted API response, no classifier failure. Not an infrastructure failure under the pre-registered rule, which needs a response that stopped arriving."
+ }
+}

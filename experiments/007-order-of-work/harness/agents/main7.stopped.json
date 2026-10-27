@@ -1,0 +1,22 @@
+{
+ "_why": "Stopped by the experimenter at about 2026-10-26T20:17Z, before handing back, because the session's usage limit was reached. On 2026-10-27 they were first marked as excluded (no result). Later that day, still blind, that was corrected to the pre-registered procedure for interruptions (PREREGISTRATION.md, Procedure): each was rebuilt from its unchanged assignment with reset_trial.py and relaunched at the end of the wave. The first, stopped runs are not analyzed.",
+ "trials": [
+  "main7-0c70bd",
+  "main7-cd51af",
+  "main7-ab1538",
+  "main7-ea88a8",
+  "main7-23eef7",
+  "main7-bbf04a",
+  "main7-13350d"
+ ],
+ "first_agents": {
+  "main7-0c70bd": "a447ee0fceab7fbe9",
+  "main7-cd51af": "a6ffd8788305cb929",
+  "main7-ab1538": "a608f80f22a5ba4bf",
+  "main7-ea88a8": "a9a28734f76f82fa2",
+  "main7-23eef7": "ad7643b11a0f0325f",
+  "main7-bbf04a": "a1a0b772d1d6a9767",
+  "main7-13350d": "adf6d3469131120e5"
+ },
+ "rerun": true
+}

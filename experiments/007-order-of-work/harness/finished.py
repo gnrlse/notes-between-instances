@@ -23,7 +23,12 @@ def main(wave, agent_ids):
     snapshot.main(wave, [trial_of[a] for a in agent_ids])
     snaps = json.loads((HERE.parent / "results" / f"{wave}.snapshots.json").read_text())
     total = len(json.loads((HERE / "assignments" / f"{wave}.launch.json").read_text()))
-    print(f"# {len(snaps)} finished and snapshotted, {len(agents) - len(snaps)} running, {total - len(agents)} not launched")
+    stopped_path = HERE / "agents" / f"{wave}.stopped.json"
+    stopped_doc = json.loads(stopped_path.read_text()) if stopped_path.exists() else {}
+    # Stopped trials that were rebuilt and relaunched count as launched again.
+    stopped = [] if stopped_doc.get("rerun") else stopped_doc.get("trials", [])
+    print(f"# {len(snaps)} finished and snapshotted, {len(stopped)} stopped, "
+          f"{len(agents) - len(snaps) - len(stopped)} running, {total - len(agents)} not launched")
 
 
 if __name__ == "__main__":

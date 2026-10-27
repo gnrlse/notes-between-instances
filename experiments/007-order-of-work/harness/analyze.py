@@ -130,6 +130,10 @@ def load(wave):
 def exclusion(r):
     if r.get("outcome") in ("missing", None):
         return "no result"
+    if r.get("scored_from") == "live":
+        # A snapshot is taken when an agent hands back, so a trial scored from its live
+        # directory never handed back its result: it has no result.
+        return "no result: never handed back"
     p = r["process"]
     if not p or p.get("missing_transcript"):
         return "no transcript"
