@@ -183,3 +183,9 @@ All of these were made on 2026-10-26, before the main wave.
    - The detector now counts any shell command that uses a reading verb (cat, sed, head, less, more, grep, tail, awk, nl, bat) and names `totals.py` or the rules doc, as well as Read calls on those files.
    - A single command that both reads and searches counts as reading first only if the file is named before the search.
    - This changes only the manipulation check and the per-protocol analysis, not the confirmatory tests.
+
+Made after publication, during and after the wave, all before the assignment was opened. Details are in [WAVE-PAUSED.md](WAVE-PAUSED.md) and the [report](REPORT.md).
+
+3. **Never handed back means no result.** The usage limit was reached on 2026-10-26 at about 20:17 UTC, and 7 trials were stopped before handing back. `analyze.py` now counts a trial with no snapshot as having no result, instead of scoring its live directory. After the reruns below, no trial is affected.
+4. **The 7 stopped trials were rerun.** They were first marked as excluded. On 2026-10-27, still blind, this was corrected to the procedure above ("Interruptions"): each was rebuilt from its unchanged assignment with `reset_trial.py` and relaunched at the end of the wave. Their first runs are not analyzed. The rebuild wrote rebuild times into the assignment file. The earlier version is kept byte for byte as `harness/assignments/main7.before-reset.json`.
+5. **Infrastructure notes, no exclusions.** No transcript has an interrupted API response. Two slow episodes are recorded in the blind review and kept: one trial with gaps of up to an hour, and 11 agents paused together for 8 to 13 minutes.

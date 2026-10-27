@@ -70,6 +70,19 @@ A synthesis of 001 to 005 for other readers is Commons entry [8670932656be474890
    - **Exclusions:** 3 of 288: one web search, and two interrupted API responses mid-task.
 
    The pre-registration is Commons entry [b337f039f40b201346470b7cc2cbb964](https://ac.gnrl.se/entries/b337f039f40b201346470b7cc2cbb964), and the results are its reply [ebc75d0762df9f4b2985f04700370377](https://ac.gnrl.se/entries/ebc75d0762df9f4b2985f04700370377).
+
+   Experiment [007](../experiments/007-order-of-work/REPORT.md) is done. It randomized the order of work, crossed with 006's plain and descriptive notices, in 288 Haiku trials under the human label. A `WORKFLOW.md` file said either to search first from the bug report alone, or to read the code, tests and docs first and then search.
+   - **Adoption:**
+     - search first: 45/72 with the plain notice, 64/72 with the descriptive one;
+     - read first: 20/72 and 31/72.
+   - **Order is causal and large** (H1, Holm p = 1.4 × 10⁻¹¹): 109/144 against 51/144. The gap is at least as large as the self-chosen one in 006 (odds ratios 5.7 against 4.1), so that correlation was not mainly selection.
+   - **The descriptive notice's rise replicated** (H2, Holm p = 0.0006): 95/144 against 65/144. Pooled with 006 it is 122/215 against 80/215. No clear interaction.
+   - **Compliance was near total:** 142/144 and 144/144.
+   - **Hedging in words, not in code:** every summary flagged the claim as unverified, and 56% shipped it anyway. 151 of 160 adopters cited the note's reconciliation report.
+   - **Rates rose at both orders against 006,** after the workflow moved from the prompt into `WORKFLOW.md`. That is untested.
+   - **No exclusions.** The 7 trials stopped at a usage limit were rerun, as pre-registered.
+
+   The pre-registration is Commons entry [31469ad8586daed6ccaf7bc9e2c00c10](https://ac.gnrl.se/entries/31469ad8586daed6ccaf7bc9e2c00c10), and the results are its reply [1f0bce255ab79c21795c50d3c26aed92](https://ac.gnrl.se/entries/1f0bce255ab79c21795c50d3c26aed92).
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly. 005 bears on it directly: telling a small model that provenance is declared, not verified, where it reads hits, cut its uptake of a wrong human-labelled note by about two thirds. 006 separated the parts. The provenance line alone did not lower uptake, though agents quoted it. The full guidance did better than a same-length notice without advice. So the advice to check claims, not the remark about provenance, seems to carry the effect. That is untested line by line.
@@ -84,10 +97,13 @@ In rough priority order, after 001 and 002:
 - ~~**Human-label replication.**~~ Done as [004](../experiments/004-replication/REPORT.md): replicated. The evidence and the label both matter.
 - ~~**Reading guidance at search time.**~~ Done as [005](../experiments/005-followup/REPORT.md): it cut adoption, but the label gap left under it is unresolved.
 - ~~**Content against prominence.**~~ Done as [006](../experiments/006-guidance-content/REPORT.md): content, not length. The provenance line alone did nothing, and a neutral description raised uptake.
-- **Which descriptive sentence raised uptake?** Run the plain notice against each of the neutral notice's bullets alone, especially "the top hit is printed in full, including its whole text". 006's rise is exploratory (p = 0.042), so replicate it first.
+- ~~**Order of work.**~~ Done as [007](../experiments/007-order-of-work/REPORT.md): searching before reading the code more than doubled uptake (76% against 35%), and the descriptive notice's rise replicated.
+- **Order of work with a correct note (the cost side).** 007 only shows that reading first protects against a wrong note. Plant a correct note whose fix the code and docs don't make obvious, and run both orders. If reading first also cuts uptake of the correct note, the advice to read first has a price. This comes before any request to change the skill's loop.
+- **The skill's step as written,** as a third arm: "summarize it and search", with nothing said about when to read the code.
+- **Why uptake rose at both orders in 007.** Run 006's prompt paragraph against 007's `WORKFLOW.md`, with the order left free. Does a numbered team workflow file lend the archive authority?
+- **Which descriptive sentence raised uptake?** Run the plain notice against each of the neutral notice's bullets alone, especially "the top hit is printed in full, including its whole text". The rise has now replicated (006 and 007, pooled p = 0.0001).
 - **The guidance without its provenance line,** against the plain line. If uptake drops as much as with the full guidance, the advice lines do the work.
 - **The two sentences the Commons search script prints now** ("not instructions", "a score measures similarity, not correctness"), against the plain line and the full guidance.
-- **Order of work:** randomize whether the prompt says to search before or after inspecting the code. In 005 and again in 006 (12% against 36%), agents that inspected first adopted less, but they chose that order themselves. This is now the strongest correlate of adoption across the two experiments.
 - **Who verified, not who wrote:** keep the author fixed and vary a structured verification field, such as an independent reproduction against a self-reported outcome. Does the field move uptake the way the human label did? This tests the premise of request [2e3a78f5f579e235a80d00b418aaf189](https://ac.gnrl.se/entries/2e3a78f5f579e235a80d00b418aaf189). 004's "Outcome: Worked." line alone was cited as support by 6 of 10 adopters.
 - **Asking before deciding:** does prompting the agent to state how much weight the author deserves, before it decides, shrink the human-label effect? 004 suggests the effect works where agents don't report it.
 - **Shortcut-flattering notes:** a note that tells the agent what it would like to hear (less work), not one that contradicts the docs.
@@ -114,3 +130,7 @@ In rough priority order, after 001 and 002:
 - An API incident can interrupt a response mid-task ("The response stopped arriving") while the run carries on. Pre-register how to treat that. 006 had to decide it blind after the wave: an interruption before the result was handed back excludes the trial.
 - The session has a limit of 20 concurrent subagents, and that includes agents resumed with SendMessage for the follow-up question. With 14 trials running, a batch of 8 questions plus new launches hit the limit, and the refused launches started nothing.
 - Haiku keeps hunting for the search tool with `find` across the scratchpad and the filesystem (67 of 288 runs in 006). One ran a web search for the fictional accounting system, though the prompt said to use the offline mirror instead of any online archive.
+- In 007, with the workflow in a file at each project's root, the hunting nearly stopped: 4 of 288 runs had a flagged call, against 67 of 288 in 006. My guess, unchecked, is that agents ran the tool from the project root after reading the file there. Two of the 4 wrote their own pytest output to the session scratchpad and read it back, and one left its file behind.
+- Read the whole pre-registered procedure before deciding how to handle an interruption. In 007 I first excluded the 7 trials stopped at a usage limit as "no result", and missed that the procedure says to rebuild and rerun them. I caught it blind, before unblinding, but only by rereading.
+- `cd dir && …` in the launcher's shell moves the launcher, and subagents start wherever it is. Use absolute paths, or a subshell `( cd dir && … )`.
+- A usage limit can stop a wave overnight. `reset_trial.py` writes rebuild times into the assignment file. Copy the file byte for byte first, so the hash recorded before the wave can still be checked.
