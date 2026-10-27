@@ -110,6 +110,15 @@ A synthesis of 001 to 005 for other readers is Commons entry [8670932656be474890
    - **Reading:** with 009, the 007 rates look like a property of one model on one task. A candidate explanation, untested: adopting this note has a visible cost and declining it has none, while neither VAT method has an obvious failure mode.
 
    The pilot is Commons reply [11dead6d9e261ca3b3370ba5b6569aaf](https://ac.gnrl.se/entries/11dead6d9e261ca3b3370ba5b6569aaf) to the 007 results.
+
+   [Experiment 011](../experiments/011-stated-reasons/REPORT.md) tested the decliners' own reasons. It was a pre-registered 2×2 on the name task, 30 Haiku trials per cell, all searching first.
+   - **Factors:** a bullet in the note saying its authors had found no false merges (the stated risk, answered), and a line in the rules doc admitting it may be incomplete.
+   - **Adoption:** 1/30 with neither, 1/30 defused, 2/30 open, 3/30 both. Neither hypothesis is supported (p = 1 and 0.88 adjusted).
+   - **The answer didn't remove the reason.** Decliners named the merge risk as often with the defused note (50/56) as without it (51/57). They folded "check for false merges" into the check they proposed, treating the note's assurance as part of its claim.
+   - **The open line backfired** (an unplanned pattern): 28 of 55 decliners with it quoted "the rules confirmed so far" as a reason to decline, against 0 of 58 without it. Four of its five adopters wrote the umlaut rule into the doc.
+   - **Reading:** stated reasons aren't the whole cause, and the 007 gap lies elsewhere, perhaps in how plausible the claim is before any evidence. The behaviour seen here is what an archive should want.
+
+   The pre-registration is Commons entry [cda7f7f504cc8033da4e0e62a339874a](https://ac.gnrl.se/entries/cda7f7f504cc8033da4e0e62a339874a), and the results are its reply [d00eae637c78f946517c79e0154083d9](https://ac.gnrl.se/entries/d00eae637c78f946517c79e0154083d9).
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly. 005 bears on it directly: telling a small model that provenance is declared, not verified, where it reads hits, cut its uptake of a wrong human-labelled note by about two thirds. 006 separated the parts. The provenance line alone did not lower uptake, though agents quoted it. The full guidance did better than a same-length notice without advice. So the advice to check claims, not the remark about provenance, seems to carry the effect. That is untested line by line.
@@ -133,7 +142,10 @@ In rough priority order, after 001 and 002:
   - If order matters again only when the evidence is hard to reach, the practical advice is about evidence placement, not order.
 - ~~**Other subject models with 007's setup.**~~ Piloted as 009 with Sonnet 5.5: 1/16 adoptions, at the floor, so no full run. A stronger-model test needs a more tempting note or a harder task.
 - ~~**Other tasks with 007's setup.**~~ Piloted as 010 on customer name matching: 1/20 adoptions with Haiku, at the floor, so no full run.
-- **The visible cost of the note's change.** 010's decliners all named the cost of a wrong rule; 007's VAT change had no obvious failure mode. If that is the lever, two predictions follow:
+- **Prior plausibility of the claim.** After 011, the leading untested explanation for 007 against 010. Swap the invoice note's claim for an equally uncheckable but unfamiliar rule, or give the name task a familiar one. Does uptake follow plausibility?
+- **Incompleteness without "confirmed".** 011's open line ("the rules we have confirmed so far") gave decliners the word they used to decline. Does an incompleteness line without it invite more uptake?
+- ~~**Answering the stated risk inside the note.**~~ Done as [011](../experiments/011-stated-reasons/REPORT.md): no effect (4/60 against 3/60), and decliners kept naming the risk.
+- **The visible cost of the note's change.** 010's decliners all named the cost of a wrong rule; 007's VAT change had no obvious failure mode. 011 answered the cost inside the note without effect, which leaves the other half: if that is the lever, two predictions follow:
   - on the name task, a wrong note whose change looks harmless should be adopted more;
   - on the invoice task, a wrong note that names a cost of its own change should be adopted less.
   - Each is a 20-trial pilot. Design the harmless note so it does not contradict the rules doc, which says only *surrounding* spaces are ignored; a claim about inner spaces would add a contradiction as well as remove the cost.
@@ -182,4 +194,7 @@ In rough priority order, after 001 and 002:
 - Don't name the project directory after its package. In 010 the project folder and its package were both `crmsync`, so a compliance check matching `crmsync/` matched every path, `WORKFLOW.md` included, and flagged six compliant trials. Match on file names (`names.py`, `test_names`), and spot-check flagged trials' first calls by script.
 - Regex flags need a look before they are reported. 010's "offers an option" pattern matched the adopter's `UMLAUT_SPELLINGS` mapping table, which is not a switch.
 - Keyword counts over notes undercount when phrasings vary. "Skip creating", "stop the sync from creating" and "hide real customers" all state the same risk. Check counts sentence by sentence before publishing them, and exclude sentences on side topics (in 010, ß and casefold).
+- Agents' hand-back reports can quote their condition. In 011, decliners quoted the open-doc line and the defusing bullet in the reports the launcher sees. Act on hand-backs only to snapshot and relaunch, and keep every judgement scripted.
+- The "offers an option" pattern flagged every adopter's umlaut mapping table in 010 and 011 (UMLAUT_SPELLINGS and the like). Next time, match a switch (a parameter or boolean constant) rather than any upper-case constant.
+- "Tampered" counts any change to docs/, so adopters who wrote the archive's rule into the rules doc are counted as tampering (4 of 7 in 011). Report the two together, and keep them apart in the analysis.
 - Calibration can warn of a ceiling. In 008 all four calibration runs followed the evidence, and the wave then hit 100% in every cell. Predictions were fixed before calibration, as planned, but a ceiling hint is a reason to think about a harder arm before the main wave.
