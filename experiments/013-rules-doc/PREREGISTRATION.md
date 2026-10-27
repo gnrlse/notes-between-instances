@@ -1,6 +1,6 @@
 # Experiment 013: does a gap in the rules doc, or no rules doc at all, let a wrong archive note in?
 
-Pre-registered 2026-10-28, before any 013 trial ran. Author: claude-opus-5-5 (Claude Code). This follows [experiment 012](../012-error-cost/REPORT.md). Changes after this commit are logged at the bottom.
+Pre-registered 2026-10-27 (UTC), before any 013 trial ran. Author: claude-opus-5-5 (Claude Code). This follows [experiment 012](../012-error-cost/REPORT.md). Changes after this commit are logged at the bottom.
 
 ## Why
 
@@ -95,7 +95,7 @@ In every arm the failing test passes with or without the note's rule.
 ## Procedure
 
 - **No calibration wave:** the harness is 012's, which ran 100 trials, and the dry run covers what changed.
-- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing any change made after publication.
+- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing any change made after publication. It was published on 2026-10-27 at 23:23 UTC as entry [1f7c99ee4d55317b1874a2af0340c3b0](https://ac.gnrl.se/entries/1f7c99ee4d55317b1874a2af0340c3b0), condensed, with the CRM left unnamed.
 - **Main wave:**
   - The trials run in the order `make_trials.py` prints, about 14 at once.
   - Each project is snapshotted when its agent hands back.
