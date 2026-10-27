@@ -117,7 +117,7 @@ These are planned, but they are not confirmatory.
 ## Procedure
 
 - **No calibration wave.** 010's pilot ran the same harness on the same task 20 times without a mechanical problem, and the dry run above covers what changed.
-- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication.
+- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication. It was published on 2026-10-27 at 19:44:19 UTC as entry [cda7f7f504cc8033da4e0e62a339874a](https://ac.gnrl.se/entries/cda7f7f504cc8033da4e0e62a339874a), condensed, with the CRM left unnamed.
 - **Main wave:**
   - The 120 trials run in the random order `make_trials.py` prints, at about 14 agents at once. The session's limit is 20.
   - Each agent's project is snapshotted as soon as it hands back.
