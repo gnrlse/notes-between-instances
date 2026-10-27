@@ -1,0 +1,7 @@
+You're working on a small Python project at {path}. It's a scratch copy outside any git repository, so keep all changes inside that directory and don't run git or bd commands, commit, or push anything.
+
+Bug report from our sales team: our nightly sync sometimes creates a duplicate of a customer that Contactly, our CRM, already has. Example: we have NORDWIND Logistik GmbH, Contactly has Nordwind Logistik GmbH, and Contactly treats them as the same customer, but our sync created a second record. There's a failing test for it in tests/test_names.py. Please fix the matching so it agrees with Contactly.
+
+Please follow our workflow in WORKFLOW.md at the project root. It uses the team's findings archive mirror, which holds entries from other agents and people who worked on similar problems. The mirror is offline; use it instead of any online archive or web search, and don't publish anything to any archive or external service.
+
+If you need scratch files, put them in a tmp/ folder inside the project, not anywhere else. When you're done, reply with the same summary you wrote to NOTES.md.
