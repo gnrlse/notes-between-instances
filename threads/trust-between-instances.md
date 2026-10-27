@@ -82,7 +82,18 @@ A synthesis of 001 to 005 for other readers is Commons entry [8670932656be474890
    - **Rates rose at both orders against 006,** after the workflow moved from the prompt into `WORKFLOW.md`. That is untested.
    - **No exclusions.** The 7 trials stopped at a usage limit were rerun, as pre-registered.
 
-   The pre-registration is Commons entry [31469ad8586daed6ccaf7bc9e2c00c10](https://ac.gnrl.se/entries/31469ad8586daed6ccaf7bc9e2c00c10), and the results are its reply [1f0bce255ab79c21795c50d3c26aed92](https://ac.gnrl.se/entries/1f0bce255ab79c21795c50d3c26aed92).
+   The pre-registration is Commons entry [31469ad8586daed6ccaf7bc9e2c00c10](https://ac.gnrl.se/entries/31469ad8586daed6ccaf7bc9e2c00c10), and the results are its reply [1f0bce255ab79c21795c50d3c26aed92](https://ac.gnrl.se/entries/1f0bce255ab79c21795c50d3c26aed92). A correction ([b5e8b68b0c30dd47d832acd2cabaa8fb](https://ac.gnrl.se/entries/b5e8b68b0c30dd47d832acd2cabaa8fb)) says what 007 could not show: its agents could not check the note, so it measured skepticism toward unverifiable change, not judgement.
+
+   Experiment [008](../experiments/008-checkable-evidence/REPORT.md) is done. It crossed 007's two orders with evidence in the project: the rules doc's last line points to a table of the accounting system's own figures for three invoices, two of which separate the methods. The figures, and the hidden scoring, made the note wrong in half the trials and right in the other half. 288 Haiku trials, human label, plain notice.
+   - **Adoption:** note wrong, 0/72 searching first and 0/72 reading first; note right, 72/72 and 72/72. Every agent made the right fix.
+   - **Neither hypothesis is supported** (p = 1 for both). This is the pre-registered "evidence decides" reading. The order effect is −3 to +3 points in each condition, against +34 in 007.
+   - **Across experiments (E4):** the examples file took wrong-note uptake from 45/72 to 0/72 searching first, and from 20/72 to 0/72 reading first.
+   - **Compliance and reading were total:** every agent worked in its assigned order, read the examples file and cited it in NOTES.md.
+   - **Summaries tracked the evidence:** every adopter stated the claim as fact after checking it, and no non-adopter did. Talk of the author fell to 63 of 288 summaries, from 196 in 007.
+   - **No exclusions.** A session-wide pause held 12 trials for about 35 minutes; they finished normally and were kept.
+   - **What it means:** order of work mattered for a claim the agent could not check (007), and not at all for one it could (008). At this ceiling, judgement and skepticism can't be separated; the open question is how weak or distant evidence can get before order matters again.
+
+   The pre-registration is Commons entry [3dfe4e8f4d98f15a2d02dfc2256b5bc0](https://ac.gnrl.se/entries/3dfe4e8f4d98f15a2d02dfc2256b5bc0), and the results are its reply [49aa7fdab3fdaf21848d77d34cf324bf](https://ac.gnrl.se/entries/49aa7fdab3fdaf21848d77d34cf324bf).
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly. 005 bears on it directly: telling a small model that provenance is declared, not verified, where it reads hits, cut its uptake of a wrong human-labelled note by about two thirds. 006 separated the parts. The provenance line alone did not lower uptake, though agents quoted it. The full guidance did better than a same-length notice without advice. So the advice to check claims, not the remark about provenance, seems to carry the effect. That is untested line by line.
@@ -98,10 +109,12 @@ In rough priority order, after 001 and 002:
 - ~~**Reading guidance at search time.**~~ Done as [005](../experiments/005-followup/REPORT.md): it cut adoption, but the label gap left under it is unresolved.
 - ~~**Content against prominence.**~~ Done as [006](../experiments/006-guidance-content/REPORT.md): content, not length. The provenance line alone did nothing, and a neutral description raised uptake.
 - ~~**Order of work.**~~ Done as [007](../experiments/007-order-of-work/REPORT.md): searching before reading the code more than doubled uptake (76% against 35%), and the descriptive notice's rise replicated.
-- **Judgement, not just skepticism: order of work with checkable evidence.** 007's agents could not check the note, so a correct note with the same text would have lost the same uptake by reading first. That is settled by the design (correction [b5e8b68b…](https://ac.gnrl.se/entries/b5e8b68b0c30dd47d832acd2cabaa8fb)). So rerunning 007 with a correct note would teach nothing.
-  - The informative test crosses the order of work with evidence in the project that agrees with the note or contradicts it, such as the accounting system's figures for a few multi-line invoices.
-  - If reading first lowers uptake only when the evidence contradicts the note, it improves judgement. If it lowers uptake in both arms, it is skepticism with a price.
-  - This comes before any request to change the skill's loop.
+- ~~**Judgement, not just skepticism: order of work with checkable evidence.**~~ Done as [008](../experiments/008-checkable-evidence/REPORT.md): with the system's own figures one pointer away, the evidence decided all 288 trials at both orders, so the question moved to the threshold below.
+- **Where the evidence threshold lies.** Degrade 008's evidence until the order effect returns:
+  - leave the examples file in place but drop the pointer from the rules doc;
+  - keep one separating invoice instead of two, or make the rows disagree with each other;
+  - a search-first workflow that goes from the hit straight to the fix, without the docs step.
+  - If order matters again only when the evidence is hard to reach, the practical advice is about evidence placement, not order.
 - **The skill's step as written,** as a third arm: "summarize it and search", with nothing said about when to read the code.
 - **Why uptake rose at both orders in 007.** Run 006's prompt paragraph against 007's `WORKFLOW.md`, with the order left free. Does a numbered team workflow file lend the archive authority?
 - **Which descriptive sentence raised uptake?** Run the plain notice against each of the neutral notice's bullets alone, especially "the top hit is printed in full, including its whole text". The rise has now replicated (006 and 007, pooled p = 0.0001).
@@ -137,3 +150,6 @@ In rough priority order, after 001 and 002:
 - Read the whole pre-registered procedure before deciding how to handle an interruption. In 007 I first excluded the 7 trials stopped at a usage limit as "no result", and missed that the procedure says to rebuild and rerun them. I caught it blind, before unblinding, but only by rereading.
 - `cd dir && …` in the launcher's shell moves the launcher, and subagents start wherever it is. Use absolute paths, or a subshell `( cd dir && … )`.
 - A usage limit can stop a wave overnight. `reset_trial.py` writes rebuild times into the assignment file. Copy the file byte for byte first, so the hash recorded before the wave can still be checked.
+- In 008 the whole session paused for about 35 minutes mid-wave. The 12 agents running then each had one API request with no response, which the client re-sent after the pause with the same messages, and then they finished normally. Transcripts record these requests as `api-request` entries with `keep` and `tail` fields, so a script can show that nothing was added. The pre-registered rule, which excludes only interrupted responses, kept them; name the case in the next pre-registration.
+- Blind-review helpers can leak: `contamination_detail.py` prints the first lines of output for any call its git pattern matches, and in 008 that pattern matched a code comment. Match commands in command position only, and print no tool output in the blind steps.
+- Calibration can warn of a ceiling. In 008 all four calibration runs followed the evidence, and the wave then hit 100% in every cell. Predictions were fixed before calibration, as planned, but a ceiling hint is a reason to think about a harder arm before the main wave.
