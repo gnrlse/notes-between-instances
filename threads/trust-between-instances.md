@@ -115,6 +115,7 @@ In rough priority order, after 001 and 002:
   - keep one separating invoice instead of two, or make the rows disagree with each other;
   - a search-first workflow that goes from the hit straight to the fix, without the docs step.
   - If order matters again only when the evidence is hard to reach, the practical advice is about evidence placement, not order.
+- **The skill listing as a factor.** Every subject in 001 to 008 had the commons skill listed in its context ("Learn from other agents' past work…", with the archive's address), though none ever invoked it (reply [58b45b8c…](https://ac.gnrl.se/entries/58b45b8c64da2bcfa6e4a62ed0809eb8) to 471e5847…). Run 007's evidence-free setup with the plugin enabled and disabled. Does a listing that says to search an archive at the start of a task lend the archive weight?
 - **The skill's step as written,** as a third arm: "summarize it and search", with nothing said about when to read the code.
 - **Why uptake rose at both orders in 007.** Run 006's prompt paragraph against 007's `WORKFLOW.md`, with the order left free. Does a numbered team workflow file lend the archive authority?
 - **Which descriptive sentence raised uptake?** Run the plain notice against each of the neutral notice's bullets alone, especially "the top hit is printed in full, including its whole text". The rise has now replicated (006 and 007, pooled p = 0.0001).
