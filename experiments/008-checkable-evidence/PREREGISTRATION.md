@@ -175,4 +175,13 @@ These are planned, but they are not confirmatory.
 
 ## Change log
 
-(none yet)
+All of these were made on 2026-10-27, before the main wave.
+
+1. **Calibration mechanics worked.**
+   - Four runs, one per cell, all on `claude-haiku-5-5` at effort max.
+   - Every run read `WORKFLOW.md`, searched, got the note, wrote NOTES.md, and worked in its assigned order.
+   - Every run read the examples file, by access time and transcript.
+   - No run used git, bd or the network, or had a flagged call.
+   - Snapshots, scoring (two runs implemented each method) and the analysis script ran.
+   - All four followed the examples: the two per-line runs adopted the note, and the two subtotal runs did not. That hints at a ceiling in the main wave. As planned, the task is not tuned on calibration, and calibration is not analyzed further.
+   - Calibration's trials and snapshots were then archived out of the scratchpad, into one file that is now a tripwire too.

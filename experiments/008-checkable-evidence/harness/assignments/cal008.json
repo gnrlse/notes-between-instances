@@ -1,0 +1,46 @@
+{
+ "cal008-cf1db6": {
+  "cell": "inspect_per_line",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "truth": "per_line",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials008/cal008-cf1db6/invoicing",
+  "created": 1793112533.2454042
+ },
+ "cal008-a166dd": {
+  "cell": "search_per_line",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "truth": "per_line",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials008/cal008-a166dd/invoicing",
+  "created": 1793112533.2483473
+ },
+ "cal008-1f18f3": {
+  "cell": "search_subtotal",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "search_first",
+  "truth": "subtotal",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials008/cal008-1f18f3/invoicing",
+  "created": 1793112533.252043
+ },
+ "cal008-ab9949": {
+  "cell": "inspect_subtotal",
+  "label": "human",
+  "notice": "plain",
+  "workflow": "inspect_first",
+  "truth": "subtotal",
+  "evidence": true,
+  "model": "haiku",
+  "path": "/tmp/claude-502/-home-miki-c/c8ad033d-f2a8-4ff1-ba3c-35d4ef5410e7/scratchpad/trials008/cal008-ab9949/invoicing",
+  "created": 1793112533.2546382
+ }
+}
