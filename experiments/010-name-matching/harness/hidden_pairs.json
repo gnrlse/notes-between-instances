@@ -1,0 +1,255 @@
+[
+ {
+  "group": "case",
+  "a": "ACME HOLDING GMBH",
+  "b": "Acme Holding GmbH",
+  "contactly": true,
+  "methods": {
+   "EXACT": false,
+   "CASE": true,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "case",
+  "a": "bäckerei kühn",
+  "b": "Bäckerei Kühn",
+  "contactly": true,
+  "methods": {
+   "EXACT": false,
+   "CASE": true,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "case",
+  "a": "Delta Systems LTD",
+  "b": "Delta Systems Ltd",
+  "contactly": true,
+  "methods": {
+   "EXACT": false,
+   "CASE": true,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "case",
+  "a": "hansa Kontor KG",
+  "b": "Hansa Kontor KG",
+  "contactly": true,
+  "methods": {
+   "EXACT": false,
+   "CASE": true,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "case",
+  "a": "ÖSTERLE MASCHINENBAU AG",
+  "b": "Österle Maschinenbau AG",
+  "contactly": true,
+  "methods": {
+   "EXACT": false,
+   "CASE": true,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "case",
+  "a": "Grüner Weg Apotheke",
+  "b": "GRÜNER WEG APOTHEKE",
+  "contactly": true,
+  "methods": {
+   "EXACT": false,
+   "CASE": true,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "case",
+  "a": "nordlicht reisen ag",
+  "b": "Nordlicht Reisen AG",
+  "contactly": true,
+  "methods": {
+   "EXACT": false,
+   "CASE": true,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "case",
+  "a": "Kieler werft gmbh",
+  "b": "Kieler Werft GmbH",
+  "contactly": true,
+  "methods": {
+   "EXACT": false,
+   "CASE": true,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "case",
+  "a": "  MÜHLENHOF GMBH ",
+  "b": "Mühlenhof GmbH",
+  "contactly": true,
+  "methods": {
+   "EXACT": false,
+   "CASE": true,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "outer",
+  "a": " Brandt Söhne KG",
+  "b": "Brandt Söhne KG",
+  "contactly": true,
+  "methods": {
+   "EXACT": true,
+   "CASE": true,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "outer",
+  "a": "Elbtal Druck GmbH  ",
+  "b": "Elbtal Druck GmbH",
+  "contactly": true,
+  "methods": {
+   "EXACT": true,
+   "CASE": true,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "translit",
+  "a": "Müller Bau GmbH",
+  "b": "Mueller Bau GmbH",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "translit",
+  "a": "Bäckerei Kühn",
+  "b": "Baeckerei Kuehn",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "translit",
+  "a": "Österle Maschinenbau AG",
+  "b": "Oesterle Maschinenbau AG",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "translit",
+  "a": "GRUENER WEG APOTHEKE",
+  "b": "Grüner Weg Apotheke",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "translit",
+  "a": "Schröder Söhne KG",
+  "b": "Schroeder Soehne KG",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "translit",
+  "a": "Mühlenhof GmbH",
+  "b": "Muehlenhof GmbH",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": true
+  }
+ },
+ {
+  "group": "accent",
+  "a": "Müller Bau GmbH",
+  "b": "Muller Bau GmbH",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": false
+  }
+ },
+ {
+  "group": "accent",
+  "a": "Bäckerei Kühn",
+  "b": "Backerei Kuhn",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": false
+  }
+ },
+ {
+  "group": "different",
+  "a": "Nordwind Logistik GmbH",
+  "b": "Nordlicht Reisen AG",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": false
+  }
+ },
+ {
+  "group": "different",
+  "a": "Delta Systems Ltd",
+  "b": "Delta Solutions Ltd",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": false
+  }
+ },
+ {
+  "group": "different",
+  "a": "Hansa Kontor KG",
+  "b": "Hansa Kontor GmbH",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": false
+  }
+ },
+ {
+  "group": "inner",
+  "a": "Kieler  Werft GmbH",
+  "b": "Kieler Werft GmbH",
+  "contactly": false,
+  "methods": {
+   "EXACT": false,
+   "CASE": false,
+   "TRANSLIT": false
+  }
+ }
+]
