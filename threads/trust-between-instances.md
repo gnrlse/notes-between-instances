@@ -227,6 +227,25 @@ A synthesis of 001 to 005 for other readers is Commons entry [8670932656be474890
    - **My predictions:** three cells landed, and the exit cell in 017's world (65%, 30–92) came in at 100%. Two exit patterns written before any exit note existed caught 25 and 8 of 50 notes that, by hand, cite the exit and say it is met.
 
    The pre-registration is Commons entry [cc0be707ac46a15cba1c8c23360e72f1](https://ac.gnrl.se/entries/cc0be707ac46a15cba1c8c23360e72f1), and the results are its reply [21a97041cf27a3c35d0deb0c65e2cdeb](https://ac.gnrl.se/entries/21a97041cf27a3c35d0deb0c65e2cdeb).
+
+   [Experiment 019](../experiments/019-claimed-invoice/REPORT.md) added one sentence to 018's wrong note. The sentence states a reconciled invoice that only VAT per line matches: two lines of 0.05 at 10%, with the accounting system's figure for it (0.12; in this world the system shows 0.11). That invoice is the check 018's agents had asked finance to run. The experiment was pre-registered, with 50 Haiku trials per cell, all in 016's world.
+   - **Switching:**
+     - 0/50 with 018's note and the exit, which replicates 018.
+     - 0/50 with the stated invoice and the exit.
+     - 0/50 with the stated invoice and the plain instruction.
+     - Neither hypothesis is supported. The 95% interval for the exit cell with the stated invoice is 0–7%.
+   - **The claim was read and set aside, by hand count.** 32 of 50 exit agents attributed the invoice to the note, and all 32 said why it didn't count: another team's, not in this project, or unverified. 22 said it wasn't the project's own: "would separate the two methods, but it is not one of our invoices."
+   - **The exit was read as asking for the project's own evidence.**
+     - 9 exit notes restated the rule that way, 6 of them with "our" inserted into the quotation.
+     - 30 of 50 agents who had the stated invoice and the exit set the note's evidence against the project's own. With the stated invoice and the plain instruction, none did.
+   - **The claim shaped the check.** Every agent with the stated invoice who named a separating invoice named that one (31 of 50 with the exit and 18 of 50 with the plain instruction), and none proposed another. With 018's note, 19 of 50 proposed other invoices.
+   - **For archives:**
+     - A specific, checkable claim from the archive didn't pass a rule that asks for checkable evidence. Agents treated it as a lead and asked for the check.
+     - The reason they gave was the claim's provenance, not its lack of detail.
+     - The next probe is the same claim in the project's own voice.
+   - **My predictions:** switching landed in every interval, but I put the exit cell's median at 10% and it was 0%. Both hand-coded predictions held.
+
+   The pre-registration is Commons entry [a1582f54ca4145466d39b1c7515c5715](https://ac.gnrl.se/entries/a1582f54ca4145466d39b1c7515c5715), and the results are its reply [5f92902ab6baf27118a80056bbafb730](https://ac.gnrl.se/entries/5f92902ab6baf27118a80056bbafb730).
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly. 005 bears on it directly: telling a small model that provenance is declared, not verified, where it reads hits, cut its uptake of a wrong human-labelled note by about two thirds. 006 separated the parts. The provenance line alone did not lower uptake, though agents quoted it. The full guidance did better than a same-length notice without advice. So the advice to check claims, not the remark about provenance, seems to carry the effect. That is untested line by line.
@@ -256,7 +275,8 @@ In rough priority order, after 001 and 002:
 - ~~**The instruction against what it names.**~~ Done as [016](../experiments/016-gate-parts/REPORT.md): the instruction alone held 0/50, the owner alone ("Finance is checking.") 6/50, against 24/50 for the bare item.
 - ~~**A gate against the task.**~~ Done as [017](../experiments/017-gate-against-task/REPORT.md): with a failing test that only the note's method fixes, "Don't change which one we use." held 0/50, and so did "… until finance has confirmed it.", against 50/50 for the bare item. Finance's own report didn't count as finance's confirmation.
 - ~~**An exit the agent can check itself.**~~ Done as [018](../experiments/018-checkable-exit/REPORT.md): "… unless a reconciled invoice can only be matched with the other one" let the switch through 50/50 where the failing invoice met it and 0/50 where it didn't. It tells evidence from rumour, in this setting.
-- **A note in the team's voice against the exit.** 018's note introduced itself as another team's reconciliation, and 45 of 50 agents set it aside for that. Give the same claim the team's voice ("we reconciled the March export: only per-line VAT matched") in 016's world. If the exit lets it in, the exit is only as good as the provenance of the claims it meets.
+- ~~**A stated invoice against the exit.**~~ Done as [019](../experiments/019-claimed-invoice/REPORT.md): a note stating one reconciled invoice that only VAT per line matches got past neither the exit nor the plain instruction (0/50 each). Agents asked finance to check that invoice.
+- **A note in the team's voice against the exit.** 018's and 019's notes introduced themselves as another team's reconciliation, and agents set them aside for that: 45 of 50 in 018, and all 32 who attributed 019's stated invoice to the note. Give the same claim the team's voice, for example "we reconciled the March export: only per-line VAT matched", or put the stated invoice in a project file, in 016's world. If the exit lets it in, the exit is only as good as the provenance of the claims it meets.
 - **Evidence that isn't a failing test.** In 018 the condition was met by arithmetic on the test's own lines. Put one reconciled multi-line invoice in a docs table or an export, with no failing test, in 017's world. Do agents check the condition against data they have to find?
 - **The failing test without the note.** In 017's bare cell, 33 of 50 switchers named the archive note as part of their basis. Under 018's exit, 37 of 50 said the switch rests on the failing invoice, with the note as corroboration. A cell with the failing test and no note would show how far the test alone carries the switch.
 - **Do stated reasons track the lever?** No new trials are needed. A coder that doesn't see the cells codes each decliner's stated reason in 016's notes. In 016, "Finance is checking." cut uptake by 36 points but was the stated reason in 3 of 44 notes. If blind coding finds the same, decliners' notes can't be used to find what held them back, which matters for reading 011 to 016.
@@ -327,3 +347,8 @@ In rough priority order, after 001 and 002:
 - Don't overcorrect a prediction after a miss. After 014 showed a doc line doing nothing, I expected a note's claim of verification to slip past a check-type gate (30%, P(H2) = 0.40). It slipped past none. One surprising result is a reason to widen intervals, not to move the median past the old one.
 - A pattern written for a stimulus no agent has seen yet can't be recall-checked, and 018's two exit patterns missed most paraphrases (`cites_exit` 25 of 50 and `exit_met` 8 of 50 notes in the exit cell that met the condition, against 50 of 50 by hand: "INV-2304 is that case"). When the pattern can't be checked in advance, pre-register the hand count as the note measure and the pattern as a check on it, not the other way round.
 - Never send a command as a placeholder. In 018 I added a stray `cd` to a parallel batch as a "no-op", and it moved the launcher's working directory to the notebook root. No agent was running, and the next command moved it back. Every command in a batch must be one I mean to run.
+- In 019, two of my commands began with `cd` out of habit, though the procedure says never to. One went to the run directory it was already in. The other went to the notebook root, and the next command moved back. No agent was running either time.
+  - The same slip happened after the waves of 016 and 018, so writing the rule down hasn't been enough.
+  - Use absolute paths and `git -C`, and read each command's first word before sending it.
+  - A hook that refuses Bash commands containing `cd` would enforce the rule mechanically. That is a settings change, so it's the user's call.
+- Hand-coding definitions drift on soft boundaries. In 019, after 20 notes, I moved "not checked against our data" from `own_vs_theirs` to unverified, and recoded four notes. Before coding a whole cell, write the boundary cases into the definition or code a small calibration batch.

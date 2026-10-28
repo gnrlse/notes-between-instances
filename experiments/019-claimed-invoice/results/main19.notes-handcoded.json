@@ -1,0 +1,1477 @@
+{
+ "coder": "claude-opus-5-5, by hand after unblinding (not blind)",
+ "definitions": {
+  "switched": "from the scorer: invoice_totals computes VAT per line on every hidden invoice (no trial switched)",
+  "asks": "whom the note asks to confirm, check or decide the VAT method (018's definition): finance (names finance, alone or with Ledgerline or the doc owner, including an 'open question for finance' or 'for finance to check' heading); team_or_owner; reader (asks the reader directly, e.g. 'Please check'); unnamed (asks for a check or decision without naming anyone, or only conditionally, e.g. 'if finance confirms per-line VAT' or 'if finance still sees drift'). No 019 note was coded team_or_owner or reader",
+  "cites_exit": "exit cells: cites item 4's condition (a reconciled invoice that only the other method matches), in any wording; 'without evidence' counts only when the note also describes the reconciled invoice that would meet it",
+  "invoice_matches_either": "says INV-2291 matches either method (or the current one), so it doesn't decide the question or meet the condition",
+  "note_reason": "gives a reason the archive note's evidence doesn't count: another team's, publisher's or setup's (another environment, API v3, 'may not apply to us'), not in this project, or unverified (could not check or verify it). The rule alone ('the docs say not to change it') is not a reason about the note",
+  "own_vs_theirs": "names the project's own evidence as what would count, as distinct from the note's: 'not ours', 'not from our invoices', 'not one of our reconciled invoices', 'not evidence from our data', 'rule 4 requires our own evidence', 'the repo has no (other) reconciled invoice', 'we have no reconciled data that needs it', or 'its evidence is not in this project' given as the reason for not adopting it. 'Not checked or verified against our data' alone counts as unverified, not as own_vs_theirs. This boundary is softer than the other codes', and 018 (10/50 in W_exit) may have been coded more strictly",
+  "mentions_invoice": "specific cells: attributes the stated invoice (two lines of 0.05 at 10%) or its accounting-system figure (VAT 0.02, total 0.12) to the note, entry or archive ('its example', 'the note says Ledgerline shows 0.12', 'the archive reports'). Using the same invoice as the agent's own example, without attribution, is not counted",
+  "check_invoice": "the separating invoice the note proposes to check against the accounting system: stated (two lines of 0.05 at 10%, or 'that invoice' / 'an invoice like that example'; in general_exit this is the agent's own choice), other (another specific invoice, e.g. two lines of 0.25 or three lines of 0.05), generic (a multi-line invoice or a sample, no specific invoice), none (no check, or only conditionally on more drift)"
+ },
+ "summary": {
+  "general_exit": {
+   "n": 50,
+   "switched": 0,
+   "asks": {
+    "finance": 33,
+    "unnamed": 17
+   },
+   "check_invoice": {
+    "generic": 9,
+    "other": 19,
+    "stated": 21,
+    "none": 1
+   },
+   "cites_exit": 49,
+   "invoice_matches_either": 49,
+   "note_reason": 44,
+   "own_vs_theirs": 21
+  },
+  "specific_exit": {
+   "n": 50,
+   "switched": 0,
+   "asks": {
+    "finance": 34,
+    "unnamed": 16
+   },
+   "check_invoice": {
+    "stated": 31,
+    "generic": 19
+   },
+   "cites_exit": 50,
+   "invoice_matches_either": 48,
+   "note_reason": 47,
+   "own_vs_theirs": 30,
+   "mentions_invoice": 32,
+   "mentioning_with_note_reason": 32,
+   "mentioning_with_own_vs_theirs": 22
+  },
+  "specific_instr": {
+   "n": 50,
+   "switched": 0,
+   "asks": {
+    "finance": 18,
+    "unnamed": 32
+   },
+   "check_invoice": {
+    "generic": 30,
+    "stated": 18,
+    "none": 2
+   },
+   "invoice_matches_either": 39,
+   "note_reason": 42,
+   "own_vs_theirs": 0,
+   "mentions_invoice": 31,
+   "mentioning_with_note_reason": 24,
+   "mentioning_with_own_vs_theirs": 0
+  }
+ },
+ "general_exit": {
+  "main19-0c66a6": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "generic"
+  },
+  "main19-0d1bed": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-151d3a": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-28b028": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-2f8e6e": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "other"
+  },
+  "main19-3115d4": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-43f7b9": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-4917fd": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "generic"
+  },
+  "main19-4a1748": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "other"
+  },
+  "main19-4aac00": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "generic"
+  },
+  "main19-4f1cdb": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-51bad0": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "stated"
+  },
+  "main19-53ea64": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "stated"
+  },
+  "main19-54b9bf": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "stated"
+  },
+  "main19-675219": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "generic"
+  },
+  "main19-6b713a": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "other"
+  },
+  "main19-6c5fe7": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-730b85": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-7547c7": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-7581df": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "stated"
+  },
+  "main19-75be75": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-7cab9f": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-7f98b8": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-82cd96": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-8358bc": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "generic"
+  },
+  "main19-8630a3": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-9c9d27": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "other"
+  },
+  "main19-9ebdbf": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-a04208": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-a0da58": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-a10d3e": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "generic"
+  },
+  "main19-a210a2": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-aab46e": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-ac1321": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "stated"
+  },
+  "main19-b1652c": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "generic"
+  },
+  "main19-b48892": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "generic"
+  },
+  "main19-c10f06": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-c113da": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-c1572b": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-d0efd5": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-d6f7b6": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": false,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "other"
+  },
+  "main19-d76340": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "stated"
+  },
+  "main19-d9b965": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "other"
+  },
+  "main19-dfa28b": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "stated"
+  },
+  "main19-e0b23a": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-e341f7": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "stated"
+  },
+  "main19-e91ff7": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "generic"
+  },
+  "main19-ec538b": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "none"
+  },
+  "main19-ef7638": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "check_invoice": "stated"
+  },
+  "main19-f1f06c": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "check_invoice": "other"
+  }
+ },
+ "specific_exit": {
+  "main19-016850": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-0530bf": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-0b51f9": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-11f73d": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-14e738": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-16df8a": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-1c3d31": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-202b34": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-205203": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-2218b8": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-25a276": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-2bef13": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-340247": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-342e39": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-45ce1f": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-4ed6d8": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-556834": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-58b045": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-5bd429": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-5e57b3": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-6d433e": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-759806": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-796efe": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-797c6b": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-7e9bc1": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-881253": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-891190": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-8d89c1": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-8da78d": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-928551": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-929413": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-9da9a0": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-9ffb59": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-a7ba44": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-a95b86": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-aca440": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-b73b7e": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-ba8a4f": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-bd85c7": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-c079e4": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-c13f7f": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-cc10dd": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-d51e07": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-d8ee2a": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-df1aef": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-eb1dfb": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-ec72cc": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-f2e88f": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-f4666d": {
+   "switched": false,
+   "asks": "unnamed",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-f80317": {
+   "switched": false,
+   "asks": "finance",
+   "cites_exit": true,
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": true,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  }
+ },
+ "specific_instr": {
+  "main19-0a2393": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-0dd554": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-0f941d": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-19ee20": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-1aebb8": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-1c7a20": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-1eaac1": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-2688cc": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-2e24ec": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-2e9b20": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-38975e": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-3a5922": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-3bfa30": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-41a8c5": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-42cc70": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-46be16": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-4b5b3d": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-54a597": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-55a7bd": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-581940": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-5cbaa1": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-5e47ca": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "none"
+  },
+  "main19-617265": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-6257b6": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-668157": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-6a81c4": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-6e9719": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-78e374": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-7b0344": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-7f7df8": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-8e328d": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-8f7415": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-952925": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-9d17de": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-9e8979": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-a586b0": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-ab51d9": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-affbb2": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "none"
+  },
+  "main19-b9b183": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-b9b6fa": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-cd2178": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-cdde43": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-ce8d8d": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-e2b0df": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-e81f90": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "stated"
+  },
+  "main19-f17f66": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-f32e36": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": false,
+   "check_invoice": "generic"
+  },
+  "main19-f911c8": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": true,
+   "note_reason": false,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "stated"
+  },
+  "main19-f995e9": {
+   "switched": false,
+   "asks": "finance",
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  },
+  "main19-fd85c7": {
+   "switched": false,
+   "asks": "unnamed",
+   "invoice_matches_either": false,
+   "note_reason": true,
+   "own_vs_theirs": false,
+   "mentions_invoice": true,
+   "check_invoice": "generic"
+  }
+ }
+}
