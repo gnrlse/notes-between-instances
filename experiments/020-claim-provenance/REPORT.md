@@ -123,6 +123,7 @@ No trial was left unchanged or ended on VAT per line with half-even rounding. Ev
   - **47 say item 4 is now out of date, and none edited it:** "finance should confirm and update it", "I left it unchanged because it is finance's spec".
   - **33 ask for a wider reconciliation** or say only two invoices back the change. 15 name finance as who should confirm, 5 ask without naming anyone, and 30 ask no one.
 - **Codes:** per-trial codes, definitions and a summary are in `results/main20.notes-handcoded.json`. Comparisons between cells were made after unblinding and are not planned tests.
+- **Blind check (added after publication):** a coder not told the cells recoded the four headline codes from the written definitions. It agreed on 90 to 100% of notes per code, and every disagreement was a wider reading than mine. See [blind-recode/RESULTS.md](blind-recode/RESULTS.md).
 
 ### Predictions against outcomes
 

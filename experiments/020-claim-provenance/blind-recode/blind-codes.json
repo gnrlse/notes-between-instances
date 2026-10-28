@@ -1,0 +1,765 @@
+{
+ "coder": "Claude Code general-purpose subagent, model override sonnet, not told cells or results",
+ "codebook": "experiments/020-claim-provenance/blind-recode/CODEBOOK.md",
+ "by_cell": {
+  "archive_ours": {
+   "n": 50,
+   "provenance": {
+    "not_found": 47,
+    "theirs": 2,
+    "unaddressed": 1
+   },
+   "notices_claim": 1,
+   "record_meets_exit": 0,
+   "rests_on_record": 50
+  },
+  "project_record": {
+   "n": 50,
+   "provenance": {
+    "na": 50
+   },
+   "notices_claim": 0,
+   "record_meets_exit": 50,
+   "rests_on_record": 50
+  }
+ },
+ "agreement": {
+  "provenance": {
+   "agree": 47,
+   "n": 50,
+   "mine_vs_blind": {
+    "not_found|not_found": 44,
+    "theirs|not_found": 1,
+    "theirs|theirs": 2,
+    "unaddressed|not_found": 2,
+    "unaddressed|unaddressed": 1
+   }
+  },
+  "notices_claim": {
+   "agree": 50,
+   "n": 50,
+   "mine_vs_blind": {
+    "False|False": 49,
+    "True|True": 1
+   }
+  },
+  "record_meets_exit": {
+   "agree": 46,
+   "n": 50,
+   "mine_vs_blind": {
+    "False|True": 4,
+    "True|True": 46
+   }
+  },
+  "rests_on_record": {
+   "agree": 45,
+   "n": 50,
+   "mine_vs_blind": {
+    "False|True": 5,
+    "True|True": 45
+   }
+  }
+ },
+ "codes": {
+  "main20-fd5842": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-ba816d": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-183050": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-70f0c9": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-282f5a": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-198777": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-a20dc3": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-12ceda": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-c1eea8": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-a3acd0": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-c5f6b8": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-8a57ae": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-13ef1f": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-ff6e0b": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-efca4c": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-6b314a": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-ca9352": {
+   "cell": "archive_ours",
+   "provenance": "theirs",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-339086": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-016670": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-8ad1a9": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-9d1096": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-21e1ed": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-17d6ec": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-29cb07": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-282326": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-045800": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-d56915": {
+   "cell": "archive_ours",
+   "provenance": "unaddressed",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-8ceeae": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-235c46": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-fc3af2": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-803bba": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-248ed2": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-6a4907": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-600438": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-e5fc00": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-55ec6f": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-70c526": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-67042f": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-b956c7": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-39717d": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-c6cbab": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-7ffc3e": {
+   "cell": "archive_ours",
+   "provenance": "theirs",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-1e903d": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-858cdb": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-b82e9c": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-d0a0bb": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-45ffcf": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-fef4cc": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-eee916": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-3a4115": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-a9fd25": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-f825b0": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-fe0e49": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-eac575": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-a22932": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-66ce6d": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-e220b3": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-5257b9": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-a6bfae": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-288f83": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-2d936b": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-75a3a6": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-cdd0ad": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-0efbb2": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-7519be": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-c634de": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-bf650e": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-99d3e4": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-8cf66a": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-76de5a": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-cec3c4": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-89a112": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-4c8aab": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-7b76e5": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-2f992a": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": true,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-ba19d2": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-0992c4": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-034e22": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-777a44": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-3b06bf": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-f1dcd2": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-e9094a": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-9398a9": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-b88573": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-5503c3": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-375034": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-42d16f": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-d8f6fc": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-5b3e0e": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-e4c751": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-f6bfcc": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-4c0abc": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-774bbe": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-3f8309": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-dda541": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-a47d2d": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-375324": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-872c5f": {
+   "cell": "project_record",
+   "provenance": "na",
+   "notices_claim": false,
+   "record_meets_exit": true,
+   "rests_on_record": true
+  },
+  "main20-981993": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  },
+  "main20-8fb2b0": {
+   "cell": "archive_ours",
+   "provenance": "not_found",
+   "notices_claim": false,
+   "record_meets_exit": false,
+   "rests_on_record": true
+  }
+ }
+}
