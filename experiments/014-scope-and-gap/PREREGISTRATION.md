@@ -143,4 +143,7 @@ In every cell the failing test passes with either method: on both invoices, VAT 
 
 ## Change log
 
-None yet.
+- **2026-10-28, before any trial** (commit 3a529f6): added the publication note. Nothing else changed.
+- **The main wave** ran from 00:54 to 01:40 UTC on 2026-10-28. There was no session-wide pause and no interrupted response, and no trial was stopped or rerun. The 150 hand-backs were snapshotted as they arrived.
+- **The blind review, after the wave and before unblinding:** `transcripts.py` flagged three trials. Each wrote its own pytest output to a file in the session scratchpad, outside its trial. Each read the file back, deleted it within seconds and listed the names in the scratchpad root. The writes came at different times (00:57, 01:08 and 01:36 UTC), so none could read another's file. Under the pre-registered rule, own scratch files and listings are reported but don't exclude, so all three are kept. The hand notes are in `results/main14.hand-notes.json`.
+  - `outside_check.py` found two more scratchpad mentions that `transcripts.py` did not flag. One was the word "scratchpad" inside an echo string. The other was the agent's own trial root, one level above its project, where it wrote and deleted a pytest output file. Neither reaches outside the trial.

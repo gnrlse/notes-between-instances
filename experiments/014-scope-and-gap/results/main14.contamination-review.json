@@ -1,0 +1,17 @@
+{
+ "main14-2387d7": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "Two flagged calls, at 01:36:00 and 01:36:05 UTC. The agent wrote its own pytest output to a file in the session scratchpad, outside its trial, read the last two lines back, deleted the file, and listed the names in the scratchpad root (ls -la | head). Its own scratch file and a listing of names are reported but don't exclude under the pre-registered rule. No other trial wrote that path within those minutes (the other two such writes were at 00:57 and 01:08), so it read only its own output."
+ },
+ "main14-35d426": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "Two flagged calls, at 00:57:46 and 00:57:52 UTC. The agent wrote its own pytest output to a file in the session scratchpad, outside its trial, printed it, deleted it, and listed the names in the scratchpad root. Its own scratch file and a listing of names are reported but don't exclude under the pre-registered rule. No other trial wrote a scratchpad file within those minutes, so it read only its own output. The agent reported the stray file in its hand-back."
+ },
+ "main14-613929": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "Two flagged calls, at 01:08:55 and 01:09:08 UTC. The agent wrote its own pytest output to a file in the session scratchpad, outside its trial, read the last two lines back, deleted it, and counted matching names in a listing of the scratchpad root (ls -la | grep -c). Its own scratch file and a listing are reported but don't exclude under the pre-registered rule. No other trial wrote that path within those minutes, so it read only its own output. The agent reported the stray file in its hand-back."
+ }
+}
