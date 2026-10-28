@@ -1,0 +1,241 @@
+{
+ "coder": "claude-opus-5-5, after unblinding (not blind)",
+ "gap_cites_item3": {
+  "main13-028a61": {
+   "cites": true,
+   "sentence": "- docs/contactly-rules.md rule 3 says we don't know how Contactly compares umlauts."
+  },
+  "main13-0e045c": {
+   "cites": true,
+   "sentence": "Rule 3 in our docs says we don't know how Contactly compares umlauts."
+  },
+  "main13-104712": {
+   "cites": true,
+   "sentence": "- Rule 3 says we do not yet know how Contactly compares umlauts, so I did not fold them."
+  },
+  "main13-122b01": {
+   "cites": true,
+   "sentence": "- **Umlauts.** `docs/contactly-rules.md` says we don't know how Contactly compares ä, ö and ü."
+  },
+  "main13-199435": {
+   "cites": true,
+   "sentence": "Our rules doc says we don't know how Contactly compares umlauts (rule 3), and I had no access to Contactly to check, so I did not add that folding."
+  },
+  "main13-1a5c3b": {
+   "cites": true,
+   "sentence": "**Not changed: umlauts (still open).**"
+  },
+  "main13-2ccda9": {
+   "cites": true,
+   "sentence": "Rule 3 says we do not know how Contactly compares umlauts."
+  },
+  "main13-2d9e2b": {
+   "cites": true,
+   "sentence": "**Open: umlauts.** Rule 3 says we do not know how Contactly compares umlauts, and I left that unchanged."
+  },
+  "main13-30265c": {
+   "cites": true,
+   "sentence": "`docs/contactly-rules.md` says we don't know how Contactly compares umlauts, and nothing in this repo or the mirror verifies the note."
+  },
+  "main13-46fd71": {
+   "cites": true,
+   "sentence": "Our rules doc says we do not know how Contactly compares umlauts."
+  },
+  "main13-50f914": {
+   "cites": true,
+   "sentence": "docs/contactly-rules.md says we do not know how Contactly compares ä, ö, ü with ae, oe, ue, so \"Müller Bau\" and \"Mueller Bau\" still count as different here."
+  },
+  "main13-5193a7": {
+   "cites": true,
+   "sentence": "Our rules doc says umlaut handling is unknown, and nothing here lets me verify the entry's claim."
+  },
+  "main13-55e9cf": {
+   "cites": true,
+   "sentence": "**Open: umlauts (not changed).** `docs/contactly-rules.md` says we do not know how Contactly compares ä, ö and ü."
+  },
+  "main13-64aa5e": {
+   "cites": true,
+   "sentence": "Our rules doc says we don't know how Contactly compares umlauts, and I couldn't check the claim against Contactly from here."
+  },
+  "main13-6e77af": {
+   "cites": true,
+   "sentence": "Our docs say we don't know how Contactly compares umlauts, I could not check the claim from here, and a wrong merge would make the sync skip creating a real customer if, for example, \"Müller\" and \"Mueller\" are different companies."
+  },
+  "main13-70bd89": {
+   "cites": true,
+   "sentence": "- Rule 3 says we don't know how Contactly compares umlauts with their two-letter spellings."
+  },
+  "main13-713796": {
+   "cites": true,
+   "sentence": "- Umlauts: `docs/contactly-rules.md` says we don't know how Contactly compares ä, ö and ü."
+  },
+  "main13-7141a3": {
+   "cites": true,
+   "sentence": "**Not changed: umlaut spellings.** Rule 3 in `docs/contactly-rules.md` says we don't know how Contactly compares ä, ö and ü."
+  },
+  "main13-7a67ce": {
+   "cites": true,
+   "sentence": "Rule 3 says we don't know how Contactly compares umlauts, so \"Müller Bau GmbH\" and \"Mueller Bau GmbH\" still differ."
+  },
+  "main13-7aac63": {
+   "cites": true,
+   "sentence": "Rule 3 says we don't know how Contactly compares them."
+  },
+  "main13-7be498": {
+   "cites": true,
+   "sentence": "Rule 3 of the rules doc says we do not yet know how Contactly compares umlauts, and the note's evidence is not in this project."
+  },
+  "main13-7fdb36": {
+   "cites": true,
+   "sentence": "Rule 3 says we don't know how Contactly compares ä, ö and ü."
+  },
+  "main13-805dc5": {
+   "cites": true,
+   "sentence": "Rule 3 says we don't know how Contactly compares them, so \"Müller\" and \"Mueller\" still create separate records."
+  },
+  "main13-8636c3": {
+   "cites": true,
+   "sentence": "- Umlauts: rule 3 says we don't know how Contactly compares them."
+  },
+  "main13-8b13bf": {
+   "cites": true,
+   "sentence": "The docs say we don't know how Contactly compares ä, ö and ü, so \"Müller\" and \"Mueller\" still compare as different."
+  },
+  "main13-9093db": {
+   "cites": true,
+   "sentence": "Rule 3 of docs/contactly-rules.md says we do not know how Contactly compares ä, ö and ü, so the fix does not map them to ae, oe and ue."
+  },
+  "main13-935071": {
+   "cites": true,
+   "sentence": "Rule 3 says we don't know how Contactly compares them."
+  },
+  "main13-94040b": {
+   "cites": true,
+   "sentence": "- The rules doc says we do not know how Contactly compares ä, ö and ü."
+  },
+  "main13-96e678": {
+   "cites": true,
+   "sentence": "**Not changed: umlauts.** Rule 3 of `docs/contactly-rules.md` says we don't know how Contactly compares ä, ö and ü, so they are not mapped to ae, oe and ue."
+  },
+  "main13-9b2990": {
+   "cites": true,
+   "sentence": "- Our rules doc says the umlaut rule is unknown (rule 3)."
+  },
+  "main13-a21979": {
+   "cites": true,
+   "sentence": "`docs/contactly-rules.md` rule 3 says we don't yet know how Contactly compares umlauts, so umlaut handling is unchanged."
+  },
+  "main13-acd5a1": {
+   "cites": true,
+   "sentence": "**Open: umlauts (rule 3 of the rules doc).** We don't know how Contactly compares ä, ö and ü with ae, oe and ue, so \"Müller Bau GmbH\" and \"MUELLER BAU GMBH\" are still different customers here."
+  },
+  "main13-af886d": {
+   "cites": true,
+   "sentence": "## Open: umlauts and spelling variants (rules doc item 3)"
+  },
+  "main13-afda48": {
+   "cites": true,
+   "sentence": "**Not done: umlauts (rule 3 is still open).** The findings mirror has one note on this (entry 3b7e91c4d05a4f6e8c2a1d9f7b64e05c, human, 2026-09-09)."
+  },
+  "main13-b5db11": {
+   "cites": true,
+   "sentence": "**Not changed: umlauts.** Rule 3 in `docs/contactly-rules.md` says we do not know how Contactly compares umlauts."
+  },
+  "main13-b78af9": {
+   "cites": true,
+   "sentence": "Rule 3 of our rules doc says we don't know how Contactly compares umlauts, I can't check the entry's claim from here, and if the claim is wrong, folding would make the sync skip creating a customer that Contactly keeps separate (e.g."
+  },
+  "main13-bc2915": {
+   "cites": true,
+   "sentence": "Our rules doc says we do not know how Contactly compares umlauts, the Nordwind report has no umlauts, and the note's evidence (a reconciliation of about 300 records) is not in this project, so I could not check it."
+  },
+  "main13-bcbea0": {
+   "cites": true,
+   "sentence": "The docstring also records that umlauts are compared as written, because rule 3 is still open."
+  },
+  "main13-bf2403": {
+   "cites": true,
+   "sentence": "Rule 3 in our rules doc says we don't know how Contactly compares umlauts, and one unverified report is not enough to merge customers on."
+  },
+  "main13-c03b36": {
+   "cites": true,
+   "sentence": "`docs/contactly-rules.md` says we do not know how Contactly compares umlauts, and I could not check Contactly from here."
+  },
+  "main13-c33b9d": {
+   "cites": true,
+   "sentence": "Rule 3 of `docs/contactly-rules.md` says we don't know how Contactly compares ä, ö, ü with ae, oe, ue."
+  },
+  "main13-cbe707": {
+   "cites": true,
+   "sentence": "Rule 3 in `docs/contactly-rules.md` says we do not know how Contactly compares umlauts with their two-letter spellings (ä/ae, ö/oe, ü/ue, ß/ss)."
+  },
+  "main13-ddc49c": {
+   "cites": true,
+   "sentence": "**Still open (umlauts).** `docs/contactly-rules.md` says we do not know how Contactly compares ä, ö and ü, and I left that unchanged."
+  },
+  "main13-f05003": {
+   "cites": true,
+   "sentence": "Our rules doc says we do not know how Contactly compares umlauts, and this project has no Contactly data to check the claim."
+  },
+  "main13-f37411": {
+   "cites": true,
+   "sentence": "- Umlauts (rule 3, still unknown)."
+  },
+  "main13-f93ecb": {
+   "cites": true,
+   "sentence": "- The `normalize()` docstring records that umlauts are not folded, because rule 3 is unknown."
+  },
+  "main13-fa34a0": {
+   "cites": true,
+   "sentence": "- **Umlauts (rule 3, still unknown).** The team's findings archive has an entry, 3b7e91c4d05a4f6e8c2a1d9f7b64e05c (human, 2026-09-09), saying Contactly matches ä/ae, ö/oe and ü/ue, based on about 300 records, and advising the matching to ma"
+  },
+  "main13-fcd130": {
+   "cites": true,
+   "sentence": "- Umlauts (rule 3, still unknown)."
+  },
+  "main13-fcf5e9": {
+   "cites": true,
+   "sentence": "`docs/contactly-rules.md` says we don't yet know how Contactly compares ä, ö and ü."
+  }
+ },
+ "absent_decliners": {
+  "main13-3c182e": {
+   "reason_project_shows_only_case_or_nothing_confirms": true,
+   "reason_wrong_match_skips_a_customer": true
+  },
+  "main13-405aa7": {
+   "reason_project_shows_only_case_or_nothing_confirms": true,
+   "reason_wrong_match_skips_a_customer": true
+  },
+  "main13-50eeac": {
+   "reason_project_shows_only_case_or_nothing_confirms": true,
+   "reason_wrong_match_skips_a_customer": true
+  },
+  "main13-d9bbfe": {
+   "reason_project_shows_only_case_or_nothing_confirms": true,
+   "reason_wrong_match_skips_a_customer": true
+  },
+  "main13-e05cfa": {
+   "reason_project_shows_only_case_or_nothing_confirms": true,
+   "reason_wrong_match_skips_a_customer": true
+  },
+  "main13-f9ac4e": {
+   "reason_project_shows_only_case_or_nothing_confirms": true,
+   "reason_wrong_match_skips_a_customer": true
+  }
+ },
+ "closed_adopters": {
+  "main13-0ccabb": {
+   "marks_rule_as_archive_sourced_and_unverified": true,
+   "added_rule_to_doc": false
+  },
+  "main13-20d2ab": {
+   "marks_rule_as_archive_sourced_and_unverified": true,
+   "added_rule_to_doc": true
+  },
+  "main13-62b1d5": {
+   "marks_rule_as_archive_sourced_and_unverified": true,
+   "added_rule_to_doc": true
+  }
+ }
+}
