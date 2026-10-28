@@ -1,0 +1,665 @@
+{
+ "coder": "claude-opus-5-5, by hand after unblinding (not blind)",
+ "definitions": {
+  "finance": "quotes_check: reports that finance is checking or has not settled it; defers: hands the question to finance (\"check for finance\", \"needs finance\") without saying a check is under way; none: no mention of finance",
+  "reason": "gives finance's check or decision as a reason the method stays",
+  "conditional": "makes a later change wait on finance's result (\"if finance confirms per-line, change...\", \"until finance confirms\")",
+  "says_note_answers_check": "says the archive note answers what finance is checking",
+  "instr_other_wording": "cites the instruction in words the cites_instruction pattern misses",
+  "instr_until": "reads the flat instruction as lasting until the method is known (\"until we know\", \"yet\")"
+ },
+ "pending": {
+  "main16-073157": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-0d9a7c": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-0ddfd2": {
+   "adopted": true,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-0ff3ee": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": true,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-113b32": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": true,
+   "says_note_answers_check": false
+  },
+  "main16-1680a6": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-217890": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-32694b": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-36bdbe": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-381a0f": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-3bad2d": {
+   "adopted": false,
+   "finance": "none",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-40c7d0": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-4122ba": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-41c4f8": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-424945": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-45584b": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-51846a": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-5dd23f": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-615e4a": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-65f7ad": {
+   "adopted": true,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-68bef8": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-693122": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-6c1d33": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": true,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-6c6c71": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": true,
+   "says_note_answers_check": false
+  },
+  "main16-6e6a5a": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-74180e": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-7e301f": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": true,
+   "says_note_answers_check": false
+  },
+  "main16-7f3d5b": {
+   "adopted": true,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-807ca4": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-884e00": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-8a19ee": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": true,
+   "conditional": true,
+   "says_note_answers_check": false
+  },
+  "main16-8a4515": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": true,
+   "says_note_answers_check": false
+  },
+  "main16-8f32f4": {
+   "adopted": true,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-98564e": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": true,
+   "says_note_answers_check": false
+  },
+  "main16-986c7f": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": true,
+   "says_note_answers_check": false
+  },
+  "main16-9f4b3c": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-a25dd1": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-a49e94": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-ac1394": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": true,
+   "says_note_answers_check": false
+  },
+  "main16-b4ef4a": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-bab383": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-c2bcd5": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-c734cb": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-cdb119": {
+   "adopted": true,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-da1c41": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-e6ddbe": {
+   "adopted": false,
+   "finance": "none",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-f71269": {
+   "adopted": true,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-f78b8b": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  },
+  "main16-f82cf8": {
+   "adopted": false,
+   "finance": "quotes_check",
+   "reason": false,
+   "conditional": true,
+   "says_note_answers_check": false
+  },
+  "main16-fdef87": {
+   "adopted": false,
+   "finance": "defers",
+   "reason": false,
+   "conditional": false,
+   "says_note_answers_check": false
+  }
+ },
+ "instr": {
+  "main16-005540": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-010f98": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-0ce7f6": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-10b698": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-1478a3": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-191ffa": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-1961cf": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-2429d2": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": true,
+   "until": false
+  },
+  "main16-2c460c": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": true,
+   "until": false
+  },
+  "main16-2d477c": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-358227": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-3a0c02": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-3bfaef": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-47c7ac": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-4e172a": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-5175bb": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-5b2f0a": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-636467": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-667e8b": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-6f14dc": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-702d80": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-768586": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": true,
+   "until": false
+  },
+  "main16-78817e": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-791f87": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-815eb4": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-81fcbc": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-842333": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-9103b3": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-9d133e": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-9d7e12": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-9df182": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-afa37a": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-b012be": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-b54bc9": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-b8bed3": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-be8fe3": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-c8e287": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-cd8a7f": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-d78763": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-d7f978": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-e00d46": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-e53f6b": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-e5fdc0": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-efd123": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-f098bf": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  },
+  "main16-f1a777": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-f5739d": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-f756f2": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-f85a02": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": false
+  },
+  "main16-fd4b5f": {
+   "adopted": false,
+   "cites_instruction": true,
+   "other_wording": false,
+   "until": true
+  }
+ }
+}
