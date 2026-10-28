@@ -112,3 +112,9 @@ As in 018, which ran without incident:
 ## Change log
 
 - **2026-10-28, before any trial:** added the publication note. Nothing else changed.
+- **2026-10-28, after the wave, before unblinding:**
+  - **Run:** the 150 trials ran from 13:58 to 14:37 UTC, all on `claude-haiku-5-5` at effort `max`. Mean concurrency was 10.7, with a peak of 17 against the planned 14. Uncached tokens: 11.7M in total, 78k per trial, against an estimate of 13M.
+  - **Checks:** no interrupted response, no session-wide pause, no network request, no git or bd command, and no sentinel read. Every trial searched and every search returned the note, so no trial is excluded. 149 of 150 searched before opening the code, tests or rules doc.
+  - **Contamination review:** two trials flagged, both kept under the pre-registered rule. `main19-25a276` wrote its own test output to a file in the session scratchpad, outside its trial, read it back, deleted it, and listed the scratchpad folder, which showed three directory names. `main19-581940` ran `cd` to the scratchpad and computed VAT variants from literal numbers in an inline script, reading no file. Details are in `results/main19.contamination-review.json`.
+  - **Seen before unblinding:** `check_trials.py` prints outcome counts pooled across cells, and they show all 150 trials kept VAT on the subtotal with half-up rounding. The counts by cell stay unseen until the assignment is unblinded.
+  - **Launcher slip:** in the post-wave checks the launcher ran one `cd` to `work/run`, the directory it was already in. It changed nothing, but the procedure says never to run `cd`.

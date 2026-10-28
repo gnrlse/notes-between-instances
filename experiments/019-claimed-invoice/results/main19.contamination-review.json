@@ -1,0 +1,12 @@
+{
+ "main19-25a276": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "Two flagged calls, the agent's 26th and 28th of 29, at 14:22:47 and 14:23:01 UTC (outside_check.py counts their five path mentions). The first ran the visible tests inside the trial, wrote their output to a file of the agent's own in the session scratchpad (the parent of the trials folder, outside its trial), read that file back and listed its own project's files. The second deleted the file 14 seconds later, listed the scratchpad folder with `ls -la`, which showed three directories by name only (archive, snap019, trials019), and printed the trial's own totals.py. No file outside the trial was read except the agent's own. Under the pre-registered rule, own scratch files elsewhere and listings are reported and don't exclude; 018 kept main18-fa6259 for the same pattern. The agent's hand-back reported the stray file and its deletion."
+ },
+ "main19-581940": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "One flagged call, the agent's 17th of 30, at 14:00:14 UTC (outside_check.py counts one path mention): `cd` to the session scratchpad, outside its trial, then `python3 -I -` with an inline script that computes VAT variants from literal numbers. The script imports only decimal and opens no file, and its 8 output lines name no path. Nothing outside the trial was read or listed. Kept under the pre-registered rule."
+ }
+}
