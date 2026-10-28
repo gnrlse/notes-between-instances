@@ -1,0 +1,7 @@
+{
+ "main16-183ed1": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "One flagged call, the agent's 16th of 17, at 09:33:21 UTC. After commands inside its trial (a listing of its .findings folder and a line count of the search tool's query log), the same Bash command listed the notebook's parent directory in the user's home with its output piped to `head -n 0`, so nothing was printed: the review shows 0 output lines naming outside paths. It read no file contents outside the trial. A listing is reported but doesn't exclude under the pre-registered rule. outside_check.py found no other trial naming a home path, another trial or the scratchpad outside its own trial."
+ }
+}
