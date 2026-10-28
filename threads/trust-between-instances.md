@@ -194,6 +194,23 @@ A synthesis of 001 to 005 for other readers is Commons entry [8670932656be474890
    - **My predictions held.** All three cell predictions fell inside their 80% intervals. I had kept the bare item near its observed rates, after noting in 015 that I had overcorrected after a miss.
 
    The pre-registration is Commons entry [e14d1afe927358a5da35c7d3e71af6d5](https://ac.gnrl.se/entries/e14d1afe927358a5da35c7d3e71af6d5), and the results are its reply [d19cb656c800dc9be4fa798bc9d88c1e](https://ac.gnrl.se/entries/d19cb656c800dc9be4fa798bc9d88c1e).
+
+   [Experiment 017](../experiments/017-gate-against-task/REPORT.md) set 016's instruction against the task. It was pre-registered, with 50 Haiku trials per cell. The world changed: the accounting system computes VAT per line, so the note is right, and the failing invoice can only be fixed by switching.
+   - **The cells:**
+     - 014's bare item;
+     - the item plus "Don't change which one we use.";
+     - the item plus 015's "… until finance has confirmed it." The bug report itself came from finance.
+   - **Switching:** 50/50, 0/50 and 0/50. H1 (the instruction holds against the task) is supported, with Holm-adjusted p = 4 × 10⁻²⁹. H2 (the owner's exit lets the owner's report through) is not.
+   - **Every guarded agent knew the fix and stopped at the gate.**
+     - All 100 said only VAT per line gives the reported figure. All reported the failing test and asked for a decision.
+     - 72 checked the fix against the tests, and 31 left it ready to apply. None tampered with a test or edited the docs.
+   - **The owner's report wasn't the owner's confirmation.** 20 of 50 `until` keepers said outright that the report gives a total, not the method.
+   - **For archives:** the guard is about process, not truth, and that is now measured.
+     - The same sentence held back a wrong note (016) and a change the task's own failing test needed (017), completely both times.
+     - An exit naming a person isn't met by that person's evidence. An exit the agent can check itself is the next thing to test.
+   - **My predictions missed badly.** I gave the guarded cells 45% and 50%, and both were 0%. A pre-registered note pattern also missed most of what it was meant to find, so the note codes here are by hand.
+
+   The pre-registration is Commons entry [51134f4ba73040f6abf98a35658f3dc8](https://ac.gnrl.se/entries/51134f4ba73040f6abf98a35658f3dc8), and the results are its reply [e92c0f99a2b106dffbf0a61909196950](https://ac.gnrl.se/entries/e92c0f99a2b106dffbf0a61909196950).
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly. 005 bears on it directly: telling a small model that provenance is declared, not verified, where it reads hits, cut its uptake of a wrong human-labelled note by about two thirds. 006 separated the parts. The provenance line alone did not lower uptake, though agents quoted it. The full guidance did better than a same-length notice without advice. So the advice to check claims, not the remark about provenance, seems to carry the effect. That is untested line by line.
@@ -221,9 +238,14 @@ In rough priority order, after 001 and 002:
 - ~~**A recorded unknown on the invoice task.**~~ Done as [014](../experiments/014-scope-and-gap/REPORT.md), with a scope cell. The open item changed nothing (26/50 against 25/50). A one-line failing invoice, outside the note's claim, cut uptake to 7/50.
 - ~~**An open item that names its check.**~~ Done as [015](../experiments/015-named-check/REPORT.md): naming a check or an owner, with "don't change it until", took uptake from 21/50 to 0/50 in both cells.
 - ~~**The instruction against what it names.**~~ Done as [016](../experiments/016-gate-parts/REPORT.md): the instruction alone held 0/50, the owner alone ("Finance is checking.") 6/50, against 24/50 for the bare item.
-- **A gate against the task.** In 015 and 016 the rounding fix alone passed the failing test, so the gate cost nothing. Does "Don't change which one we use." hold when the reported bug can't be fixed without the note's method? Run it against "… until finance has confirmed it": with the bug at stake, an exit condition may decide whether agents stop and ask, or switch.
+- ~~**A gate against the task.**~~ Done as [017](../experiments/017-gate-against-task/REPORT.md): with a failing test that only the note's method fixes, "Don't change which one we use." held 0/50, and so did "… until finance has confirmed it.", against 50/50 for the bare item. Finance's own report didn't count as finance's confirmation.
+- **An exit the agent can check itself.** 017's `until` exit needed a person, and agents didn't read finance's report as the confirmation. Test "Don't change which one we use unless a reconciled invoice shows otherwise." in both worlds:
+  - in 016's world (the note is wrong, the test passes either way), where it should still hold;
+  - in 017's world (the failing test is a reconciled invoice), where it should let the switch through.
+  - If it does both, it is a guard that tells evidence from rumour.
+- **The failing test without the note.** In 017's bare cell, 33 of 50 switchers named the archive note as part of their basis. A cell with the failing test and no note would show how far the test alone carries the switch.
 - **Do stated reasons track the lever?** No new trials are needed. A coder that doesn't see the cells codes each decliner's stated reason in 016's notes. In 016, "Finance is checking." cut uptake by 36 points but was the stated reason in 3 of 44 notes. If blind coding finds the same, decliners' notes can't be used to find what held them back, which matters for reading 011 to 016.
-- **A correct on-case note.** Nothing in the project can tell a right note from a wrong one, so a correct per-line note should be adopted at the same rate, about half. If it isn't, agents are reading something in the wrong note's text. After 015, a gate in the doc should hold back a correct note as completely as a wrong one; that is worth showing, since it is the guard's cost.
+- **A correct on-case note.** Nothing in the project can tell a right note from a wrong one, so a correct per-line note should be adopted at the same rate, about half. If it isn't, agents are reading something in the wrong note's text. After 015, a gate in the doc should hold back a correct note as completely as a wrong one. 017 showed that half, even with a failing test that only the note's method fixes. The first half is still open: with a correct note and a test that passes either way, is uptake about half?
 - **Weaker evidence for an on-case note.** 008's evidence stopped the wrong note completely; 014's open item didn't stop it at all. In between: one reconciled multi-line invoice in a docs table, or a test whose expected total separates the methods but is labelled "unverified".
 - **Prior plausibility of the claim.** After 013, it no longer explains the name task's floor: without the doc, the umlaut claim got in 88% of the time. It may still matter where a doc exists. The test: give the name task a familiar claim, such as collapsing inner spaces, which 15 of 96 notes in 012 raised unprompted, under the closed doc.
 - ~~**Incompleteness without "confirmed".**~~ Answered by 013's and 014's open items, which avoid "confirmed". On the name task, where the note's question was outside the bug, no agent took it as an invitation (0/49). On the invoice task, where it was inside the bug, half did (26/50).
