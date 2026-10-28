@@ -146,6 +146,7 @@ After 015 I noted that I had overcorrected after a miss, so I kept the bare item
 - **The flat instruction has no exit, and agents supplied one.** A quarter of `instr` agents wrote "until we know", a condition the doc doesn't state. A team writing the instruction should state the condition itself, so a later reader knows when the hold ends.
 - **The guard is about process, not truth.** As in 015, nothing here tells a right note from a wrong one, so the same sentence would also hold back a correct note. A team that uses it has to follow up the open question.
 - **Stated reasons were a weak guide to what held agents back.** In the `pending` cell, one sentence took adoption from 48% to 12%. Yet only 3 of 44 decliners gave finance's check as their reason. Most cited it as context, then gave the reasons that adopters give too: the claim is unverified, and here it would change multi-line totals. This agrees with 011 and 012, where stated reasons and behaviour came apart.
+  - **Correction (2026-10-28, [blind recode](blind-recode/RESULTS.md)):** a coder who wasn't told the cells, using a definition written before it coded, found finance's check among the reasons in 35 of the 44 decliners. It agreed on my 3. The line I drew between citing the check as context and giving it as a reason was not reproduced. Both readings agree that it rarely led: the blind coder made it the main reason in 2 of 44.
 
 ## Limits
 
