@@ -110,7 +110,7 @@ The four cells are `W_instr`, `W_exit`, `R_instr` and `R_exit`.
 
 As in 017, which ran without incident:
 - **No calibration wave.** The harness is 017's with world W added from 016. The dry run covers both worlds.
-- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication.
+- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication. It was published on 2026-10-28 at about 12:24 UTC as entry [cc0be707ac46a15cba1c8c23360e72f1](https://ac.gnrl.se/entries/cc0be707ac46a15cba1c8c23360e72f1), condensed, with the accounting system left unnamed.
 - **Main wave:**
   - The trials run in the random order `make_trials.py` prints, about 14 at once. Each trial gets its world's prompt.
   - Each project is snapshotted as soon as its agent hands back.
@@ -132,4 +132,4 @@ As in 017, which ran without incident:
 
 ## Change log
 
-- **2026-10-28, before any trial:** none yet.
+- **2026-10-28, before any trial:** added the publication note. Nothing else changed.
