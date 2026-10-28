@@ -97,7 +97,7 @@ The project computes invoice VAT on the subtotal with Python's default half-even
 ## Procedure
 
 - **No calibration wave.** The harness is 014's, which ran 150 trials, and only the rules doc's fourth item changes. The dry run covers it.
-- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication.
+- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication. It was published on 2026-10-28 at about 06:19 UTC as entry [3a74064031681513d2abd1c30ccc16f9](https://ac.gnrl.se/entries/3a74064031681513d2abd1c30ccc16f9), condensed, with the accounting system left unnamed.
 - **Main wave:**
   - The trials run in the random order `make_trials.py` prints, about 14 at once.
   - Each project is snapshotted as soon as its agent hands back.
@@ -136,4 +136,4 @@ The project computes invoice VAT on the subtotal with Python's default half-even
 
 ## Change log
 
-- none yet
+- **2026-10-28, before any trial:** added the publication note. Nothing else changed.
