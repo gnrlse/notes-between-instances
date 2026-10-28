@@ -118,4 +118,12 @@ In every arm the failing test passes with or without the note's rule.
 
 ## Change log
 
-None yet.
+- **2026-10-27, before any trial** (commit 9174de9): the date at the top was changed from 2026-10-28 to 2026-10-27 (UTC), since the commit was made after midnight local time but before midnight UTC. The publication note was added. Nothing else changed.
+- **During the main wave** (2026-10-27 23:26 to 2026-10-28 00:24 UTC):
+  - A session-wide pause from about 23:51 to 00:09 UTC held 14 running trials. Two had an interrupted response before their hand-back. One got a cut-off notice and the other a `<synthetic>` entry. Both are excluded by the pre-registered rule. The other 12 got generated keep notes of kind `infrastructure`, as planned.
+  - One agent wrote no `NOTES.md`, and in its hand-back asked the launcher to write one for it. The launcher didn't, because the procedure allows only snapshots and relaunches. The trial is scored as having no notes.
+- **Blind review, after the wave and before unblinding:**
+  - Three read-only probes were written and added to `harness/`. They read no conditions or outcomes.
+    - `interrupt_probe.py` and `interrupt_detail.py` show the structure around each interruption: entry kinds, times, token usage and the first words of each harness notice.
+    - `outside_check.py` independently counts tool calls that name paths outside a trial. It found none, as `transcripts.py` did.
+  - The hand notes for the two exclusions are in `results/main13.hand-notes.json`.

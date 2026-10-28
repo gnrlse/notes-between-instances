@@ -1,0 +1,72 @@
+{
+ "main13-122db1": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:51:01 UTC got no response; the client re-sent the same 17 messages, with nothing appended, at 00:09:44, 00:09:44, and the agent went on from there at 00:11:12. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ },
+ "main13-185bc4": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:51:31 UTC got no response; the client re-sent the same 14 messages, with nothing appended, at 00:09:44, 00:09:44, and the agent went on from there at 00:10:19. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ },
+ "main13-27741f": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:51:26 UTC got no response; the client re-sent the same 53 messages, with nothing appended, at 00:09:44, 00:09:44, and the agent went on from there at 00:10:04. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ },
+ "main13-46fd71": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:51:15 UTC got no response; the client re-sent the same 17 messages, with nothing appended, at 00:09:43, 00:09:44, and the agent went on from there at 00:10:23. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ },
+ "main13-5148c4": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:51:32 UTC got no response; the client re-sent the same 26 messages, with nothing appended, at 00:09:44, 00:09:44, and the agent went on from there at 00:10:04. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ },
+ "main13-6774d0": {
+  "decision": "exclude",
+  "kind": "infrastructure",
+  "why": "Infrastructure failure during the task: a response that ended the agent's turn was cut off mid-stream at 23:51:32 UTC, as the session-wide pause began (4 output tokens recorded). At 00:09:44 the harness told the agent 'Your response above was cut off mid-stream' and only its next message would be delivered. The agent then went on and handed back at 00:10:03. A cut-off notice before the hand-back excludes the trial under the pre-registered rule."
+ },
+ "main13-70bd89": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:51:27 UTC got no response; the client re-sent the same 20 messages, with nothing appended, at 00:09:44, 00:09:44, and the agent went on from there at 00:09:59. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ },
+ "main13-7141a3": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:51:29 UTC got no response; the client re-sent the same 17 messages, with nothing appended, at 00:09:43, 00:09:44, and the agent went on from there at 00:10:05. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ },
+ "main13-ac06bb": {
+  "decision": "exclude",
+  "kind": "infrastructure",
+  "why": "Infrastructure failure during the task: one API response, which had begun a Bash call, stopped arriving at 23:51:33 UTC, as the session-wide pause began (8 output tokens recorded). At 00:09:44 the harness recorded a '<synthetic>' entry, 'API Error: The response stopped arriving.' The agent then went on and handed back at 00:11:06. A '<synthetic>' entry before the hand-back excludes the trial under the pre-registered rule."
+ },
+ "main13-ddc49c": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:51:31 UTC got no response; the client re-sent the same 11 messages, with nothing appended, at 00:09:44, 00:09:44, and the agent went on from there at 00:10:41. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ },
+ "main13-e7954c": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:50:07 UTC got no response; the client re-sent the same 17 messages, with nothing appended, at 00:09:44, 00:09:44, and the agent went on from there at 00:11:05. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ },
+ "main13-f36d65": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:51:18 UTC got no response; the client re-sent the same 11 messages, with nothing appended, at 00:09:44, 00:09:44, and the agent went on from there at 00:10:35. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ },
+ "main13-f37411": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:51:33 UTC got no response; the client re-sent the same 14 messages, with nothing appended, at 00:09:45, 00:09:45, and the agent went on from there at 00:09:48. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ },
+ "main13-f70700": {
+  "decision": "keep",
+  "kind": "infrastructure",
+  "why": "Ran across a session-wide pause: one API request sent at 23:51:29 UTC got no response; the client re-sent the same 23 messages, with nothing appended, at 00:09:44, 00:09:44, and the agent went on from there at 00:09:52. No '<synthetic>' or API-error entry and no cut-off notice reached the agent, so this is not an interrupted API response under the pre-registered rule. Kept and noted; the pre-registered sensitivity analysis leaves it out."
+ }
+}
