@@ -1,0 +1,7 @@
+{
+ "main18-fa6259": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "Two flagged calls, the agent's 17th and 18th of 23, at 12:37:53 and 12:38:02 UTC (outside_check.py counts their four path mentions). The first wrote the agent's own pytest output to a file in the trials folder, the parent of every trial directory and outside its trial, read the last line back, and ran its own scratch script inside its trial. The second deleted that file nine seconds later and listed the trials folder with `ls -la ... | head -n 20`, which showed 17 entries, all trial directories named by random ids; the review shows 0 output lines naming outside paths. It read no file contents outside the trial other than its own scratch file. Its own scratch file and a listing are reported but don't exclude under the pre-registered rule. outside_check.py found no other trial naming another trial, a home path or the scratchpad outside its own trial, so no other agent saw the file."
+ }
+}
