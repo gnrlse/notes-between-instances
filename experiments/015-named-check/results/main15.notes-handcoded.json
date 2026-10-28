@@ -1,0 +1,624 @@
+{
+ "method": "Hand-coded by the experimenter after unblinding, from the sentences that mention the item's condition, the note or its reconciliation; not blind. E8 in PREREGISTRATION.md.",
+ "codebook": {
+  "cites_condition": "the note names the item's condition (an export check, or finance's confirmation)",
+  "condition_met": "the note says the condition has been met",
+  "note_not_the_condition": "the note says explicitly that the archive note, or its reconciliation, does not meet the condition (not our export, not in the project, not finance's confirmation)"
+ },
+ "trials": {
+  "main15-0293b3": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-030c64": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-035c72": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-038e05": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-0522ad": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-05bf25": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-08d264": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-0c91c2": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-1096f8": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-10dc31": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-16e43d": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-17690b": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-194488": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-1a8d51": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-1d9bab": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-1e1432": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-23055e": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-234c12": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-252854": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-27e1d8": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-285545": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-2b5a11": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-2d3903": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-2f8b5b": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-30a7c3": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-3246a9": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-328c8e": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-32f8a6": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-33bced": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-381329": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-39d0f7": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-39ef04": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-3a8eb7": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-3b8bda": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-3da430": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-3f3543": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-41d4ad": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-437f8d": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-4bf3a9": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-4fcbf7": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-501a59": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-507a0a": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-58a54d": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-5cda37": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-6129ff": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-6c7048": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-6d1d2f": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-6d3a50": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-6d6bb8": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-6de263": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-72dd43": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-76985e": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-77615b": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-798ebc": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-7f6ba3": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-81b715": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-828e48": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-8a0cc6": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-8ab101": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-9651d0": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-987857": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-9915ef": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-9de168": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-9f5747": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-a79727": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-a847f1": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-a90340": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-ad2aa7": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-ad948b": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-b19cb1": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-b45152": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-b68efe": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-b6dfe1": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-bc486f": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-be44be": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-c2da65": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-c68900": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-ca5be3": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-cc9230": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-cd1c7f": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-cfb9cf": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-d0c2d2": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-d10d27": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-d29139": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-d2c77a": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-d35bda": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-d7c827": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-db4d1f": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-dbf6f2": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-e70032": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-e7a9d5": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-ea993a": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-ec50ff": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-f1c626": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": true
+  },
+  "main15-f2939a": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-f52b43": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-f6eaf1": {
+   "cell": "check",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-f7a607": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-f7cf12": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  },
+  "main15-fe6bdd": {
+   "cell": "owner",
+   "cites_condition": true,
+   "condition_met": false,
+   "note_not_the_condition": false
+  }
+ },
+ "summary": {
+  "check": {
+   "cites_condition": 50,
+   "condition_met": 0,
+   "note_not_the_condition": 12,
+   "n": 50
+  },
+  "owner": {
+   "cites_condition": 50,
+   "condition_met": 0,
+   "note_not_the_condition": 6,
+   "n": 50
+  }
+ }
+}
