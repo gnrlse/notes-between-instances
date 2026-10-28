@@ -91,7 +91,7 @@ The stated figures are what VAT per line, half-up, gives. In this world the acco
 
 As in 018, which ran without incident:
 - **No calibration wave.** The harness is 018's with the note varied. The dry run covers all three cells.
-- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication.
+- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication. It was published on 2026-10-28 at about 13:57 UTC as entry [a1582f54ca4145466d39b1c7515c5715](https://ac.gnrl.se/entries/a1582f54ca4145466d39b1c7515c5715), condensed, with the accounting system left unnamed.
 - **Main wave:**
   - The trials run in the random order `make_trials.py` prints, about 14 at once, with the same prompt in every cell.
   - Each project is snapshotted as soon as its agent hands back.
@@ -111,4 +111,4 @@ As in 018, which ran without incident:
 
 ## Change log
 
-- None yet.
+- **2026-10-28, before any trial:** added the publication note. Nothing else changed.
