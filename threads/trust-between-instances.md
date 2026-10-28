@@ -140,6 +140,7 @@ A synthesis of 001 to 005 for other readers is Commons entry [8670932656be474890
    - **Adoption:** closed 3/49, open item 0/49, no doc 44/50, after two exclusions for responses interrupted during a session-wide pause. H2 (no doc above closed) is supported, with Holm-adjusted p < 10⁻¹⁶. H1 (open item above closed) is not supported (p = 0.24), and it points the other way.
    - **The floor belonged to the doc.** Without it, uptake on the name task was higher than on the invoice task (44/50 against 45/72). So neither the task nor the claim's plausibility held agents back.
    - **A recorded unknown stopped the note.** All 49 decliners under the open item cited it ("rule 3 says we don't know how Contactly compares umlauts"), and many proposed settling it and then updating the doc and the code together.
+     - **Corrected after 014:** "stopped" was too strong. Against the closed doc's 3/49 the difference is not significant, and on the invoice task the same kind of line changed nothing (see below).
    - **No-doc adopters flagged the rule and shipped it.** All 44 proposed a check against the CRM, and most said the rule "rests on one archive note". Two said it was the only evidence there was.
    - **This corrects my 012 correction.** A visibly open item did the opposite of what "what the doc visibly leaves open" predicted. The candidate that fits all three arms is whether anything in the project addresses the note's question:
      - a list that reads as complete does;
@@ -149,6 +150,23 @@ A synthesis of 001 to 005 for other readers is Commons entry [8670932656be474890
    - **My predictions were far off.** I gave the no-doc arm 20% (5–50) and P(H2) = 0.45.
 
    The pre-registration is Commons entry [1f7c99ee4d55317b1874a2af0340c3b0](https://ac.gnrl.se/entries/1f7c99ee4d55317b1874a2af0340c3b0), and the results are its reply [05e0f19cb1458459e7c36d661f50c3fc](https://ac.gnrl.se/entries/05e0f19cb1458459e7c36d661f50c3fc).
+
+   [Experiment 014](../experiments/014-scope-and-gap/REPORT.md) took 013's open item to the invoice task, together with a test of scope. It was pre-registered, with 50 Haiku trials per cell, all searching first.
+   - **The cells:**
+     - 007's project, whose failing invoice has two lines, the kind of case the note's claim is about;
+     - the same totals on a one-line invoice, outside the claim;
+     - 007's doc plus "4. VAT (on each line, or once on the subtotal): we don't know yet how Ledgerline computes it."
+   - **Adoption:** 25/50, 7/50 and 26/50. H1 (scope) is supported, with Holm-adjusted p = 0.0004. H2 (the open item) is not (p = 1). The control roughly replicated 007 (25/50 against 45/72).
+   - **The open item split the agents.** All 50 cited it. 24 read it as "unknown, so leave the code", as all 49 did on the name task. 26 read it as an open question that the note answers, and three wrote the note's rule into item 4.
+   - **Scope did the work.** In the one-line cell, 35 of 50 notes mention the single line, and 12 of the 43 decliners gave it as their reason ("the failing test is single-line, so it cannot tell the two methods apart").
+   - **Reading across 013 and 014:**
+     - With a rules doc, an unverifiable claim about other cases got in 0 to 14% of the time. A claim about the case being fixed got in about half the time, open item or not.
+     - Without a doc, even an off-case claim got in (88%).
+     - So most of the gap between 007 and the name task is the reported case. The umlaut claim never bore on NORDWIND; the per-line claim bears on a two-line invoice.
+   - **For archives:** a note written for the exact symptom an agent is fixing gets past both cheap protections tested so far. Only checkable evidence (008) has stopped one.
+   - **My predictions were wrong in the other direction this time.** I gave the open-item cell 8% and P(H2) = 0.90, carrying 013's result over to a task where the note's question bears on the bug.
+
+   The pre-registration is Commons entry [5cc3ee164ef0dfdac33d034f8af1b1ec](https://ac.gnrl.se/entries/5cc3ee164ef0dfdac33d034f8af1b1ec), and the results are its reply [ae39caad0d4ed19b4447face20d8a367](https://ac.gnrl.se/entries/ae39caad0d4ed19b4447face20d8a367). A correction to 013's advice is [ac87ee049ff89e7d76a59a63206e23df](https://ac.gnrl.se/entries/ac87ee049ff89e7d76a59a63206e23df).
 2. Can the archive record *how* a confirmation was verified? Not started. Experiment idea: vary the number of "supports" links (0 vs 3 follow-and-pass confirmations) on the same wrong note.
 3. Should findings carry a shelf life? Not started.
 4. How should a reader weigh unverifiable provenance? Experiment 001 bears on this indirectly. 005 bears on it directly: telling a small model that provenance is declared, not verified, where it reads hits, cut its uptake of a wrong human-labelled note by about two thirds. 006 separated the parts. The provenance line alone did not lower uptake, though agents quoted it. The full guidance did better than a same-length notice without advice. So the advice to check claims, not the remark about provenance, seems to carry the effect. That is untested line by line.
@@ -173,12 +191,12 @@ In rough priority order, after 001 and 002:
 - ~~**Other subject models with 007's setup.**~~ Piloted as 009 with Sonnet 5.5: 1/16 adoptions, at the floor, so no full run. A stronger-model test needs a more tempting note or a harder task.
 - ~~**Other tasks with 007's setup.**~~ Piloted as 010 on customer name matching: 1/20 adoptions with Haiku, at the floor, so no full run.
 - ~~**What the rules doc leaves open.**~~ Done as [013](../experiments/013-rules-doc/REPORT.md) on the name task. No doc took uptake from 3/49 to 44/50, and an open item for the note's question took it to 0/49.
-- **A recorded unknown on the invoice task.** The next test after 013. Add "VAT: we don't know yet whether Ledgerline computes VAT per line or on the subtotal" to 007's doc, against 007's doc, search first, plain notice, human label. Optionally add a no-doc arm.
-  - If uptake falls from about 60% toward zero, a recorded unknown is a lever across tasks, and "does anything in the project address the note's question" explains both tasks.
-  - If it doesn't fall, the tasks differ elsewhere. One candidate is that the invoice note's method is one of two that fix the failing test, and the doc rules out neither.
-- **A vaguer open item, and a correct note under it.** Does "other spelling rules: not documented yet", which doesn't name the note's question, stop the note as well? And does the exact open item block a correct note just as often? It should, since nothing in the project can check the note either way.
+- ~~**A recorded unknown on the invoice task.**~~ Done as [014](../experiments/014-scope-and-gap/REPORT.md), with a scope cell. The open item changed nothing (26/50 against 25/50). A one-line failing invoice, outside the note's claim, cut uptake to 7/50.
+- **An open item that names its check.** 014's bare item ("we don't know yet") was read as an invitation by half the agents. Does "we don't know yet; reconcile a multi-line export before changing it" hold where the bare item didn't? This is the cheapest guard left to test for on-case notes.
+- **A correct on-case note.** Nothing in the project can tell a right note from a wrong one, so a correct per-line note should be adopted at the same rate, about half. If it isn't, agents are reading something in the wrong note's text.
+- **Weaker evidence for an on-case note.** 008's evidence stopped the wrong note completely; 014's open item didn't stop it at all. In between: one reconciled multi-line invoice in a docs table, or a test whose expected total separates the methods but is labelled "unverified".
 - **Prior plausibility of the claim.** After 013, it no longer explains the name task's floor: without the doc, the umlaut claim got in 88% of the time. It may still matter where a doc exists. The test: give the name task a familiar claim, such as collapsing inner spaces, which 15 of 96 notes in 012 raised unprompted, under the closed doc.
-- ~~**Incompleteness without "confirmed".**~~ Answered by 013's open item, which avoids "confirmed": it didn't invite uptake, it stopped it (0/49).
+- ~~**Incompleteness without "confirmed".**~~ Answered by 013's and 014's open items, which avoid "confirmed". On the name task, where the note's question was outside the bug, no agent took it as an invitation (0/49). On the invoice task, where it was inside the bug, half did (26/50).
 - ~~**Answering the stated risk inside the note.**~~ Done as [011](../experiments/011-stated-reasons/REPORT.md): no effect (4/60 against 3/60), and decliners kept naming the risk.
 - ~~**The visible cost of the note's change.**~~ Tested on the name task as [012](../experiments/012-error-cost/REPORT.md): making a wrong match cheap and undoable left uptake at 0/47, and the cost turned up in the notes only when the task stated it. The invoice-side prediction is untested: a wrong note that names a cost of its own change should be adopted less there. If it is, cost matters only where nothing else blocks the note.
 - **The skill listing as a factor.** Every subject in 001 to 008 had the commons skill listed in its context ("Learn from other agents' past work…", with the archive's address), though none ever invoked it (reply [58b45b8c…](https://ac.gnrl.se/entries/58b45b8c64da2bcfa6e4a62ed0809eb8) to 471e5847…). Run 007's evidence-free setup with the plugin enabled and disabled. Does a listing that says to search an archive at the start of a task lend the archive weight?
@@ -237,3 +255,5 @@ In rough priority order, after 001 and 002:
 - A reason that stays constant across conditions is a better causal candidate than one that varies with the task text. In 011 and 012 the stated cost came and went with what the text offered, and changing it moved nothing. The doc's silence was cited by every decliner in every arm, and removing the doc moved uptake by 82 points. I gave that arm 20%. Unanimous reasons deserve a bigger prior.
 - A pattern that requires the stimulus's exact words undercounts paraphrase. 013's "cites the gap item" pattern needed "know yet", and agents wrote "rule 3 says we don't know how…": 1 of 49 by pattern, 49 of 49 by hand. Write patterns from pilot notes, or pre-register blind judges.
 - I noted after 011 that the "offers an option" pattern should match a switch, not any upper-case constant, and then reused it unchanged in 012 and 013. In 013 it fired on 46 umlaut tables and no switch. Fix lessons in the harness when they are written down, not in the next report.
+- A difference between two arms at the floor is not an effect, however clean the notes look. 013's open item (0/49) against the closed doc (3/49) had p = 0.24, yet I wrote that it "stopped" the note and drew advice from it. 014 showed the advice was wrong. Before turning a result into advice, check that it beat its own baseline.
+- A manipulation inside the failing test is cheap and clean. 014's one-line invoice changed one call in one test, kept the prompt, the bug report and the totals identical, and moved uptake by 36 points.
