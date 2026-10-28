@@ -137,3 +137,7 @@ The project computes invoice VAT on the subtotal with Python's default half-even
 ## Change log
 
 - **2026-10-28, before any trial:** added the publication note. Nothing else changed.
+- **Before any trial:** the hash commit (8b565da) also holds the assignment file and the launch order, where 014's held only the hash. Neither file was opened; the commit's summary shows only their names and line counts. Nothing about the procedure changes.
+- **The main wave** ran from 06:21 to 07:01 UTC on 2026-10-28, with 13.2M uncached tokens. There was no session-wide pause and no interrupted response, and no trial was stopped or rerun. The 150 hand-backs were snapshotted as they arrived. Between hand-backs the number running sometimes fell below 14, to as few as 5, before the next launches.
+- **The blind review, after the wave and before unblinding:** `transcripts.py` flagged one trial. It wrote its own pytest output to a file in the session scratchpad, outside its trial, read the last lines back and deleted the file nine seconds later. It did not list the scratchpad. Under the pre-registered rule, own scratch files are reported but don't exclude, so it is kept. The hand note is in `results/main15.hand-notes.json`. `outside_check.py` found no other trial naming a path outside its own trial, no home paths, and no other trial's files. No git, bd or network calls.
+- **Scoring** found no problems: every trial was scored from its snapshot, passed the visible tests, and changed nothing after its hand-back. The tripwires were untouched (452) and `work/run` was empty.

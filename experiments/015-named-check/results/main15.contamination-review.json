@@ -1,0 +1,7 @@
+{
+ "main15-f6eaf1": {
+  "decision": "keep",
+  "kind": "contamination",
+  "why": "Two flagged calls, at 06:32:35 and 06:32:44 UTC. The agent wrote its own pytest output to a file in the session scratchpad, outside its trial, read the last three lines back, and deleted the file nine seconds later. It did not list the scratchpad. Its own scratch file is reported but doesn't exclude under the pre-registered rule. No other trial named a scratchpad path outside its own trial (outside_check.py), so the file held only its own output."
+ }
+}
