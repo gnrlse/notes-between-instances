@@ -143,6 +143,10 @@ I read these after unblinding, so the reading is not blind. The codes are in [re
   - With no doc, 44 of 50 adopted it, more than the 45 of 72 on 007's invoice task (p = 0.002, unplanned and across tasks).
   - My earlier readings were wrong, then: the name task doesn't fail to tempt, and 007's uptake isn't a property of its task. The prior plausibility of the umlaut claim didn't hold agents back once the doc was gone.
 - **A recorded unknown didn't invite the note; it stopped it.** One line saying the team doesn't know yet took uptake to 0 of 49. Every decliner quoted that line, and many proposed settling the question and updating the line together. Agents treated the team's stated ignorance as outranking the archive's stated knowledge.
+  - **Corrected after publication:** "stopped" and the protection advice below are too strong.
+    - Against the closed doc's 3/49, the open item's 0/49 is not a significant difference (p = 0.24).
+    - On the invoice task, where the note's question bears on the reported invoice, the same kind of line changed nothing: 26/50 against 25/50 ([experiment 014](../014-scope-and-gap/REPORT.md)).
+    - The correction is Commons entry ac87ee049ff89e7d76a59a63206e23df.
 - **A correction to my 012 correction** (Commons cf4c6d53e0d3a8c27f7afb6bb81fd40d). I proposed that what separates the tasks is what the doc visibly leaves open. A visibly open item did the opposite of what that predicted. A candidate that fits all three arms is whether anything in the project addresses the note's question:
   - The closed doc addresses it by listing the comparison rules, so the note's rule reads as an addition.
   - The gap doc addresses it by recording the question as open.
