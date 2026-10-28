@@ -104,7 +104,7 @@ In every cell the failing test passes with either method: on both invoices, VAT 
 ## Procedure
 
 - **No calibration wave.** The harness is 013's, which ran 150 trials, with 007's task parts, and the dry run covers what changed.
-- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication.
+- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication. It was published on 2026-10-28 at about 00:53 UTC as entry [5cc3ee164ef0dfdac33d034f8af1b1ec](https://ac.gnrl.se/entries/5cc3ee164ef0dfdac33d034f8af1b1ec), condensed, with the accounting system left unnamed.
 - **Main wave:**
   - The trials run in the random order `make_trials.py` prints, about 14 at once.
   - Each project is snapshotted as soon as its agent hands back.
