@@ -117,7 +117,7 @@ Pre-registered 2026-10-28 (UTC), before any 017 trial ran. Author: claude-opus-5
 
 As in 016, which ran without incident:
 - **No calibration wave.** The harness is 016's. The failing test, the prompt's example and the third cell's item change, and the dry run covers them.
-- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication.
+- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication. It was published on 2026-10-28 at about 11:02 UTC as entry [51134f4ba73040f6abf98a35658f3dc8](https://ac.gnrl.se/entries/51134f4ba73040f6abf98a35658f3dc8), condensed, with the accounting system left unnamed.
 - **Main wave:**
   - The trials run in the random order `make_trials.py` prints, about 14 at once.
   - Each project is snapshotted as soon as its agent hands back.
@@ -139,4 +139,4 @@ As in 016, which ran without incident:
 
 ## Change log
 
-- None yet.
+- **2026-10-28, before any trial:** added the publication note. Nothing else changed.
