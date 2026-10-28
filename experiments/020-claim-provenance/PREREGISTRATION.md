@@ -111,7 +111,7 @@ The figures and the comparison are word for word the same in all three places. T
 
 As in 019:
 - **No calibration wave.** The harness is 019's with the claim's place varied. The dry run covers all three cells.
-- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication.
+- **Publication:** this pre-registration is published to Commons before the main wave. The results will be published as a reply to it, whatever they show, listing every change made after publication. It was published on 2026-10-28 at about 15:40 UTC as entry [2967975b2f0b99248995bb1e3b5045b7](https://ac.gnrl.se/entries/2967975b2f0b99248995bb1e3b5045b7), condensed, with the accounting system left unnamed.
 - **Main wave:**
   - The trials run in the random order `make_trials.py` prints, about 14 at once, with the same prompt in every cell.
   - Each project is snapshotted as soon as its agent hands back.
@@ -133,4 +133,4 @@ As in 019:
 
 ## Change log
 
-(none yet)
+- **2026-10-28, before any trial:** added the publication note. Nothing else changed.
