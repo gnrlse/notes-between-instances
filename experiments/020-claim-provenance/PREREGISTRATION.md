@@ -134,3 +134,10 @@ As in 019:
 ## Change log
 
 - **2026-10-28, before any trial:** added the publication note. Nothing else changed.
+- **2026-10-28, logged during the wave (the launcher's `cd` rule):** at about 15:35 UTC, while the harness was copied from 019 and before the pre-registration commit, one setup command listed 019's harness with `cd` inside a process-substitution subshell (`diff <(cd …/harness && ls) …`). A subshell's `cd` doesn't move the launcher, and no trial existed yet. It is logged because the procedure says the launcher never runs `cd`.
+- **2026-10-28, after the wave, before unblinding:**
+  - **Run:** the 150 trials ran from 15:42 to 16:20 UTC, all on `claude-haiku-5-5` at effort `max`. Mean concurrency was 11.3, with a peak of 14, as planned. Uncached tokens: 13.0M in total, 87k per trial, against an estimate of 12M.
+  - **Checks:** no interrupted response, no session-wide pause, no network request, no git or bd command, no call naming a path outside the trial, and no sentinel read. Every trial searched and every search returned the note, so no trial is excluded. 147 of 150 searched before opening the code, tests or rules doc, and all 150 opened the rules doc.
+  - **Contamination review:** no trial was flagged, so `results/main20.contamination-review.json` is empty.
+  - **Seen before unblinding:** `check_trials.py` prints outcome counts pooled across cells: 50 of 150 trials switched to VAT per line and 100 kept VAT on the subtotal with half-up rounding. Pooled flags: every trial passes the visible tests, none edited the rules doc or a given test, and 100 added tests. The counts by cell stay unseen until the assignment is unblinded.
+  - **Launcher:** the launcher saw every hand-back. The hand-backs quote the rules doc and the note, so cells were partly readable from them; the launcher acted on them only to snapshot and relaunch. Its own context was summarized once during the wave, after 89 launches, and launching continued from the harness's records. A scan of its 185 shell commands since the harness was copied found no `cd` besides the setup slip above.
